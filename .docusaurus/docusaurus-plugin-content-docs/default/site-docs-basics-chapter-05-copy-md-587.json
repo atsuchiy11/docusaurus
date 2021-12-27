@@ -1,0 +1,27 @@
+{
+  "unversionedId": "basics/chapter05 copy",
+  "id": "basics/chapter05 copy",
+  "isDocsHomePage": false,
+  "title": "Node.js",
+  "description": "",
+  "source": "@site/docs/basics/chapter05 copy.md",
+  "sourceDirName": "basics",
+  "slug": "/basics/chapter05 copy",
+  "permalink": "/jamstack-js-tutorial/docs/basics/chapter05 copy",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter05 copy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ajax と非同期処理",
+    "permalink": "/jamstack-js-tutorial/docs/basics/chapter04"
+  },
+  "next": {
+    "title": "Node.js",
+    "permalink": "/jamstack-js-tutorial/docs/basics/chapter05"
+  }
+}

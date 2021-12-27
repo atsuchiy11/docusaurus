@@ -1,0 +1,30 @@
+{
+  "permalink": "/jamstack-js-tutorial/blog/setup",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-11-10-mac-setup/index.md",
+  "source": "@site/blog/2021-11-10-mac-setup/index.md",
+  "title": "Macセットアップ",
+  "description": "最低限これぐらいはやっとけ、というような内容です。Mac前提です。",
+  "date": "2021-11-10T00:00:00.000Z",
+  "formattedDate": "November 10, 2021",
+  "tags": [
+    {
+      "label": "Mac",
+      "permalink": "/jamstack-js-tutorial/blog/tags/mac"
+    }
+  ],
+  "readingTime": 6.545,
+  "truncated": false,
+  "authors": [
+    {
+      "name": "Atsushi Tsuchiya",
+      "title": "Front End and Data Engineer",
+      "url": "https://github.com/a2-tsuchiya",
+      "imageURL": "https://github.com/a2-tsuchiya.png",
+      "key": "a2-tsuchiya"
+    }
+  ],
+  "nextItem": {
+    "title": "開発環境",
+    "permalink": "/jamstack-js-tutorial/blog/manage"
+  }
+}

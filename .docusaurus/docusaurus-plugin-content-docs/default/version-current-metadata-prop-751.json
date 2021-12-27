@@ -1,0 +1,122 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "イントロダクション",
+        "href": "/jamstack-js-tutorial/docs/intro"
+      },
+      {
+        "type": "category",
+        "label": "JavaScript",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "基礎編",
+            "href": "/jamstack-js-tutorial/docs/basics/chapter01"
+          },
+          {
+            "type": "link",
+            "label": "中級編",
+            "href": "/jamstack-js-tutorial/docs/basics/chapter02"
+          },
+          {
+            "type": "link",
+            "label": "補足編",
+            "href": "/jamstack-js-tutorial/docs/basics/chapter03"
+          },
+          {
+            "type": "link",
+            "label": "DOM とイベント",
+            "href": "/jamstack-js-tutorial/docs/basics/chapter04"
+          },
+          {
+            "type": "link",
+            "label": "Ajax と非同期処理",
+            "href": "/jamstack-js-tutorial/docs/basics/chapter05"
+          },
+          {
+            "type": "link",
+            "label": "Node.js",
+            "href": "/jamstack-js-tutorial/docs/basics/chapter06"
+          },
+          {
+            "type": "link",
+            "label": "jQuery",
+            "href": "/jamstack-js-tutorial/docs/basics/chapter07"
+          },
+          {
+            "type": "link",
+            "label": "いざ kintone へ",
+            "href": "/jamstack-js-tutorial/docs/basics/chapter08"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Basics",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Create a Page",
+            "href": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-page"
+          },
+          {
+            "type": "link",
+            "label": "Create a Document",
+            "href": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-document"
+          },
+          {
+            "type": "link",
+            "label": "Create a Blog Post",
+            "href": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-blog-post"
+          },
+          {
+            "type": "link",
+            "label": "Markdown Features",
+            "href": "/jamstack-js-tutorial/docs/tutorial-basics/markdown-features"
+          },
+          {
+            "type": "link",
+            "label": "Deploy your site",
+            "href": "/jamstack-js-tutorial/docs/tutorial-basics/deploy-your-site"
+          },
+          {
+            "type": "link",
+            "label": "Congratulations!",
+            "href": "/jamstack-js-tutorial/docs/tutorial-basics/congratulations"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Tutorial - Extras",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Manage Docs Versions",
+            "href": "/jamstack-js-tutorial/docs/tutorial-extras/manage-docs-versions"
+          },
+          {
+            "type": "link",
+            "label": "Translate your site",
+            "href": "/jamstack-js-tutorial/docs/tutorial-extras/translate-your-site"
+          }
+        ]
+      }
+    ]
+  }
+}

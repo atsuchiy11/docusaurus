@@ -1,0 +1,27 @@
+{
+  "unversionedId": "basics/chapter05",
+  "id": "basics/chapter05",
+  "isDocsHomePage": false,
+  "title": "Ajax と非同期処理",
+  "description": "座学60min",
+  "source": "@site/docs/basics/chapter05.md",
+  "sourceDirName": "basics",
+  "slug": "/basics/chapter05",
+  "permalink": "/jamstack-js-tutorial/docs/basics/chapter05",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter05.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DOM とイベント",
+    "permalink": "/jamstack-js-tutorial/docs/basics/chapter04"
+  },
+  "next": {
+    "title": "Node.js",
+    "permalink": "/jamstack-js-tutorial/docs/basics/chapter06"
+  }
+}

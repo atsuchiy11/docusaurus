@@ -1,0 +1,37 @@
+{
+  "/jamstack-js-tutorial/blog/tags/mac": {
+    "allTagsPath": "/jamstack-js-tutorial/blog/tags",
+    "slug": "/jamstack-js-tutorial/blog/tags/mac",
+    "name": "Mac",
+    "count": 1,
+    "permalink": "/jamstack-js-tutorial/blog/tags/mac"
+  },
+  "/jamstack-js-tutorial/blog/tags/git-hub": {
+    "allTagsPath": "/jamstack-js-tutorial/blog/tags",
+    "slug": "/jamstack-js-tutorial/blog/tags/git-hub",
+    "name": "GitHub",
+    "count": 1,
+    "permalink": "/jamstack-js-tutorial/blog/tags/git-hub"
+  },
+  "/jamstack-js-tutorial/blog/tags/code-sandbox": {
+    "allTagsPath": "/jamstack-js-tutorial/blog/tags",
+    "slug": "/jamstack-js-tutorial/blog/tags/code-sandbox",
+    "name": "CodeSandbox",
+    "count": 1,
+    "permalink": "/jamstack-js-tutorial/blog/tags/code-sandbox"
+  },
+  "/jamstack-js-tutorial/blog/tags/チュートリアル": {
+    "allTagsPath": "/jamstack-js-tutorial/blog/tags",
+    "slug": "/jamstack-js-tutorial/blog/tags/チュートリアル",
+    "name": "チュートリアル",
+    "count": 2,
+    "permalink": "/jamstack-js-tutorial/blog/tags/チュートリアル"
+  },
+  "/jamstack-js-tutorial/blog/tags/docusaurus": {
+    "allTagsPath": "/jamstack-js-tutorial/blog/tags",
+    "slug": "/jamstack-js-tutorial/blog/tags/docusaurus",
+    "name": "Docusaurus",
+    "count": 1,
+    "permalink": "/jamstack-js-tutorial/blog/tags/docusaurus"
+  }
+}

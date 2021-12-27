@@ -1,0 +1,27 @@
+{
+  "unversionedId": "basics/chapter03",
+  "id": "basics/chapter03",
+  "isDocsHomePage": false,
+  "title": "補足編",
+  "description": "本編を補足する項目を列挙しています。文脈は特にありません。",
+  "source": "@site/docs/basics/chapter03.md",
+  "sourceDirName": "basics",
+  "slug": "/basics/chapter03",
+  "permalink": "/jamstack-js-tutorial/docs/basics/chapter03",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter03.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "中級編",
+    "permalink": "/jamstack-js-tutorial/docs/basics/chapter02"
+  },
+  "next": {
+    "title": "DOM とイベント",
+    "permalink": "/jamstack-js-tutorial/docs/basics/chapter04"
+  }
+}

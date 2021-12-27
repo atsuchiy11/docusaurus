@@ -1,0 +1,42 @@
+{
+  "permalink": "/jamstack-js-tutorial/blog/manage",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-10-23-github/index.md",
+  "source": "@site/blog/2021-10-23-github/index.md",
+  "title": "開発環境",
+  "description": "セットアップ",
+  "date": "2021-10-23T00:00:00.000Z",
+  "formattedDate": "October 23, 2021",
+  "tags": [
+    {
+      "label": "GitHub",
+      "permalink": "/jamstack-js-tutorial/blog/tags/git-hub"
+    },
+    {
+      "label": "CodeSandbox",
+      "permalink": "/jamstack-js-tutorial/blog/tags/code-sandbox"
+    },
+    {
+      "label": "チュートリアル",
+      "permalink": "/jamstack-js-tutorial/blog/tags/チュートリアル"
+    }
+  ],
+  "readingTime": 1.165,
+  "truncated": true,
+  "authors": [
+    {
+      "name": "Atsushi Tsuchiya",
+      "title": "Front End and Data Engineer",
+      "url": "https://github.com/a2-tsuchiya",
+      "imageURL": "https://github.com/a2-tsuchiya.png",
+      "key": "a2-tsuchiya"
+    }
+  ],
+  "prevItem": {
+    "title": "Macセットアップ",
+    "permalink": "/jamstack-js-tutorial/blog/setup"
+  },
+  "nextItem": {
+    "title": "How To Use",
+    "permalink": "/jamstack-js-tutorial/blog/welcome"
+  }
+}

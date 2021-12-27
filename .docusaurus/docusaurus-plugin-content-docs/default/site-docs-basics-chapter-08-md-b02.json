@@ -1,0 +1,27 @@
+{
+  "unversionedId": "basics/chapter08",
+  "id": "basics/chapter08",
+  "isDocsHomePage": false,
+  "title": "いざ kintone へ",
+  "description": "イベント",
+  "source": "@site/docs/basics/chapter08.md",
+  "sourceDirName": "basics",
+  "slug": "/basics/chapter08",
+  "permalink": "/jamstack-js-tutorial/docs/basics/chapter08",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter08.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "jQuery",
+    "permalink": "/jamstack-js-tutorial/docs/basics/chapter07"
+  },
+  "next": {
+    "title": "Create a Page",
+    "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-page"
+  }
+}

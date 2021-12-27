@@ -1,0 +1,27 @@
+{
+  "unversionedId": "basics/chapter02",
+  "id": "basics/chapter02",
+  "isDocsHomePage": false,
+  "title": "中級編",
+  "description": "座学60min",
+  "source": "@site/docs/basics/chapter02.md",
+  "sourceDirName": "basics",
+  "slug": "/basics/chapter02",
+  "permalink": "/jamstack-js-tutorial/docs/basics/chapter02",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter02.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "基礎編",
+    "permalink": "/jamstack-js-tutorial/docs/basics/chapter01"
+  },
+  "next": {
+    "title": "補足編",
+    "permalink": "/jamstack-js-tutorial/docs/basics/chapter03"
+  }
+}

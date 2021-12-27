@@ -1,0 +1,27 @@
+{
+  "unversionedId": "basics/chapter06",
+  "id": "basics/chapter06",
+  "isDocsHomePage": false,
+  "title": "Node.js",
+  "description": "ブラウザ以外で動くJavaScriptの実行環境です。_サーバサイド JavaScript_とも言います。",
+  "source": "@site/docs/basics/chapter06.md",
+  "sourceDirName": "basics",
+  "slug": "/basics/chapter06",
+  "permalink": "/jamstack-js-tutorial/docs/basics/chapter06",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter06.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ajax と非同期処理",
+    "permalink": "/jamstack-js-tutorial/docs/basics/chapter05"
+  },
+  "next": {
+    "title": "jQuery",
+    "permalink": "/jamstack-js-tutorial/docs/basics/chapter07"
+  }
+}

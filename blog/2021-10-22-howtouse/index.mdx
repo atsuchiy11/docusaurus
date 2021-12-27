@@ -1,0 +1,59 @@
+---
+slug: welcome
+title: How To Use
+authors: [a2-tsuchiya]
+tags: [Docusaurus, チュートリアル]
+---
+
+## 位置付け
+
+ここでは本編とは直接関連のない技術情報を掲載していきます。想定としては、、、
+
+- [**GitHub**](https://github.com/orgs/prime-x-co-ltd/dashboard)連携
+- [**CodeSandbox**](https://codesandbox.io/)連携
+- [**kintone**](https://h2zqr.cybozu.com/k/#/portal)関連
+- 開発環境（_npm/yarn_, *VSCode*など）
+- [**Qiita**](https://qiita.com/)記事へのリンク
+
+などです。
+
+<!--truncate-->
+
+## 基本的な書き方
+
+詳細については[公式](https://docusaurus.io/docs/blog)をご確認ください。
+
+- `blog`ディレクトリにマークダウンファイル（\*.md）を追加すると作成できます。
+- ブログ作成者のメタ情報は`authors.yml`にまとめらています。
+- ブログの投稿日はファイル名 or ディレクトリ名から抽出されます。
+
+  - `2019-05-30-welcome.md`
+  - `2019-05-30-welcome/index.md`
+
+- ディレクトリ直下に画像を配置すると、こんな感じで参照できます。
+
+[![Primex Logo](./primex_logo.jpg)](https://prime-x.co.jp)
+
+## ちょっと進んだ書き方
+
+### React カスタマイズ
+
+```jsx
+<button
+  class="button button--secondary button--lg"
+  onClick={() => window.alert("hello, React.js")}
+>
+  クリックしてねw
+</button>
+```
+
+<button
+  class="button button--secondary button--lg"
+  onClick={() => window.alert("hello, React.js")}
+>
+  クリックしてねw
+</button>
+
+### ブログマーカー
+
+`<!--truncate-->`を挿入すると、これより上が要約として表示され、これより下は非表示になります。

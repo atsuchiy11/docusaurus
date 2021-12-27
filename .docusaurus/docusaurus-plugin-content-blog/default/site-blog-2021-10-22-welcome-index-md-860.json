@@ -1,0 +1,34 @@
+{
+  "permalink": "/jamstack-js-tutorial/blog/welcome",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-10-22-welcome/index.md",
+  "source": "@site/blog/2021-10-22-welcome/index.md",
+  "title": "How To Use",
+  "description": "位置付け",
+  "date": "2021-10-22T00:00:00.000Z",
+  "formattedDate": "October 22, 2021",
+  "tags": [
+    {
+      "label": "Docusaurus",
+      "permalink": "/jamstack-js-tutorial/blog/tags/docusaurus"
+    },
+    {
+      "label": "チュートリアル",
+      "permalink": "/jamstack-js-tutorial/blog/tags/チュートリアル"
+    }
+  ],
+  "readingTime": 0.87,
+  "truncated": false,
+  "authors": [
+    {
+      "name": "Atsushi Tsuchiya",
+      "title": "Front End and Data Engineer",
+      "url": "https://github.com/a2-tsuchiya",
+      "imageURL": "https://github.com/a2-tsuchiya.png",
+      "key": "a2-tsuchiya"
+    }
+  ],
+  "nextItem": {
+    "title": "MDX Blog Post",
+    "permalink": "/jamstack-js-tutorial/blog/mdx-blog-post"
+  }
+}

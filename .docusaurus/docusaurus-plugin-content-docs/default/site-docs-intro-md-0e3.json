@@ -1,0 +1,23 @@
+{
+  "unversionedId": "intro",
+  "id": "intro",
+  "isDocsHomePage": false,
+  "title": "イントロダクション",
+  "description": "21 世紀初頭のJavaScriptといえば、Web ページに装飾を施す、と言うイメージが強かったかもしれません。",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/jamstack-js-tutorial/docs/intro",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "基礎編",
+    "permalink": "/jamstack-js-tutorial/docs/basics/chapter01"
+  }
+}
