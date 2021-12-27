@@ -1,0 +1,2 @@
+# docusaurus
+Getting started Docusaurus
