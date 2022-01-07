@@ -1,7 +1,6 @@
 {
   "unversionedId": "basics/chapter06",
   "id": "basics/chapter06",
-  "isDocsHomePage": false,
   "title": "Node.js",
   "description": "ブラウザ以外で動くJavaScriptの実行環境です。_サーバサイド JavaScript_とも言います。",
   "source": "@site/docs/basics/chapter06.md",

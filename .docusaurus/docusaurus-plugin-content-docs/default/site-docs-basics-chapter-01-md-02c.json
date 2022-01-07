@@ -1,7 +1,6 @@
 {
   "unversionedId": "basics/chapter01",
   "id": "basics/chapter01",
-  "isDocsHomePage": false,
   "title": "基礎編",
   "description": "座学40min",
   "source": "@site/docs/basics/chapter01.md",

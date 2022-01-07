@@ -4,11 +4,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/jamstack-js-tutorial/',
-    component: ComponentCreator('/jamstack-js-tutorial/','296'),
-    exact: true
-  },
-  {
     path: '/jamstack-js-tutorial/__docusaurus/debug',
     component: ComponentCreator('/jamstack-js-tutorial/__docusaurus/debug','07e'),
     exact: true
@@ -210,6 +205,11 @@ export default [
         'sidebar': "tutorialSidebar"
       }
     ]
+  },
+  {
+    path: '/jamstack-js-tutorial/',
+    component: ComponentCreator('/jamstack-js-tutorial/','296'),
+    exact: true
   },
   {
     path: '*',

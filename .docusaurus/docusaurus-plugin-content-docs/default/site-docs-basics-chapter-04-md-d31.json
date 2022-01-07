@@ -1,7 +1,6 @@
 {
   "unversionedId": "basics/chapter04",
   "id": "basics/chapter04",
-  "isDocsHomePage": false,
   "title": "DOM とイベント",
   "description": "座学60min",
   "source": "@site/docs/basics/chapter04.md",

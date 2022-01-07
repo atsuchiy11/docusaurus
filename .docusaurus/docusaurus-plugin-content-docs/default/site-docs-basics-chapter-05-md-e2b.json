@@ -1,7 +1,6 @@
 {
   "unversionedId": "basics/chapter05",
   "id": "basics/chapter05",
-  "isDocsHomePage": false,
   "title": "Ajax と非同期処理",
   "description": "座学60min",
   "source": "@site/docs/basics/chapter05.md",

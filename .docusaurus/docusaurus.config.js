@@ -13,7 +13,7 @@ export default {
       "@docusaurus/preset-classic",
       {
         "docs": {
-          "sidebarPath": "/Users/a2-tsuchiya/Documents/project/jamstack-js-tutorial/sidebars.js",
+          "sidebarPath": "/Users/a2-tsuchiya/Documents/src/docusaurus/sidebars.js",
           "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main"
         },
         "blog": {
@@ -23,7 +23,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/"
         },
         "theme": {
-          "customCss": "/Users/a2-tsuchiya/Documents/project/jamstack-js-tutorial/src/css/custom.css"
+          "customCss": "/Users/a2-tsuchiya/Documents/src/docusaurus/src/css/custom.css"
         }
       }
     ]
@@ -98,7 +98,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2021 PRIME X Co., Ltd. Built with Docusaurus."
+      "copyright": "Copyright © 2022 PRIME X Co., Ltd. Built with Docusaurus."
     },
     "prism": {
       "theme": {
@@ -308,7 +308,7 @@ export default {
     "docs": {
       "versionPersistence": "localStorage"
     },
-    "metadatas": [],
+    "metadata": [],
     "hideableSidebar": false,
     "tableOfContents": {
       "minHeadingLevel": 2,
@@ -324,6 +324,9 @@ export default {
     "localeConfigs": {}
   },
   "onDuplicateRoutes": "warn",
+  "staticDirectories": [
+    "static"
+  ],
   "customFields": {},
   "plugins": [],
   "themes": [],

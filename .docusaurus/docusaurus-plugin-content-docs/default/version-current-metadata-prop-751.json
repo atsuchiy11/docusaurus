@@ -11,7 +11,8 @@
       {
         "type": "link",
         "label": "イントロダクション",
-        "href": "/jamstack-js-tutorial/docs/intro"
+        "href": "/jamstack-js-tutorial/docs/intro",
+        "docId": "intro"
       },
       {
         "type": "category",
@@ -22,42 +23,50 @@
           {
             "type": "link",
             "label": "基礎編",
-            "href": "/jamstack-js-tutorial/docs/basics/chapter01"
+            "href": "/jamstack-js-tutorial/docs/basics/chapter01",
+            "docId": "basics/chapter01"
           },
           {
             "type": "link",
             "label": "中級編",
-            "href": "/jamstack-js-tutorial/docs/basics/chapter02"
+            "href": "/jamstack-js-tutorial/docs/basics/chapter02",
+            "docId": "basics/chapter02"
           },
           {
             "type": "link",
             "label": "補足編",
-            "href": "/jamstack-js-tutorial/docs/basics/chapter03"
+            "href": "/jamstack-js-tutorial/docs/basics/chapter03",
+            "docId": "basics/chapter03"
           },
           {
             "type": "link",
             "label": "DOM とイベント",
-            "href": "/jamstack-js-tutorial/docs/basics/chapter04"
+            "href": "/jamstack-js-tutorial/docs/basics/chapter04",
+            "docId": "basics/chapter04"
           },
           {
             "type": "link",
             "label": "Ajax と非同期処理",
-            "href": "/jamstack-js-tutorial/docs/basics/chapter05"
+            "href": "/jamstack-js-tutorial/docs/basics/chapter05",
+            "docId": "basics/chapter05"
           },
           {
             "type": "link",
             "label": "Node.js",
-            "href": "/jamstack-js-tutorial/docs/basics/chapter06"
+            "href": "/jamstack-js-tutorial/docs/basics/chapter06",
+            "docId": "basics/chapter06"
           },
           {
             "type": "link",
             "label": "jQuery",
-            "href": "/jamstack-js-tutorial/docs/basics/chapter07"
+            "href": "/jamstack-js-tutorial/docs/basics/chapter07",
+            "docId": "basics/chapter07"
           },
           {
             "type": "link",
             "label": "いざ kintone へ",
-            "href": "/jamstack-js-tutorial/docs/basics/chapter08"
+            "href": "/jamstack-js-tutorial/docs/basics/chapter08",
+            "docId": "basics/chapter08"
           }
         ]
       },
@@ -70,32 +79,38 @@
           {
             "type": "link",
             "label": "Create a Page",
-            "href": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-page"
+            "href": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-page",
+            "docId": "tutorial-basics/create-a-page"
           },
           {
             "type": "link",
             "label": "Create a Document",
-            "href": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-document"
+            "href": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-document",
+            "docId": "tutorial-basics/create-a-document"
           },
           {
             "type": "link",
             "label": "Create a Blog Post",
-            "href": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-blog-post"
+            "href": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-blog-post",
+            "docId": "tutorial-basics/create-a-blog-post"
           },
           {
             "type": "link",
             "label": "Markdown Features",
-            "href": "/jamstack-js-tutorial/docs/tutorial-basics/markdown-features"
+            "href": "/jamstack-js-tutorial/docs/tutorial-basics/markdown-features",
+            "docId": "tutorial-basics/markdown-features"
           },
           {
             "type": "link",
             "label": "Deploy your site",
-            "href": "/jamstack-js-tutorial/docs/tutorial-basics/deploy-your-site"
+            "href": "/jamstack-js-tutorial/docs/tutorial-basics/deploy-your-site",
+            "docId": "tutorial-basics/deploy-your-site"
           },
           {
             "type": "link",
             "label": "Congratulations!",
-            "href": "/jamstack-js-tutorial/docs/tutorial-basics/congratulations"
+            "href": "/jamstack-js-tutorial/docs/tutorial-basics/congratulations",
+            "docId": "tutorial-basics/congratulations"
           }
         ]
       },
@@ -108,15 +123,121 @@
           {
             "type": "link",
             "label": "Manage Docs Versions",
-            "href": "/jamstack-js-tutorial/docs/tutorial-extras/manage-docs-versions"
+            "href": "/jamstack-js-tutorial/docs/tutorial-extras/manage-docs-versions",
+            "docId": "tutorial-extras/manage-docs-versions"
           },
           {
             "type": "link",
             "label": "Translate your site",
-            "href": "/jamstack-js-tutorial/docs/tutorial-extras/translate-your-site"
+            "href": "/jamstack-js-tutorial/docs/tutorial-extras/translate-your-site",
+            "docId": "tutorial-extras/translate-your-site"
           }
         ]
       }
     ]
+  },
+  "docs": {
+    "basics/chapter01": {
+      "id": "basics/chapter01",
+      "title": "基礎編",
+      "description": "座学40min",
+      "sidebar": "tutorialSidebar"
+    },
+    "basics/chapter02": {
+      "id": "basics/chapter02",
+      "title": "中級編",
+      "description": "座学60min",
+      "sidebar": "tutorialSidebar"
+    },
+    "basics/chapter03": {
+      "id": "basics/chapter03",
+      "title": "補足編",
+      "description": "本編を補足する項目を列挙しています。文脈は特にありません。",
+      "sidebar": "tutorialSidebar"
+    },
+    "basics/chapter04": {
+      "id": "basics/chapter04",
+      "title": "DOM とイベント",
+      "description": "座学60min",
+      "sidebar": "tutorialSidebar"
+    },
+    "basics/chapter05": {
+      "id": "basics/chapter05",
+      "title": "Ajax と非同期処理",
+      "description": "座学60min",
+      "sidebar": "tutorialSidebar"
+    },
+    "basics/chapter06": {
+      "id": "basics/chapter06",
+      "title": "Node.js",
+      "description": "ブラウザ以外で動くJavaScriptの実行環境です。_サーバサイド JavaScript_とも言います。",
+      "sidebar": "tutorialSidebar"
+    },
+    "basics/chapter07": {
+      "id": "basics/chapter07",
+      "title": "jQuery",
+      "description": "JavaScriptのライブラリの一つです。JavaScriptをより簡潔に簡単に記述できるようになります。",
+      "sidebar": "tutorialSidebar"
+    },
+    "basics/chapter08": {
+      "id": "basics/chapter08",
+      "title": "いざ kintone へ",
+      "description": "イベント",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "イントロダクション",
+      "description": "21 世紀初頭のJavaScriptといえば、Web ページに装飾を施す、と言うイメージが強かったかもしれません。",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/congratulations": {
+      "id": "tutorial-basics/congratulations",
+      "title": "Congratulations!",
+      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/create-a-blog-post": {
+      "id": "tutorial-basics/create-a-blog-post",
+      "title": "Create a Blog Post",
+      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/create-a-document": {
+      "id": "tutorial-basics/create-a-document",
+      "title": "Create a Document",
+      "description": "Documents are groups of pages connected through:",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/create-a-page": {
+      "id": "tutorial-basics/create-a-page",
+      "title": "Create a Page",
+      "description": "Add Markdown or React files to src/pages to create a standalone page:",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/deploy-your-site": {
+      "id": "tutorial-basics/deploy-your-site",
+      "title": "Deploy your site",
+      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-basics/markdown-features": {
+      "id": "tutorial-basics/markdown-features",
+      "title": "Markdown Features",
+      "description": "Docusaurus supports Markdown and a few additional features.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-extras/manage-docs-versions": {
+      "id": "tutorial-extras/manage-docs-versions",
+      "title": "Manage Docs Versions",
+      "description": "Docusaurus can manage multiple versions of your docs.",
+      "sidebar": "tutorialSidebar"
+    },
+    "tutorial-extras/translate-your-site": {
+      "id": "tutorial-extras/translate-your-site",
+      "title": "Translate your site",
+      "description": "Let's translate docs/intro.md to French.",
+      "sidebar": "tutorialSidebar"
+    }
   }
 }

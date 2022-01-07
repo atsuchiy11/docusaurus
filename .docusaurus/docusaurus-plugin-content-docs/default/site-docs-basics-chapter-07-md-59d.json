@@ -1,7 +1,6 @@
 {
   "unversionedId": "basics/chapter07",
   "id": "basics/chapter07",
-  "isDocsHomePage": false,
   "title": "jQuery",
   "description": "JavaScriptのライブラリの一つです。JavaScriptをより簡潔に簡単に記述できるようになります。",
   "source": "@site/docs/basics/chapter07.md",

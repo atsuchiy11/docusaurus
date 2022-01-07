@@ -1,8 +1,4 @@
 {
-  "/jamstack-js-tutorial/-296": {
-    "component": "component---site-src-pages-index-tsx-1-df-d3e",
-    "config": "config---jamstack-js-tutorial-5-e-9-941"
-  },
   "/jamstack-js-tutorial/__docusaurus/debug-07e": {
     "component": "component---theme-debug-config-23-a-2ff"
   },
@@ -193,5 +189,9 @@
   "/jamstack-js-tutorial/docs/tutorial-extras/translate-your-site-9cd": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---jamstack-js-tutorial-docs-tutorial-extras-translate-your-sitee-44-441"
+  },
+  "/jamstack-js-tutorial/-296": {
+    "component": "component---site-src-pages-index-tsx-1-df-d3e",
+    "config": "config---jamstack-js-tutorial-5-e-9-941"
   }
 }

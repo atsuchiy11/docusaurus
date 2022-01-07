@@ -14,15 +14,13 @@
           "versionClassName": "docs-version-current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/a2-tsuchiya/Documents/project/jamstack-js-tutorial/sidebars.js",
-          "contentPath": "/Users/a2-tsuchiya/Documents/project/jamstack-js-tutorial/docs",
-          "contentPathLocalized": "/Users/a2-tsuchiya/Documents/project/jamstack-js-tutorial/i18n/en/docusaurus-plugin-content-docs/current",
-          "mainDocId": "intro",
+          "sidebarFilePath": "/Users/a2-tsuchiya/Documents/src/docusaurus/sidebars.js",
+          "contentPath": "/Users/a2-tsuchiya/Documents/src/docusaurus/docs",
+          "contentPathLocalized": "/Users/a2-tsuchiya/Documents/src/docusaurus/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "basics/chapter01",
               "id": "basics/chapter01",
-              "isDocsHomePage": false,
               "title": "基礎編",
               "description": "座学40min",
               "source": "@site/docs/basics/chapter01.md",
@@ -49,7 +47,6 @@
             {
               "unversionedId": "basics/chapter02",
               "id": "basics/chapter02",
-              "isDocsHomePage": false,
               "title": "中級編",
               "description": "座学60min",
               "source": "@site/docs/basics/chapter02.md",
@@ -76,7 +73,6 @@
             {
               "unversionedId": "basics/chapter03",
               "id": "basics/chapter03",
-              "isDocsHomePage": false,
               "title": "補足編",
               "description": "本編を補足する項目を列挙しています。文脈は特にありません。",
               "source": "@site/docs/basics/chapter03.md",
@@ -103,7 +99,6 @@
             {
               "unversionedId": "basics/chapter04",
               "id": "basics/chapter04",
-              "isDocsHomePage": false,
               "title": "DOM とイベント",
               "description": "座学60min",
               "source": "@site/docs/basics/chapter04.md",
@@ -130,7 +125,6 @@
             {
               "unversionedId": "basics/chapter05",
               "id": "basics/chapter05",
-              "isDocsHomePage": false,
               "title": "Ajax と非同期処理",
               "description": "座学60min",
               "source": "@site/docs/basics/chapter05.md",
@@ -157,7 +151,6 @@
             {
               "unversionedId": "basics/chapter06",
               "id": "basics/chapter06",
-              "isDocsHomePage": false,
               "title": "Node.js",
               "description": "ブラウザ以外で動くJavaScriptの実行環境です。_サーバサイド JavaScript_とも言います。",
               "source": "@site/docs/basics/chapter06.md",
@@ -184,7 +177,6 @@
             {
               "unversionedId": "basics/chapter07",
               "id": "basics/chapter07",
-              "isDocsHomePage": false,
               "title": "jQuery",
               "description": "JavaScriptのライブラリの一つです。JavaScriptをより簡潔に簡単に記述できるようになります。",
               "source": "@site/docs/basics/chapter07.md",
@@ -211,7 +203,6 @@
             {
               "unversionedId": "basics/chapter08",
               "id": "basics/chapter08",
-              "isDocsHomePage": false,
               "title": "いざ kintone へ",
               "description": "イベント",
               "source": "@site/docs/basics/chapter08.md",
@@ -238,7 +229,6 @@
             {
               "unversionedId": "intro",
               "id": "intro",
-              "isDocsHomePage": false,
               "title": "イントロダクション",
               "description": "21 世紀初頭のJavaScriptといえば、Web ページに装飾を施す、と言うイメージが強かったかもしれません。",
               "source": "@site/docs/intro.md",
@@ -261,7 +251,6 @@
             {
               "unversionedId": "tutorial-basics/congratulations",
               "id": "tutorial-basics/congratulations",
-              "isDocsHomePage": false,
               "title": "Congratulations!",
               "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
               "source": "@site/docs/tutorial-basics/congratulations.md",
@@ -288,7 +277,6 @@
             {
               "unversionedId": "tutorial-basics/create-a-blog-post",
               "id": "tutorial-basics/create-a-blog-post",
-              "isDocsHomePage": false,
               "title": "Create a Blog Post",
               "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
               "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
@@ -315,7 +303,6 @@
             {
               "unversionedId": "tutorial-basics/create-a-document",
               "id": "tutorial-basics/create-a-document",
-              "isDocsHomePage": false,
               "title": "Create a Document",
               "description": "Documents are groups of pages connected through:",
               "source": "@site/docs/tutorial-basics/create-a-document.md",
@@ -342,7 +329,6 @@
             {
               "unversionedId": "tutorial-basics/create-a-page",
               "id": "tutorial-basics/create-a-page",
-              "isDocsHomePage": false,
               "title": "Create a Page",
               "description": "Add Markdown or React files to src/pages to create a standalone page:",
               "source": "@site/docs/tutorial-basics/create-a-page.md",
@@ -369,7 +355,6 @@
             {
               "unversionedId": "tutorial-basics/deploy-your-site",
               "id": "tutorial-basics/deploy-your-site",
-              "isDocsHomePage": false,
               "title": "Deploy your site",
               "description": "Docusaurus is a static-site-generator (also called Jamstack).",
               "source": "@site/docs/tutorial-basics/deploy-your-site.md",
@@ -396,7 +381,6 @@
             {
               "unversionedId": "tutorial-basics/markdown-features",
               "id": "tutorial-basics/markdown-features",
-              "isDocsHomePage": false,
               "title": "Markdown Features",
               "description": "Docusaurus supports Markdown and a few additional features.",
               "source": "@site/docs/tutorial-basics/markdown-features.mdx",
@@ -423,7 +407,6 @@
             {
               "unversionedId": "tutorial-extras/manage-docs-versions",
               "id": "tutorial-extras/manage-docs-versions",
-              "isDocsHomePage": false,
               "title": "Manage Docs Versions",
               "description": "Docusaurus can manage multiple versions of your docs.",
               "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
@@ -450,7 +433,6 @@
             {
               "unversionedId": "tutorial-extras/translate-your-site",
               "id": "tutorial-extras/translate-your-site",
-              "isDocsHomePage": false,
               "title": "Translate your site",
               "description": "Let's translate docs/intro.md to French.",
               "source": "@site/docs/tutorial-extras/translate-your-site.md",
@@ -566,7 +548,9 @@
                 ]
               }
             ]
-          }
+          },
+          "mainDocId": "intro",
+          "categoryGeneratedIndices": []
         }
       ]
     }

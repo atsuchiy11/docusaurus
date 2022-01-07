@@ -1,7 +1,6 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "isDocsHomePage": false,
   "title": "イントロダクション",
   "description": "21 世紀初頭のJavaScriptといえば、Web ページに装飾を施す、と言うイメージが強かったかもしれません。",
   "source": "@site/docs/intro.md",

@@ -1,7 +1,6 @@
 {
   "unversionedId": "basics/chapter03",
   "id": "basics/chapter03",
-  "isDocsHomePage": false,
   "title": "補足編",
   "description": "本編を補足する項目を列挙しています。文脈は特にありません。",
   "source": "@site/docs/basics/chapter03.md",
