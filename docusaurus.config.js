@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'I ❤️ JavaScript',
   tagline: `Let's enjoy programming!`,
-  url: 'https://prime-x-co-ltd.github.io',
-  baseUrl: '/jamstack-js-tutorial/',
+  url: 'https://atsuchiy11.github.io',
+  baseUrl: '/docusaurus/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'prime-x-co-ltd', // Usually your GitHub org/user name.
-  projectName: 'jamstack-js-tutorial', // Usually your repo name.
+  organizationName: 'atsuchiy11', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
 
   presets: [
     [
