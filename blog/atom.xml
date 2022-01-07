@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://atsuchiy11.github.io/docusaurus/blog</id>
+    <title>I ❤️ JavaScript Blog</title>
+    <updated>2021-11-10T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://atsuchiy11.github.io/docusaurus/blog"/>
+    <subtitle>I ❤️ JavaScript Blog</subtitle>
+    <icon>https://atsuchiy11.github.io/docusaurus/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Macセットアップ]]></title>
+        <id>setup</id>
+        <link href="https://atsuchiy11.github.io/docusaurus/blog/setup"/>
+        <updated>2021-11-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[最低限これぐらいはやっとけ、というような内容です。Mac前提です。]]></summary>
+        <content type="html"><![CDATA[<p>最低限これぐらいはやっとけ、というような内容です。<em>Mac</em>前提です。</p><h2><em>Mac</em>本体</h2><h3><code>fn</code>キーをデフォルトで有効にする</h3><p>デバッグ時などに<code>fn</code>を押すことから解放されます。</p><p><code>システム環境設定 &gt; キーボード &gt; F1,F2などのキーを...</code>にチェック</p><h2>Homebrew</h2><p><em>Mac</em>用のパッケージ管理システムです。</p><ol><li>ターミナルから<a href="https://brew.sh/index_ja">公式</a>のシェルプロンプトを貼り付け</li></ol><pre><code class="language-bash">$ /bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
+</code></pre><ol start="2"><li><p>インストール（体感で 2〜3 分）</p></li><li><p><em>PATH</em>に追加する</p></li></ol><pre><code class="language-bash">echo &#x27;eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;&#x27; &gt;&gt; ~/.zprofile
+eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;
+</code></pre><ol start="4"><li><em>homebrew-cask</em>をインストールする（要検証）</li></ol><p>このアイコンをドラッグしてください、、みたいな件から解放されます。</p><pre><code class="language-bash">$ brew install alfred
+</code></pre><p>この<em>Homebrew</em>でガンガン入れていきます。</p><h2>iTerm2</h2><p>ターミナルのほぼ上位互換です。</p><ol><li>インストール</li></ol><pre><code class="language-bash">$ brew install iterm2 --cask
+</code></pre><p>:::tip</p><p>いつの間にか<code>cask</code>コマンドの使い方が変わってました（汗</p><pre><code class="language-bash" metastring="title=&quot;旧コマンド&quot;" title="&quot;旧コマンド&quot;">$ brew cask install ***
+</code></pre><pre><code class="language-bash" metastring="title=&quot;新コマンド&quot;" title="&quot;新コマンド&quot;">$ brew install *** --cask
+</code></pre><p>（2021-11-10 時点）</p><p>:::</p><p>この辺は好みです。</p><ol start="2"><li><code>Ctrl</code>キー 2 回押しで降臨させる</li></ol><ul><li><em>Hotkey</em>を有効にする<ul><li><code>Preferences &gt; Keys &gt; Hotkey &gt; Create a Dedicated Hotkey Window...</code></li><li><code>Double-tap key</code>を<code>^Control</code>にする</li></ul></li><li><em>Default Window</em>を開かないようにする<ul><li><code>Preferences &gt; General &gt; Startup</code>で<code>Only Restore Hotkey Window</code>を選択する</li></ul></li></ul><ol start="3"><li>背景を透過</li></ol><ul><li><code>Preferences &gt; Profiles &gt; Transparency </code>で設定（50％オススメ）</li></ul><p>ターミナルさん、短いお付き合いでしたがありがとうございました m(<!-- -->_<!-- --> <!-- -->_<!-- -->)m</p><h2>GitHub アカウント作成</h2><p>割愛</p><h2>SSH Keys 作成</h2><ol><li>新しいキーペアを作成する</li></ol><pre><code class="language-bash">$ ssh-keygen -C &quot;your_name@prime-x.co.jp&quot;
+</code></pre><ul><li>保存先はそのまま<em>Enter</em>（<code>~/.ssh</code>になります）</li><li>パスフレーズは入力しましょう</li></ul><p>:::info
+パスフレーズは秘密鍵にアクセスするためのパスワードです。<br/>
+<!-- -->:::</p><ol start="2"><li>暗号強度を確認</li></ol><p>注）鍵長 2048 以上で暗号化方式が<em>RSA/ECDSA/Ed25519</em>であること</p><pre><code class="language-bash">$ ssh-keygen -l -f ~/.ssh/id_rsa.pub
+3072 SHA256:************************* a2-tsuchiya@prime-x.co.jp (RSA)
+</code></pre><ol start="3"><li>公開鍵（id_rsa.pub）をクリップボードにコピー</li></ol><pre><code class="language-bash">$ pbcopy &lt; ~/.ssh/id_rsa.pub
+</code></pre><ol start="4"><li>GitHub に登録</li></ol><ul><li><code>右上のSettings &gt; SSH and GPG keys &gt; 右上のNew SSH key</code>と遷移</li><li><em>title</em>に好きな名前、<em>Key</em>にクリップボードの値を貼り付け</li><li><em>Add SSH key</em>をクリック</li></ul><ol start="5"><li>疎通確認</li></ol><pre><code class="language-bash">$ ssh -T git@github.com
+</code></pre><ul><li>フィンガープリントが表示されて、接続しますか？と聞かれるので（<em>yes</em>）</li><li>パスフレーズを入力</li><li>以下のように表示されれば完了です。</li></ul><p><code>Hi user_name! You&#x27;ve successfully authenticated, but GitHub does not provide shell access.</code></p><ol start="6"><li><em>SSH</em>キーを<code>ssh-agent</code>に追加する</li></ol><p>毎回パスフレーズを入力するの面倒ですよね？省略しましょう。</p><pre><code class="language-bash">$ ssh-add ~/.ssh/id_rsa
+</code></pre><ul><li>パスフレーズを入力する</li><li><code>ssh-add -l</code>で鍵が登録されていることを確認する</li></ul><ol start="7"><li>リポジトリをクローンしてみる</li></ol><pre><code class="language-bash">$ git clone git@github:[user_name or org_name]/[favorite_repo].git
+</code></pre><p>パスフレーズ入力を求められずにクローンできれば成功です。お疲れ様でした。</p><h2>VSCode</h2><p>正直エディタは揃えてもいいかなと思います。。</p><pre><code class="language-bash">$ brew install visual-studio-code --cask
+</code></pre><h3>Prettier</h3><ol><li><p>拡張機能から<code>Pretteir</code>をインストール</p></li><li><p><em>Prettier</em>設定ファイル作成</p></li></ol><pre><code class="language-bash">$ touch .prettierrc
+</code></pre><ol start="3"><li>以下のように設定する</li></ol><pre><code class="language-json" metastring="title=&quot;./.prettierrc&quot;" title="&quot;./.prettierrc&quot;">{
+  &quot;printWidth&quot;: 100,
+  &quot;trailingComma&quot;: &quot;es5&quot;,
+  &quot;tabWidth&quot;: 2,
+  &quot;semi&quot;: false,
+  &quot;singleQuote&quot;: true,
+  &quot;useTabs&quot;: true,
+  &quot;jsxBracketSameLine&quot;: true
+}
+</code></pre><p>:::info
+詳細はプロジェクトごとに決めてください。
+:::</p><ol start="4"><li><em>VSCode</em>ユーザ設定ファイル作成</li></ol><pre><code class="language-bash">$ mkdir -p .vscode/settings.json
+</code></pre><ol start="6"><li>以下のように設定する</li></ol><p>既定のフォーマッタを<em>Prettier</em>にし、ファイル保存時に自動整形します。</p><pre><code class="language-json" metastring="title=&quot;./.vscode/settings.json&quot;" title="&quot;./.vscode/settings.json&quot;">{
+  &quot;editor.formatOnSave&quot;: true,
+  &quot;editor.defaultFormatter&quot;: &quot;esbenp.prettier-vscode&quot;
+}
+</code></pre><p>:::info
+詳細はプロジェクトごとに決めてください。
+:::</p><p>:::tip
+プロジェクト、組織内のエディタを<em>VSCode</em>に統一すれば、設定を共有できます。
+:::</p><h2><code>nvm</code></h2><p><em>Node.js</em>のバージョンマネージャです。</p><p>（すでにシェルの設定ファイルがあるかたはスキップしてください）</p><ol><li>デフォルトシェルを確認</li></ol><p><em>macOS Cattallina</em>以降は<em>zsh</em>なのでその前提で進めます。</p><pre><code class="language-bash">$ echo $SHELL
+/bin/zsh
+</code></pre><ol start="2"><li>設定ファイルを作成</li></ol><pre><code class="language-bash">$ touch ~/.zshrc
+$ ls -a #確認
+</code></pre><ol start="3"><li><code>nvm</code>インストール</li></ol><p>念の為<a href="https://github.com/nvm-sh/nvm#install--update-script">公式</a>でバージョンを確認して、</p><pre><code class="language-bash">$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.**.0/install.sh | bash
+</code></pre><ol start="4"><li><code>.zshrc</code>に次の行を追加</li></ol><pre><code class="language-bash">$ source ~/.nvm/nvm.sh
+</code></pre><ol start="5"><li><p>端末を再起動するか<code>(exec $SHELL -l)</code>を実行する</p></li><li><p>インストール確認</p></li></ol><pre><code class="language-bash">$ nvm -v
+0.39.0
+</code></pre><ol start="7"><li><em>Node.js</em>インストール</li></ol><p>インストール可能なバージョンを見て、無難に安定版（<strong><em>LTS</em></strong>）を選びましょう</p><pre><code class="language-bash">$ nvm ls-remote
+...
+v16.13.0 (Latest LTS: Gallium)
+...
+</code></pre><ol start="8"><li>安定板を選択して、インストール</li></ol><pre><code class="language-bash">$ nvm install v16.13.0
+</code></pre><ol start="9"><li>使用するバージョンを決める</li></ol><pre><code class="language-bash">$ nvm use v16.13.0
+</code></pre><p>:::info
+<code>npm</code>は今日日の<em>Node.js</em>には同梱されているので、以下のコマンドで確認します。</p><pre><code class="language-bash">npm -v
+8.1.0
+</code></pre><p>:::</p><ol start="10"><li><code>yarn</code>を使いたい方はここでインストール</li></ol><pre><code class="language-bash">npm install -g yarn
+</code></pre><h2><code>pyenv</code></h2><p><em>Python</em>のバージョンマネージャです。2 系 3 系の切り替えなどに。</p><ol><li><code>pyenv</code>インストール</li></ol><pre><code class="language-bash">$ brew update
+$ brew install pyenv
+</code></pre><ol start="2"><li><em>PATH</em>を通す</li></ol><pre><code>export PYENV_ROOT=&quot;$HOME/.pyenv&quot;
+export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;
+echo &#x27;eval &quot;$(pyenv init --path)&quot;&#x27; &gt;&gt; ~/.zshrc
+</code></pre><ol start="3"><li>バージョン確認</li></ol><pre><code class="language-bash">$ pyenv -v
+pyenv 2.2.0
+</code></pre><ol start="4"><li><em>Python</em>インストール</li></ol><pre><code class="language-bash"># 全体
+$ pyenv global 3.9.7
+
+# ディレクトリのみ
+$ pyenv local 3.9.7
+</code></pre><ol start="5"><li><p>端末を再起動するか<code>(exec $SHELL -l)</code>を実行する</p></li><li><p>バージョン確認</p></li></ol><pre><code class="language-bash">$ python -V
+Python 3.9.6
+
+$ pyenve versions
+  system
+* 3.9.7 (set by /Users/[user_name]/.pyenv/version)
+</code></pre><p>:::caution
+3.6 系は <strong>2021 年 12 月</strong>に、3.7 系は <strong>2023 年 6 月</strong>にそれぞれ、<br/>
+<!-- -->セキュリティ修正の提供が終了しますのでそれ以降のバージョンを選択しましょう。
+:::</p><h2><em>AWS</em>環境</h2>]]></content>
+        <author>
+            <name>Atsushi Tsuchiya</name>
+            <uri>https://github.com/a2-tsuchiya</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[開発環境]]></title>
+        <id>manage</id>
+        <link href="https://atsuchiy11.github.io/docusaurus/blog/manage"/>
+        <updated>2021-10-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[セットアップ]]></summary>
+        <content type="html"><![CDATA[<h2>セットアップ</h2><p>ここで作る開発サイクルは以下のようになります。</p><ol><li><em>GitHub</em>にリポジトリを作成してソースコード管理する</li><li>コード記述は<em>CodeSandbox</em>上で行う</li><li><em>CodeSandbox</em>上で記述したコードは、<em>GitHub</em>リポジトリに<em>Pull Request</em>する</li><li><em>GitHub</em>上でマージする</li><li>2〜4 の繰り返し</li></ol><p>手順は<a href="https://csb-jp.github.io/docs/github"><em>CodeSandbox</em>ガイド</a>に書いてある通りです。</p><p>:::tip
+上記サイトも<a href="https://docusaurus.io/">Docusaurus</a>で出来ていることに気付いた方、、優秀です w
+:::</p><h3>事前チェック</h3><ol><li><a href="https://codesandbox.io/"><em>CodeSandbox</em></a>を開いて、<a href="https://github.com/a2-tsuchiya/js-plyaground">このリポジトリ</a>をフォークしてみましょう。</li><li>インポートしたリポジトリをエクスポートしてみましょう。</li><li>自分のGitHub上にリポジトリができていればOKです。</li></ol><p>:::caution
+これができないと話にならないので必ず事前に確認してください。
+:::</p><h3>補足</h3><p>テンプレートは<em>Vannila</em>を選択する（純粋な<em>JavaScript</em>）</p><p><img src="./create-sandbox.png" alt="Create Sandbox"/></p><p><em>Drafts</em>を分かりやすい名前に変更する</p><p><img src="./rename-drafts.png" alt="Rename Drafts"/></p>]]></content>
+        <author>
+            <name>Atsushi Tsuchiya</name>
+            <uri>https://github.com/a2-tsuchiya</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Use]]></title>
+        <id>welcome</id>
+        <link href="https://atsuchiy11.github.io/docusaurus/blog/welcome"/>
+        <updated>2021-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[位置付け]]></summary>
+        <content type="html"><![CDATA[<h2>位置付け</h2><p>ここでは本編とは直接関連のない技術情報を掲載していきます。想定としては、、、</p><ul><li><a href="https://github.com/orgs/prime-x-co-ltd/dashboard"><strong>GitHub</strong></a>連携</li><li><a href="https://codesandbox.io/"><strong>CodeSandbox</strong></a>連携</li><li><a href="https://h2zqr.cybozu.com/k/#/portal"><strong>kintone</strong></a>関連</li><li>開発環境（<em>npm/yarn</em>, <em>VSCode</em>など）</li><li><a href="https://qiita.com/"><strong>Qiita</strong></a>記事へのリンク</li></ul><p>などです。</p><h2>基本的な書き方</h2><p>詳細については<a href="https://docusaurus.io/docs/blog">公式</a>をご確認ください。</p><ul><li><p><code>blog</code>ディレクトリにマークダウンファイル（<!-- -->*<!-- -->.md）を追加すると作成できます。</p></li><li><p>ブログ作成者のメタ情報は<code>authors.yml</code>にまとめらています。</p></li><li><p>ブログの投稿日はファイル名 or ディレクトリ名から抽出されます。</p><ul><li><code>2019-05-30-welcome.md</code></li><li><code>2019-05-30-welcome/index.md</code></li></ul></li><li><p>ディレクトリ直下に画像を配置すると、こんな感じで参照できます。</p></li></ul><p><a href="https://prime-x.co.jp"><img src="./primex_logo.jpg" alt="Primex Logo"/></a></p><h2>ちょっと進んだ書き方</h2><h3>React カスタマイズ</h3><pre><code class="language-jsx">&lt;button
+  class=&quot;button button--secondary button--lg&quot;
+  onClick={() =&gt; window.alert(&quot;hello, React.js&quot;)}
+&gt;
+  クリックしてねw
+&lt;/button&gt;
+</code></pre><button class="button button--secondary button--lg">クリックしてねw</button><h3>ブログマーカー</h3><p><code>&lt;!--truncate--&gt;</code>を挿入すると、これより上が要約として表示され、これより下は非表示になります。</p>]]></content>
+        <author>
+            <name>Atsushi Tsuchiya</name>
+            <uri>https://github.com/a2-tsuchiya</uri>
+        </author>
+    </entry>
+</feed>
