@@ -6,7 +6,7 @@
   "source": "@site/docs/basics/chapter07.md",
   "sourceDirName": "basics",
   "slug": "/basics/chapter07",
-  "permalink": "/jamstack-js-tutorial/docs/basics/chapter07",
+  "permalink": "/docusaurus/docs/basics/chapter07",
   "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter07.md",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Node.js",
-    "permalink": "/jamstack-js-tutorial/docs/basics/chapter06"
+    "permalink": "/docusaurus/docs/basics/chapter06"
   },
   "next": {
     "title": "いざ kintone へ",
-    "permalink": "/jamstack-js-tutorial/docs/basics/chapter08"
+    "permalink": "/docusaurus/docs/basics/chapter08"
   }
 }

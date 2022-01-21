@@ -6,7 +6,7 @@
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/jamstack-js-tutorial/docs/intro",
+  "permalink": "/docusaurus/docs/intro",
   "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/intro.md",
   "tags": [],
   "version": "current",
@@ -17,6 +17,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "基礎編",
-    "permalink": "/jamstack-js-tutorial/docs/basics/chapter01"
+    "permalink": "/docusaurus/docs/basics/chapter01"
   }
 }

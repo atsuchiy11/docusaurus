@@ -1,197 +1,197 @@
 {
-  "/jamstack-js-tutorial/__docusaurus/debug-07e": {
+  "/docusaurus/__docusaurus/debug-cd2": {
     "component": "component---theme-debug-config-23-a-2ff"
   },
-  "/jamstack-js-tutorial/__docusaurus/debug/config-f16": {
+  "/docusaurus/__docusaurus/debug/config-136": {
     "component": "component---theme-debug-config-23-a-2ff"
   },
-  "/jamstack-js-tutorial/__docusaurus/debug/content-cdf": {
+  "/docusaurus/__docusaurus/debug/content-b6c": {
     "component": "component---theme-debug-contentba-8-ce7",
-    "allContent": "allContent---jamstack-js-tutorial-docusaurus-debug-content-246-e32"
+    "allContent": "allContent---docusaurus-docusaurus-debug-content-246-f40"
   },
-  "/jamstack-js-tutorial/__docusaurus/debug/globalData-6e2": {
+  "/docusaurus/__docusaurus/debug/globalData-038": {
     "component": "component---theme-debug-global-dataede-0fa"
   },
-  "/jamstack-js-tutorial/__docusaurus/debug/metadata-e4a": {
+  "/docusaurus/__docusaurus/debug/metadata-5f4": {
     "component": "component---theme-debug-site-metadata-68-e-3d4"
   },
-  "/jamstack-js-tutorial/__docusaurus/debug/registry-9e3": {
+  "/docusaurus/__docusaurus/debug/registry-ab4": {
     "component": "component---theme-debug-registry-679-501"
   },
-  "/jamstack-js-tutorial/__docusaurus/debug/routes-453": {
+  "/docusaurus/__docusaurus/debug/routes-cf4": {
     "component": "component---theme-debug-routes-946-699"
   },
-  "/jamstack-js-tutorial/blog-8bc": {
+  "/docusaurus/blog-cd0": {
     "component": "component---theme-blog-list-pagea-6-a-7ba",
-    "sidebar": "sidebar---jamstack-js-tutorial-blog-814-a59",
+    "sidebar": "sidebar---docusaurus-blog-814-4e2",
     "items": [
       {
-        "content": "content---jamstack-js-tutorial-blog-2-d-8-6f7"
+        "content": "content---docusaurus-blog-2-d-8-83d"
       },
       {
-        "content": "content---jamstack-js-tutorial-blogde-0-979"
+        "content": "content---docusaurus-blogde-0-b53"
       },
       {
-        "content": "content---jamstack-js-tutorial-blog-75-a-da5"
+        "content": "content---docusaurus-blog-75-a-5c6"
       }
     ],
-    "metadata": "metadata---jamstack-js-tutorial-blog-292-9f0"
+    "metadata": "metadata---docusaurus-blog-521-ae4"
   },
-  "/jamstack-js-tutorial/blog/archive-140": {
+  "/docusaurus/blog/archive-ae5": {
     "component": "component---theme-blog-archive-page-9-e-4-1d8",
-    "archive": "archive---jamstack-js-tutorial-blog-archive-295-3a3"
+    "archive": "archive---docusaurus-blog-archivee-50-27c"
   },
-  "/jamstack-js-tutorial/blog/manage-e94": {
+  "/docusaurus/blog/manage-78a": {
     "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---jamstack-js-tutorial-blog-814-a59",
-    "content": "content---jamstack-js-tutorial-blog-manage-9-bd-4a0"
+    "sidebar": "sidebar---docusaurus-blog-814-4e2",
+    "content": "content---docusaurus-blog-manage-9-bd-906"
   },
-  "/jamstack-js-tutorial/blog/setup-19f": {
+  "/docusaurus/blog/setup-ce6": {
     "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---jamstack-js-tutorial-blog-814-a59",
-    "content": "content---jamstack-js-tutorial-blog-setup-986-4ba"
+    "sidebar": "sidebar---docusaurus-blog-814-4e2",
+    "content": "content---docusaurus-blog-setup-986-a54"
   },
-  "/jamstack-js-tutorial/blog/tags-d2d": {
+  "/docusaurus/blog/tags-540": {
     "component": "component---theme-blog-tags-list-page-01-a-d0b",
-    "sidebar": "sidebar---jamstack-js-tutorial-blog-814-a59",
-    "tags": "tags---jamstack-js-tutorial-blog-tags-30-d-3a2"
+    "sidebar": "sidebar---docusaurus-blog-814-4e2",
+    "tags": "tags---docusaurus-blog-tagsc-00-730"
   },
-  "/jamstack-js-tutorial/blog/tags/code-sandbox-dec": {
+  "/docusaurus/blog/tags/code-sandbox-b7b": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---jamstack-js-tutorial-blog-814-a59",
+    "sidebar": "sidebar---docusaurus-blog-814-4e2",
     "items": [
       {
-        "content": "content---jamstack-js-tutorial-blogde-0-979"
+        "content": "content---docusaurus-blogde-0-b53"
       }
     ],
-    "metadata": "metadata---jamstack-js-tutorial-blog-tags-code-sandboxaf-2-320"
+    "metadata": "metadata---docusaurus-blog-tags-code-sandbox-97-d-1fc"
   },
-  "/jamstack-js-tutorial/blog/tags/docusaurus-685": {
+  "/docusaurus/blog/tags/docusaurus-6b0": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---jamstack-js-tutorial-blog-814-a59",
+    "sidebar": "sidebar---docusaurus-blog-814-4e2",
     "items": [
       {
-        "content": "content---jamstack-js-tutorial-blog-75-a-da5"
+        "content": "content---docusaurus-blog-75-a-5c6"
       }
     ],
-    "metadata": "metadata---jamstack-js-tutorial-blog-tags-docusaurus-3-b-4-a66"
+    "metadata": "metadata---docusaurus-blog-tags-docusaurus-689-6ab"
   },
-  "/jamstack-js-tutorial/blog/tags/git-hub-1a3": {
+  "/docusaurus/blog/tags/git-hub-625": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---jamstack-js-tutorial-blog-814-a59",
+    "sidebar": "sidebar---docusaurus-blog-814-4e2",
     "items": [
       {
-        "content": "content---jamstack-js-tutorial-blogde-0-979"
+        "content": "content---docusaurus-blogde-0-b53"
       }
     ],
-    "metadata": "metadata---jamstack-js-tutorial-blog-tags-git-hub-3-f-2-250"
+    "metadata": "metadata---docusaurus-blog-tags-git-hub-2-ba-fa0"
   },
-  "/jamstack-js-tutorial/blog/tags/mac-651": {
+  "/docusaurus/blog/tags/mac-7c8": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---jamstack-js-tutorial-blog-814-a59",
+    "sidebar": "sidebar---docusaurus-blog-814-4e2",
     "items": [
       {
-        "content": "content---jamstack-js-tutorial-blog-2-d-8-6f7"
+        "content": "content---docusaurus-blog-2-d-8-83d"
       }
     ],
-    "metadata": "metadata---jamstack-js-tutorial-blog-tags-mac-16-c-9b4"
+    "metadata": "metadata---docusaurus-blog-tags-macd-87-00d"
   },
-  "/jamstack-js-tutorial/blog/tags/チュートリアル-81d": {
+  "/docusaurus/blog/tags/チュートリアル-d1d": {
     "component": "component---theme-blog-tags-posts-page-687-b6c",
-    "sidebar": "sidebar---jamstack-js-tutorial-blog-814-a59",
+    "sidebar": "sidebar---docusaurus-blog-814-4e2",
     "items": [
       {
-        "content": "content---jamstack-js-tutorial-blogde-0-979"
+        "content": "content---docusaurus-blogde-0-b53"
       },
       {
-        "content": "content---jamstack-js-tutorial-blog-75-a-da5"
+        "content": "content---docusaurus-blog-75-a-5c6"
       }
     ],
-    "metadata": "metadata---jamstack-js-tutorial-blog-tags-チュートリアルe-68-d1d"
+    "metadata": "metadata---docusaurus-blog-tags-チュートリアル-680-f42"
   },
-  "/jamstack-js-tutorial/blog/welcome-47e": {
+  "/docusaurus/blog/welcome-7c6": {
     "component": "component---theme-blog-post-pageccc-cab",
-    "sidebar": "sidebar---jamstack-js-tutorial-blog-814-a59",
-    "content": "content---jamstack-js-tutorial-blog-welcome-488-864"
+    "sidebar": "sidebar---docusaurus-blog-814-4e2",
+    "content": "content---docusaurus-blog-welcome-488-795"
   },
-  "/jamstack-js-tutorial/markdown-page-187": {
+  "/docusaurus/markdown-page-8cd": {
     "component": "component---theme-mdx-page-1-f-3-b90",
-    "content": "content---jamstack-js-tutorial-markdown-page-393-009"
+    "content": "content---docusaurus-markdown-page-393-005"
   },
-  "/jamstack-js-tutorial/docs-358": {
+  "/docusaurus/docs-07c": {
     "component": "component---theme-doc-page-1-be-9be",
-    "versionMetadata": "versionMetadata---jamstack-js-tutorial-docs-935-f3f"
+    "versionMetadata": "versionMetadata---docusaurus-docs-935-60a"
   },
-  "/jamstack-js-tutorial/docs/basics/chapter01-a82": {
+  "/docusaurus/docs/basics/chapter01-f4a": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-basics-chapter-0102-c-2c2"
+    "content": "content---docusaurus-docs-basics-chapter-0102-c-fe3"
   },
-  "/jamstack-js-tutorial/docs/basics/chapter02-a26": {
+  "/docusaurus/docs/basics/chapter02-c62": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-basics-chapter-02-d-84-4b6"
+    "content": "content---docusaurus-docs-basics-chapter-02-d-84-f91"
   },
-  "/jamstack-js-tutorial/docs/basics/chapter03-218": {
+  "/docusaurus/docs/basics/chapter03-283": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-basics-chapter-03032-968"
+    "content": "content---docusaurus-docs-basics-chapter-03032-c60"
   },
-  "/jamstack-js-tutorial/docs/basics/chapter04-65d": {
+  "/docusaurus/docs/basics/chapter04-38a": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-basics-chapter-04-d-31-8a3"
+    "content": "content---docusaurus-docs-basics-chapter-04-d-31-50a"
   },
-  "/jamstack-js-tutorial/docs/basics/chapter05-019": {
+  "/docusaurus/docs/basics/chapter05-8c6": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-basics-chapter-05-e-2-b-3ad"
+    "content": "content---docusaurus-docs-basics-chapter-05-e-2-b-077"
   },
-  "/jamstack-js-tutorial/docs/basics/chapter06-d30": {
+  "/docusaurus/docs/basics/chapter06-559": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-basics-chapter-06227-103"
+    "content": "content---docusaurus-docs-basics-chapter-06227-8b4"
   },
-  "/jamstack-js-tutorial/docs/basics/chapter07-0bf": {
+  "/docusaurus/docs/basics/chapter07-36c": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-basics-chapter-0759-d-7a7"
+    "content": "content---docusaurus-docs-basics-chapter-0759-d-0e9"
   },
-  "/jamstack-js-tutorial/docs/basics/chapter08-e02": {
+  "/docusaurus/docs/basics/chapter08-1c5": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-basics-chapter-08-b-02-56e"
+    "content": "content---docusaurus-docs-basics-chapter-08-b-02-d49"
   },
-  "/jamstack-js-tutorial/docs/intro-2eb": {
+  "/docusaurus/docs/intro-c4d": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-intro-0-e-3-a33"
+    "content": "content---docusaurus-docs-intro-0-e-3-401"
   },
-  "/jamstack-js-tutorial/docs/tutorial-basics/congratulations-c87": {
+  "/docusaurus/docs/tutorial-basics/congratulations-69b": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-tutorial-basics-congratulations-822-08b"
+    "content": "content---docusaurus-docs-tutorial-basics-congratulations-822-f48"
   },
-  "/jamstack-js-tutorial/docs/tutorial-basics/create-a-blog-post-02e": {
+  "/docusaurus/docs/tutorial-basics/create-a-blog-post-941": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-tutorial-basics-create-a-blog-post-533-2d7"
+    "content": "content---docusaurus-docs-tutorial-basics-create-a-blog-post-533-f36"
   },
-  "/jamstack-js-tutorial/docs/tutorial-basics/create-a-document-810": {
+  "/docusaurus/docs/tutorial-basics/create-a-document-688": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-tutorial-basics-create-a-document-1-e-4-5f0"
+    "content": "content---docusaurus-docs-tutorial-basics-create-a-document-1-e-4-6d4"
   },
-  "/jamstack-js-tutorial/docs/tutorial-basics/create-a-page-17d": {
+  "/docusaurus/docs/tutorial-basics/create-a-page-856": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-tutorial-basics-create-a-page-5-c-8-031"
+    "content": "content---docusaurus-docs-tutorial-basics-create-a-page-5-c-8-d78"
   },
-  "/jamstack-js-tutorial/docs/tutorial-basics/deploy-your-site-cca": {
+  "/docusaurus/docs/tutorial-basics/deploy-your-site-74f": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-tutorial-basics-deploy-your-sitef-55-13f"
+    "content": "content---docusaurus-docs-tutorial-basics-deploy-your-sitef-55-bef"
   },
-  "/jamstack-js-tutorial/docs/tutorial-basics/markdown-features-0fc": {
+  "/docusaurus/docs/tutorial-basics/markdown-features-34a": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-tutorial-basics-markdown-features-18-c-7d6"
+    "content": "content---docusaurus-docs-tutorial-basics-markdown-features-18-c-28c"
   },
-  "/jamstack-js-tutorial/docs/tutorial-extras/manage-docs-versions-516": {
+  "/docusaurus/docs/tutorial-extras/manage-docs-versions-c1e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-tutorial-extras-manage-docs-versionsdff-f73"
+    "content": "content---docusaurus-docs-tutorial-extras-manage-docs-versionsdff-4f1"
   },
-  "/jamstack-js-tutorial/docs/tutorial-extras/translate-your-site-9cd": {
+  "/docusaurus/docs/tutorial-extras/translate-your-site-dc1": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---jamstack-js-tutorial-docs-tutorial-extras-translate-your-sitee-44-441"
+    "content": "content---docusaurus-docs-tutorial-extras-translate-your-sitee-44-9ac"
   },
-  "/jamstack-js-tutorial/-296": {
+  "/docusaurus/-fa7": {
     "component": "component---site-src-pages-index-tsx-1-df-d3e",
-    "config": "config---jamstack-js-tutorial-5-e-9-941"
+    "config": "config---docusaurus-5-e-9-ee4"
   }
 }

@@ -6,7 +6,7 @@
   "source": "@site/docs/basics/chapter04.md",
   "sourceDirName": "basics",
   "slug": "/basics/chapter04",
-  "permalink": "/jamstack-js-tutorial/docs/basics/chapter04",
+  "permalink": "/docusaurus/docs/basics/chapter04",
   "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter04.md",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "補足編",
-    "permalink": "/jamstack-js-tutorial/docs/basics/chapter03"
+    "permalink": "/docusaurus/docs/basics/chapter03"
   },
   "next": {
     "title": "Ajax と非同期処理",
-    "permalink": "/jamstack-js-tutorial/docs/basics/chapter05"
+    "permalink": "/docusaurus/docs/basics/chapter05"
   }
 }

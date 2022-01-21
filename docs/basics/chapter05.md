@@ -235,7 +235,7 @@ console.log("All tasks finished");
 次の三つの状態を持ち、必ず*fulfilled*(解決)もしくは*rejected*(未決)することが保証されています。
 
 - _pending_
-  - 非同期処理がまだ完了していない
+  - 非同期処理がまだ完了していない（初期状態）
 - _fulfilled_
   - 非同期処理が成功した
 - _rejected_
@@ -243,7 +243,7 @@ console.log("All tasks finished");
 
 <span class="theme-doc-version-badge badge badge--secondary">Promise の特性 ②</span>
 
-`resolve`、`reject`という 2 つの関数を引数に取ります。
+`resolve`、`reject`という関数を引数に取ります。これらは`Promise`の状態を遷移させます。
 
 - `resolve([処理結果])`
   - 処理が成功した時に呼び出し、状態が*fulfilled*になる
@@ -446,11 +446,11 @@ async funcion() {
 
 *HTTP*というプロトコルを用いて Web サーバなど外部から情報を取得することです。  
 これだけで一冊の本（で収まるかも定かでない）になるような内容なのでもちろん割愛します。  
-興味がある方は、[RFC（和訳）](https://triple-underscore.github.io/RFC7231-ja.html)という公式なドキュメントがあるのでそちらをご覧ください。
+興味がある方は、[RFC（和訳）](https://triple-underscore.github.io/RFC7231-ja.html)というドキュメントがあるのでそちらをご覧ください。
 
 ### 四大要素
 
-どの API を使っても必ずこれらの要素が登場します。頭の片隅に置いておいてください。  
+どの Web API を使っても大体これらの要素が登場します。頭の片隅に置いておいてください。  
 (GET リクエスト時のボディはない場合があるかも。。)
 
 - メソッドとパス

@@ -1,98 +1,98 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/jamstack-js-tutorial/docs",
+      "path": "/docusaurus/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/jamstack-js-tutorial/docs",
+          "path": "/docusaurus/docs",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "basics/chapter01",
-              "path": "/jamstack-js-tutorial/docs/basics/chapter01",
+              "path": "/docusaurus/docs/basics/chapter01",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "basics/chapter02",
-              "path": "/jamstack-js-tutorial/docs/basics/chapter02",
+              "path": "/docusaurus/docs/basics/chapter02",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "basics/chapter03",
-              "path": "/jamstack-js-tutorial/docs/basics/chapter03",
+              "path": "/docusaurus/docs/basics/chapter03",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "basics/chapter04",
-              "path": "/jamstack-js-tutorial/docs/basics/chapter04",
+              "path": "/docusaurus/docs/basics/chapter04",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "basics/chapter05",
-              "path": "/jamstack-js-tutorial/docs/basics/chapter05",
+              "path": "/docusaurus/docs/basics/chapter05",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "basics/chapter06",
-              "path": "/jamstack-js-tutorial/docs/basics/chapter06",
+              "path": "/docusaurus/docs/basics/chapter06",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "basics/chapter07",
-              "path": "/jamstack-js-tutorial/docs/basics/chapter07",
+              "path": "/docusaurus/docs/basics/chapter07",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "basics/chapter08",
-              "path": "/jamstack-js-tutorial/docs/basics/chapter08",
+              "path": "/docusaurus/docs/basics/chapter08",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
-              "path": "/jamstack-js-tutorial/docs/intro",
+              "path": "/docusaurus/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/congratulations",
-              "path": "/jamstack-js-tutorial/docs/tutorial-basics/congratulations",
+              "path": "/docusaurus/docs/tutorial-basics/congratulations",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-blog-post",
-              "path": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-blog-post",
+              "path": "/docusaurus/docs/tutorial-basics/create-a-blog-post",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-document",
-              "path": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-document",
+              "path": "/docusaurus/docs/tutorial-basics/create-a-document",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/create-a-page",
-              "path": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-page",
+              "path": "/docusaurus/docs/tutorial-basics/create-a-page",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/deploy-your-site",
-              "path": "/jamstack-js-tutorial/docs/tutorial-basics/deploy-your-site",
+              "path": "/docusaurus/docs/tutorial-basics/deploy-your-site",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-basics/markdown-features",
-              "path": "/jamstack-js-tutorial/docs/tutorial-basics/markdown-features",
+              "path": "/docusaurus/docs/tutorial-basics/markdown-features",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-extras/manage-docs-versions",
-              "path": "/jamstack-js-tutorial/docs/tutorial-extras/manage-docs-versions",
+              "path": "/docusaurus/docs/tutorial-extras/manage-docs-versions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "tutorial-extras/translate-your-site",
-              "path": "/jamstack-js-tutorial/docs/tutorial-extras/translate-your-site",
+              "path": "/docusaurus/docs/tutorial-extras/translate-your-site",
               "sidebar": "tutorialSidebar"
             }
           ]

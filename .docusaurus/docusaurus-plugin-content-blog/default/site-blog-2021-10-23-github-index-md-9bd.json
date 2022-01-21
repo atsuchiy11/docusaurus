@@ -1,5 +1,5 @@
 {
-  "permalink": "/jamstack-js-tutorial/blog/manage",
+  "permalink": "/docusaurus/blog/manage",
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-10-23-github/index.md",
   "source": "@site/blog/2021-10-23-github/index.md",
   "title": "開発環境",
@@ -9,15 +9,15 @@
   "tags": [
     {
       "label": "GitHub",
-      "permalink": "/jamstack-js-tutorial/blog/tags/git-hub"
+      "permalink": "/docusaurus/blog/tags/git-hub"
     },
     {
       "label": "CodeSandbox",
-      "permalink": "/jamstack-js-tutorial/blog/tags/code-sandbox"
+      "permalink": "/docusaurus/blog/tags/code-sandbox"
     },
     {
       "label": "チュートリアル",
-      "permalink": "/jamstack-js-tutorial/blog/tags/チュートリアル"
+      "permalink": "/docusaurus/blog/tags/チュートリアル"
     }
   ],
   "readingTime": 1.165,
@@ -33,10 +33,10 @@
   ],
   "prevItem": {
     "title": "Macセットアップ",
-    "permalink": "/jamstack-js-tutorial/blog/setup"
+    "permalink": "/docusaurus/blog/setup"
   },
   "nextItem": {
     "title": "How To Use",
-    "permalink": "/jamstack-js-tutorial/blog/welcome"
+    "permalink": "/docusaurus/blog/welcome"
   }
 }

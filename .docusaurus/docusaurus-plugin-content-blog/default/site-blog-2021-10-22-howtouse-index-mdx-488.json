@@ -1,5 +1,5 @@
 {
-  "permalink": "/jamstack-js-tutorial/blog/welcome",
+  "permalink": "/docusaurus/blog/welcome",
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-10-22-howtouse/index.mdx",
   "source": "@site/blog/2021-10-22-howtouse/index.mdx",
   "title": "How To Use",
@@ -9,11 +9,11 @@
   "tags": [
     {
       "label": "Docusaurus",
-      "permalink": "/jamstack-js-tutorial/blog/tags/docusaurus"
+      "permalink": "/docusaurus/blog/tags/docusaurus"
     },
     {
       "label": "チュートリアル",
-      "permalink": "/jamstack-js-tutorial/blog/tags/チュートリアル"
+      "permalink": "/docusaurus/blog/tags/チュートリアル"
     }
   ],
   "readingTime": 1.295,
@@ -29,6 +29,6 @@
   ],
   "prevItem": {
     "title": "開発環境",
-    "permalink": "/jamstack-js-tutorial/blog/manage"
+    "permalink": "/docusaurus/blog/manage"
   }
 }

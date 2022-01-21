@@ -6,7 +6,7 @@
   "source": "@site/docs/basics/chapter05.md",
   "sourceDirName": "basics",
   "slug": "/basics/chapter05",
-  "permalink": "/jamstack-js-tutorial/docs/basics/chapter05",
+  "permalink": "/docusaurus/docs/basics/chapter05",
   "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter05.md",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "DOM とイベント",
-    "permalink": "/jamstack-js-tutorial/docs/basics/chapter04"
+    "permalink": "/docusaurus/docs/basics/chapter04"
   },
   "next": {
     "title": "Node.js",
-    "permalink": "/jamstack-js-tutorial/docs/basics/chapter06"
+    "permalink": "/docusaurus/docs/basics/chapter06"
   }
 }

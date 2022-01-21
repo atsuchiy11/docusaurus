@@ -6,7 +6,7 @@
   "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
   "sourceDirName": "tutorial-extras",
   "slug": "/tutorial-extras/manage-docs-versions",
-  "permalink": "/jamstack-js-tutorial/docs/tutorial-extras/manage-docs-versions",
+  "permalink": "/docusaurus/docs/tutorial-extras/manage-docs-versions",
   "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/tutorial-extras/manage-docs-versions.md",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Congratulations!",
-    "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/congratulations"
+    "permalink": "/docusaurus/docs/tutorial-basics/congratulations"
   },
   "next": {
     "title": "Translate your site",
-    "permalink": "/jamstack-js-tutorial/docs/tutorial-extras/translate-your-site"
+    "permalink": "/docusaurus/docs/tutorial-extras/translate-your-site"
   }
 }

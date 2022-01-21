@@ -6,7 +6,7 @@
   "source": "@site/docs/basics/chapter01.md",
   "sourceDirName": "basics",
   "slug": "/basics/chapter01",
-  "permalink": "/jamstack-js-tutorial/docs/basics/chapter01",
+  "permalink": "/docusaurus/docs/basics/chapter01",
   "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter01.md",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "イントロダクション",
-    "permalink": "/jamstack-js-tutorial/docs/intro"
+    "permalink": "/docusaurus/docs/intro"
   },
   "next": {
     "title": "中級編",
-    "permalink": "/jamstack-js-tutorial/docs/basics/chapter02"
+    "permalink": "/docusaurus/docs/basics/chapter02"
   }
 }

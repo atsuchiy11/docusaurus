@@ -6,7 +6,7 @@
   "source": "@site/docs/tutorial-basics/create-a-document.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/create-a-document",
-  "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-document",
+  "permalink": "/docusaurus/docs/tutorial-basics/create-a-document",
   "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/tutorial-basics/create-a-document.md",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Create a Page",
-    "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-page"
+    "permalink": "/docusaurus/docs/tutorial-basics/create-a-page"
   },
   "next": {
     "title": "Create a Blog Post",
-    "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-blog-post"
+    "permalink": "/docusaurus/docs/tutorial-basics/create-a-blog-post"
   }
 }

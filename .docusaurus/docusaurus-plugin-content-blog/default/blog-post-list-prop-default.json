@@ -3,15 +3,15 @@
   "items": [
     {
       "title": "Macセットアップ",
-      "permalink": "/jamstack-js-tutorial/blog/setup"
+      "permalink": "/docusaurus/blog/setup"
     },
     {
       "title": "開発環境",
-      "permalink": "/jamstack-js-tutorial/blog/manage"
+      "permalink": "/docusaurus/blog/manage"
     },
     {
       "title": "How To Use",
-      "permalink": "/jamstack-js-tutorial/blog/welcome"
+      "permalink": "/docusaurus/blog/welcome"
     }
   ]
 }

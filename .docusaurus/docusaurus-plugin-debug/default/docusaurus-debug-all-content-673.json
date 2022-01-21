@@ -5,8 +5,8 @@
         {
           "versionName": "current",
           "versionLabel": "Next",
-          "versionPath": "/jamstack-js-tutorial/docs",
-          "tagsPath": "/jamstack-js-tutorial/docs/tags",
+          "versionPath": "/docusaurus/docs",
+          "tagsPath": "/docusaurus/docs/tags",
           "versionEditUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs",
           "versionEditUrlLocalized": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/i18n/en/docusaurus-plugin-content-docs/current",
           "versionBanner": null,
@@ -26,7 +26,7 @@
               "source": "@site/docs/basics/chapter01.md",
               "sourceDirName": "basics",
               "slug": "/basics/chapter01",
-              "permalink": "/jamstack-js-tutorial/docs/basics/chapter01",
+              "permalink": "/docusaurus/docs/basics/chapter01",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter01.md",
               "tags": [],
               "version": "current",
@@ -37,11 +37,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "イントロダクション",
-                "permalink": "/jamstack-js-tutorial/docs/intro"
+                "permalink": "/docusaurus/docs/intro"
               },
               "next": {
                 "title": "中級編",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter02"
+                "permalink": "/docusaurus/docs/basics/chapter02"
               }
             },
             {
@@ -52,7 +52,7 @@
               "source": "@site/docs/basics/chapter02.md",
               "sourceDirName": "basics",
               "slug": "/basics/chapter02",
-              "permalink": "/jamstack-js-tutorial/docs/basics/chapter02",
+              "permalink": "/docusaurus/docs/basics/chapter02",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter02.md",
               "tags": [],
               "version": "current",
@@ -63,11 +63,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "基礎編",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter01"
+                "permalink": "/docusaurus/docs/basics/chapter01"
               },
               "next": {
                 "title": "補足編",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter03"
+                "permalink": "/docusaurus/docs/basics/chapter03"
               }
             },
             {
@@ -78,7 +78,7 @@
               "source": "@site/docs/basics/chapter03.md",
               "sourceDirName": "basics",
               "slug": "/basics/chapter03",
-              "permalink": "/jamstack-js-tutorial/docs/basics/chapter03",
+              "permalink": "/docusaurus/docs/basics/chapter03",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter03.md",
               "tags": [],
               "version": "current",
@@ -89,11 +89,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "中級編",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter02"
+                "permalink": "/docusaurus/docs/basics/chapter02"
               },
               "next": {
                 "title": "DOM とイベント",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter04"
+                "permalink": "/docusaurus/docs/basics/chapter04"
               }
             },
             {
@@ -104,7 +104,7 @@
               "source": "@site/docs/basics/chapter04.md",
               "sourceDirName": "basics",
               "slug": "/basics/chapter04",
-              "permalink": "/jamstack-js-tutorial/docs/basics/chapter04",
+              "permalink": "/docusaurus/docs/basics/chapter04",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter04.md",
               "tags": [],
               "version": "current",
@@ -115,11 +115,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "補足編",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter03"
+                "permalink": "/docusaurus/docs/basics/chapter03"
               },
               "next": {
                 "title": "Ajax と非同期処理",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter05"
+                "permalink": "/docusaurus/docs/basics/chapter05"
               }
             },
             {
@@ -130,7 +130,7 @@
               "source": "@site/docs/basics/chapter05.md",
               "sourceDirName": "basics",
               "slug": "/basics/chapter05",
-              "permalink": "/jamstack-js-tutorial/docs/basics/chapter05",
+              "permalink": "/docusaurus/docs/basics/chapter05",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter05.md",
               "tags": [],
               "version": "current",
@@ -141,11 +141,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "DOM とイベント",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter04"
+                "permalink": "/docusaurus/docs/basics/chapter04"
               },
               "next": {
                 "title": "Node.js",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter06"
+                "permalink": "/docusaurus/docs/basics/chapter06"
               }
             },
             {
@@ -156,7 +156,7 @@
               "source": "@site/docs/basics/chapter06.md",
               "sourceDirName": "basics",
               "slug": "/basics/chapter06",
-              "permalink": "/jamstack-js-tutorial/docs/basics/chapter06",
+              "permalink": "/docusaurus/docs/basics/chapter06",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter06.md",
               "tags": [],
               "version": "current",
@@ -167,11 +167,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Ajax と非同期処理",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter05"
+                "permalink": "/docusaurus/docs/basics/chapter05"
               },
               "next": {
                 "title": "jQuery",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter07"
+                "permalink": "/docusaurus/docs/basics/chapter07"
               }
             },
             {
@@ -182,7 +182,7 @@
               "source": "@site/docs/basics/chapter07.md",
               "sourceDirName": "basics",
               "slug": "/basics/chapter07",
-              "permalink": "/jamstack-js-tutorial/docs/basics/chapter07",
+              "permalink": "/docusaurus/docs/basics/chapter07",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter07.md",
               "tags": [],
               "version": "current",
@@ -193,11 +193,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Node.js",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter06"
+                "permalink": "/docusaurus/docs/basics/chapter06"
               },
               "next": {
                 "title": "いざ kintone へ",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter08"
+                "permalink": "/docusaurus/docs/basics/chapter08"
               }
             },
             {
@@ -208,7 +208,7 @@
               "source": "@site/docs/basics/chapter08.md",
               "sourceDirName": "basics",
               "slug": "/basics/chapter08",
-              "permalink": "/jamstack-js-tutorial/docs/basics/chapter08",
+              "permalink": "/docusaurus/docs/basics/chapter08",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter08.md",
               "tags": [],
               "version": "current",
@@ -219,11 +219,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "jQuery",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter07"
+                "permalink": "/docusaurus/docs/basics/chapter07"
               },
               "next": {
                 "title": "Create a Page",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-page"
+                "permalink": "/docusaurus/docs/tutorial-basics/create-a-page"
               }
             },
             {
@@ -234,7 +234,7 @@
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
-              "permalink": "/jamstack-js-tutorial/docs/intro",
+              "permalink": "/docusaurus/docs/intro",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/intro.md",
               "tags": [],
               "version": "current",
@@ -245,7 +245,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "基礎編",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter01"
+                "permalink": "/docusaurus/docs/basics/chapter01"
               }
             },
             {
@@ -256,7 +256,7 @@
               "source": "@site/docs/tutorial-basics/congratulations.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/congratulations",
-              "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/congratulations",
+              "permalink": "/docusaurus/docs/tutorial-basics/congratulations",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/tutorial-basics/congratulations.md",
               "tags": [],
               "version": "current",
@@ -267,11 +267,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Deploy your site",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/deploy-your-site"
+                "permalink": "/docusaurus/docs/tutorial-basics/deploy-your-site"
               },
               "next": {
                 "title": "Manage Docs Versions",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-extras/manage-docs-versions"
+                "permalink": "/docusaurus/docs/tutorial-extras/manage-docs-versions"
               }
             },
             {
@@ -282,7 +282,7 @@
               "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-blog-post",
+              "permalink": "/docusaurus/docs/tutorial-basics/create-a-blog-post",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/tutorial-basics/create-a-blog-post.md",
               "tags": [],
               "version": "current",
@@ -293,11 +293,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Document",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-document"
+                "permalink": "/docusaurus/docs/tutorial-basics/create-a-document"
               },
               "next": {
                 "title": "Markdown Features",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/markdown-features"
+                "permalink": "/docusaurus/docs/tutorial-basics/markdown-features"
               }
             },
             {
@@ -308,7 +308,7 @@
               "source": "@site/docs/tutorial-basics/create-a-document.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-document",
+              "permalink": "/docusaurus/docs/tutorial-basics/create-a-document",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/tutorial-basics/create-a-document.md",
               "tags": [],
               "version": "current",
@@ -319,11 +319,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Page",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-page"
+                "permalink": "/docusaurus/docs/tutorial-basics/create-a-page"
               },
               "next": {
                 "title": "Create a Blog Post",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/docusaurus/docs/tutorial-basics/create-a-blog-post"
               }
             },
             {
@@ -334,7 +334,7 @@
               "source": "@site/docs/tutorial-basics/create-a-page.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-page",
+              "permalink": "/docusaurus/docs/tutorial-basics/create-a-page",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/tutorial-basics/create-a-page.md",
               "tags": [],
               "version": "current",
@@ -345,11 +345,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "いざ kintone へ",
-                "permalink": "/jamstack-js-tutorial/docs/basics/chapter08"
+                "permalink": "/docusaurus/docs/basics/chapter08"
               },
               "next": {
                 "title": "Create a Document",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-document"
+                "permalink": "/docusaurus/docs/tutorial-basics/create-a-document"
               }
             },
             {
@@ -360,7 +360,7 @@
               "source": "@site/docs/tutorial-basics/deploy-your-site.md",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/deploy-your-site",
+              "permalink": "/docusaurus/docs/tutorial-basics/deploy-your-site",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/tutorial-basics/deploy-your-site.md",
               "tags": [],
               "version": "current",
@@ -371,11 +371,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Markdown Features",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/markdown-features"
+                "permalink": "/docusaurus/docs/tutorial-basics/markdown-features"
               },
               "next": {
                 "title": "Congratulations!",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/congratulations"
+                "permalink": "/docusaurus/docs/tutorial-basics/congratulations"
               }
             },
             {
@@ -386,7 +386,7 @@
               "source": "@site/docs/tutorial-basics/markdown-features.mdx",
               "sourceDirName": "tutorial-basics",
               "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/markdown-features",
+              "permalink": "/docusaurus/docs/tutorial-basics/markdown-features",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/tutorial-basics/markdown-features.mdx",
               "tags": [],
               "version": "current",
@@ -397,11 +397,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create a Blog Post",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-blog-post"
+                "permalink": "/docusaurus/docs/tutorial-basics/create-a-blog-post"
               },
               "next": {
                 "title": "Deploy your site",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/deploy-your-site"
+                "permalink": "/docusaurus/docs/tutorial-basics/deploy-your-site"
               }
             },
             {
@@ -412,7 +412,7 @@
               "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/jamstack-js-tutorial/docs/tutorial-extras/manage-docs-versions",
+              "permalink": "/docusaurus/docs/tutorial-extras/manage-docs-versions",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/tutorial-extras/manage-docs-versions.md",
               "tags": [],
               "version": "current",
@@ -423,11 +423,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Congratulations!",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/congratulations"
+                "permalink": "/docusaurus/docs/tutorial-basics/congratulations"
               },
               "next": {
                 "title": "Translate your site",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-extras/translate-your-site"
+                "permalink": "/docusaurus/docs/tutorial-extras/translate-your-site"
               }
             },
             {
@@ -438,7 +438,7 @@
               "source": "@site/docs/tutorial-extras/translate-your-site.md",
               "sourceDirName": "tutorial-extras",
               "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/jamstack-js-tutorial/docs/tutorial-extras/translate-your-site",
+              "permalink": "/docusaurus/docs/tutorial-extras/translate-your-site",
               "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/tutorial-extras/translate-your-site.md",
               "tags": [],
               "version": "current",
@@ -449,7 +449,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Manage Docs Versions",
-                "permalink": "/jamstack-js-tutorial/docs/tutorial-extras/manage-docs-versions"
+                "permalink": "/docusaurus/docs/tutorial-extras/manage-docs-versions"
               }
             }
           ],
@@ -562,7 +562,7 @@
         {
           "id": "setup",
           "metadata": {
-            "permalink": "/jamstack-js-tutorial/blog/setup",
+            "permalink": "/docusaurus/blog/setup",
             "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-11-10-mac-setup/index.md",
             "source": "@site/blog/2021-11-10-mac-setup/index.md",
             "title": "Macセットアップ",
@@ -572,7 +572,7 @@
             "tags": [
               {
                 "label": "Mac",
-                "permalink": "/jamstack-js-tutorial/blog/tags/mac"
+                "permalink": "/docusaurus/blog/tags/mac"
               }
             ],
             "readingTime": 6.545,
@@ -588,7 +588,7 @@
             ],
             "nextItem": {
               "title": "開発環境",
-              "permalink": "/jamstack-js-tutorial/blog/manage"
+              "permalink": "/docusaurus/blog/manage"
             }
           },
           "content": "最低限これぐらいはやっとけ、というような内容です。*Mac*前提です。\n\n## *Mac*本体\n\n### `fn`キーをデフォルトで有効にする\n\nデバッグ時などに`fn`を押すことから解放されます。\n\n`システム環境設定 > キーボード > F1,F2などのキーを...`にチェック\n\n## Homebrew\n\n*Mac*用のパッケージ管理システムです。\n\n1. ターミナルから[公式](https://brew.sh/index_ja)のシェルプロンプトを貼り付け\n\n```bash\n$ /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n```\n\n2. インストール（体感で 2〜3 分）\n\n3. *PATH*に追加する\n\n```bash\necho 'eval \"$(/opt/homebrew/bin/brew shellenv)\"' >> ~/.zprofile\neval \"$(/opt/homebrew/bin/brew shellenv)\"\n```\n\n4. *homebrew-cask*をインストールする（要検証）\n\nこのアイコンをドラッグしてください、、みたいな件から解放されます。\n\n```bash\n$ brew install alfred\n```\n\nこの*Homebrew*でガンガン入れていきます。\n\n## iTerm2\n\nターミナルのほぼ上位互換です。\n\n1. インストール\n\n```bash\n$ brew install iterm2 --cask\n```\n\n:::tip\n\nいつの間にか`cask`コマンドの使い方が変わってました（汗\n\n```bash title=\"旧コマンド\"\n$ brew cask install ***\n```\n\n```bash title=\"新コマンド\"\n$ brew install *** --cask\n```\n\n（2021-11-10 時点）\n\n:::\n\nこの辺は好みです。\n\n2. `Ctrl`キー 2 回押しで降臨させる\n\n- *Hotkey*を有効にする\n  - `Preferences > Keys > Hotkey > Create a Dedicated Hotkey Window...`\n  - `Double-tap key`を`^Control`にする\n- *Default Window*を開かないようにする\n  - `Preferences > General > Startup`で`Only Restore Hotkey Window`を選択する\n\n3. 背景を透過\n\n- `Preferences > Profiles > Transparency `で設定（50％オススメ）\n\nターミナルさん、短いお付き合いでしたがありがとうございました m(\\_ \\_)m\n\n## GitHub アカウント作成\n\n割愛\n\n## SSH Keys 作成\n\n1. 新しいキーペアを作成する\n\n```bash\n$ ssh-keygen -C \"your_name@prime-x.co.jp\"\n```\n\n- 保存先はそのまま*Enter*（`~/.ssh`になります）\n- パスフレーズは入力しましょう\n\n:::info\nパスフレーズは秘密鍵にアクセスするためのパスワードです。  \n:::\n\n2. 暗号強度を確認\n\n注）鍵長 2048 以上で暗号化方式が*RSA/ECDSA/Ed25519*であること\n\n```bash\n$ ssh-keygen -l -f ~/.ssh/id_rsa.pub\n3072 SHA256:************************* a2-tsuchiya@prime-x.co.jp (RSA)\n```\n\n3. 公開鍵（id_rsa.pub）をクリップボードにコピー\n\n```bash\n$ pbcopy < ~/.ssh/id_rsa.pub\n```\n\n4. GitHub に登録\n\n- `右上のSettings > SSH and GPG keys > 右上のNew SSH key`と遷移\n- *title*に好きな名前、*Key*にクリップボードの値を貼り付け\n- *Add SSH key*をクリック\n\n5. 疎通確認\n\n```bash\n$ ssh -T git@github.com\n```\n\n- フィンガープリントが表示されて、接続しますか？と聞かれるので（_yes_）\n- パスフレーズを入力\n- 以下のように表示されれば完了です。\n\n`Hi user_name! You've successfully authenticated, but GitHub does not provide shell access.`\n\n6. *SSH*キーを`ssh-agent`に追加する\n\n毎回パスフレーズを入力するの面倒ですよね？省略しましょう。\n\n```bash\n$ ssh-add ~/.ssh/id_rsa\n```\n\n- パスフレーズを入力する\n- `ssh-add -l`で鍵が登録されていることを確認する\n\n7. リポジトリをクローンしてみる\n\n```bash\n$ git clone git@github:[user_name or org_name]/[favorite_repo].git\n```\n\nパスフレーズ入力を求められずにクローンできれば成功です。お疲れ様でした。\n\n## VSCode\n\n正直エディタは揃えてもいいかなと思います。。\n\n```bash\n$ brew install visual-studio-code --cask\n```\n\n### Prettier\n\n1. 拡張機能から`Pretteir`をインストール\n\n2. *Prettier*設定ファイル作成\n\n```bash\n$ touch .prettierrc\n```\n\n3. 以下のように設定する\n\n```json title=\"./.prettierrc\"\n{\n  \"printWidth\": 100,\n  \"trailingComma\": \"es5\",\n  \"tabWidth\": 2,\n  \"semi\": false,\n  \"singleQuote\": true,\n  \"useTabs\": true,\n  \"jsxBracketSameLine\": true\n}\n```\n\n:::info\n詳細はプロジェクトごとに決めてください。\n:::\n\n4. *VSCode*ユーザ設定ファイル作成\n\n```bash\n$ mkdir -p .vscode/settings.json\n```\n\n6. 以下のように設定する\n\n既定のフォーマッタを*Prettier*にし、ファイル保存時に自動整形します。\n\n```json title=\"./.vscode/settings.json\"\n{\n  \"editor.formatOnSave\": true,\n  \"editor.defaultFormatter\": \"esbenp.prettier-vscode\"\n}\n```\n\n:::info\n詳細はプロジェクトごとに決めてください。\n:::\n\n:::tip\nプロジェクト、組織内のエディタを*VSCode*に統一すれば、設定を共有できます。\n:::\n\n## `nvm`\n\n*Node.js*のバージョンマネージャです。\n\n（すでにシェルの設定ファイルがあるかたはスキップしてください）\n\n1. デフォルトシェルを確認\n\n*macOS Cattallina*以降は*zsh*なのでその前提で進めます。\n\n```bash\n$ echo $SHELL\n/bin/zsh\n```\n\n2. 設定ファイルを作成\n\n```bash\n$ touch ~/.zshrc\n$ ls -a #確認\n```\n\n3. `nvm`インストール\n\n念の為[公式](https://github.com/nvm-sh/nvm#install--update-script)でバージョンを確認して、\n\n```bash\n$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.**.0/install.sh | bash\n```\n\n4. `.zshrc`に次の行を追加\n\n```bash\n$ source ~/.nvm/nvm.sh\n```\n\n5. 端末を再起動するか`(exec $SHELL -l)`を実行する\n\n6. インストール確認\n\n```bash\n$ nvm -v\n0.39.0\n```\n\n7. *Node.js*インストール\n\nインストール可能なバージョンを見て、無難に安定版（**_LTS_**）を選びましょう\n\n```bash\n$ nvm ls-remote\n...\nv16.13.0 (Latest LTS: Gallium)\n...\n```\n\n8. 安定板を選択して、インストール\n\n```bash\n$ nvm install v16.13.0\n```\n\n9. 使用するバージョンを決める\n\n```bash\n$ nvm use v16.13.0\n```\n\n:::info\n`npm`は今日日の*Node.js*には同梱されているので、以下のコマンドで確認します。\n\n```bash\nnpm -v\n8.1.0\n```\n\n:::\n\n10. `yarn`を使いたい方はここでインストール\n\n```bash\nnpm install -g yarn\n```\n\n## `pyenv`\n\n*Python*のバージョンマネージャです。2 系 3 系の切り替えなどに。\n\n1. `pyenv`インストール\n\n```bash\n$ brew update\n$ brew install pyenv\n```\n\n2. *PATH*を通す\n\n```\nexport PYENV_ROOT=\"$HOME/.pyenv\"\nexport PATH=\"$PYENV_ROOT/bin:$PATH\"\necho 'eval \"$(pyenv init --path)\"' >> ~/.zshrc\n```\n\n3. バージョン確認\n\n```bash\n$ pyenv -v\npyenv 2.2.0\n```\n\n4. *Python*インストール\n\n```bash\n# 全体\n$ pyenv global 3.9.7\n\n# ディレクトリのみ\n$ pyenv local 3.9.7\n```\n\n5. 端末を再起動するか`(exec $SHELL -l)`を実行する\n\n6. バージョン確認\n\n```bash\n$ python -V\nPython 3.9.6\n\n$ pyenve versions\n  system\n* 3.9.7 (set by /Users/[user_name]/.pyenv/version)\n```\n\n:::caution\n3.6 系は **2021 年 12 月**に、3.7 系は **2023 年 6 月**にそれぞれ、  \nセキュリティ修正の提供が終了しますのでそれ以降のバージョンを選択しましょう。\n:::\n\n## *AWS*環境"
@@ -596,7 +596,7 @@
         {
           "id": "manage",
           "metadata": {
-            "permalink": "/jamstack-js-tutorial/blog/manage",
+            "permalink": "/docusaurus/blog/manage",
             "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-10-23-github/index.md",
             "source": "@site/blog/2021-10-23-github/index.md",
             "title": "開発環境",
@@ -606,15 +606,15 @@
             "tags": [
               {
                 "label": "GitHub",
-                "permalink": "/jamstack-js-tutorial/blog/tags/git-hub"
+                "permalink": "/docusaurus/blog/tags/git-hub"
               },
               {
                 "label": "CodeSandbox",
-                "permalink": "/jamstack-js-tutorial/blog/tags/code-sandbox"
+                "permalink": "/docusaurus/blog/tags/code-sandbox"
               },
               {
                 "label": "チュートリアル",
-                "permalink": "/jamstack-js-tutorial/blog/tags/チュートリアル"
+                "permalink": "/docusaurus/blog/tags/チュートリアル"
               }
             ],
             "readingTime": 1.165,
@@ -630,11 +630,11 @@
             ],
             "prevItem": {
               "title": "Macセットアップ",
-              "permalink": "/jamstack-js-tutorial/blog/setup"
+              "permalink": "/docusaurus/blog/setup"
             },
             "nextItem": {
               "title": "How To Use",
-              "permalink": "/jamstack-js-tutorial/blog/welcome"
+              "permalink": "/docusaurus/blog/welcome"
             }
           },
           "content": "## セットアップ\n\nここで作る開発サイクルは以下のようになります。\n\n1. *GitHub*にリポジトリを作成してソースコード管理する\n2. コード記述は*CodeSandbox*上で行う\n3. *CodeSandbox*上で記述したコードは、*GitHub*リポジトリに*Pull Request*する\n4. *GitHub*上でマージする\n5. 2〜4 の繰り返し\n\n手順は[*CodeSandbox*ガイド](https://csb-jp.github.io/docs/github)に書いてある通りです。\n\n<!--truncate-->\n\n:::tip\n上記サイトも[Docusaurus](https://docusaurus.io/)で出来ていることに気付いた方、、優秀です w\n:::\n\n### 事前チェック\n\n1. [*CodeSandbox*](https://codesandbox.io/)を開いて、[このリポジトリ](https://github.com/a2-tsuchiya/js-plyaground)をフォークしてみましょう。\n2. インポートしたリポジトリをエクスポートしてみましょう。\n3. 自分のGitHub上にリポジトリができていればOKです。\n\n:::caution\nこれができないと話にならないので必ず事前に確認してください。\n:::\n\n### 補足\n\nテンプレートは*Vannila*を選択する（純粋な*JavaScript*）\n\n![Create Sandbox](./create-sandbox.png)\n\n*Drafts*を分かりやすい名前に変更する\n\n![Rename Drafts](./rename-drafts.png)"
@@ -642,7 +642,7 @@
         {
           "id": "welcome",
           "metadata": {
-            "permalink": "/jamstack-js-tutorial/blog/welcome",
+            "permalink": "/docusaurus/blog/welcome",
             "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/blog/blog/2021-10-22-howtouse/index.mdx",
             "source": "@site/blog/2021-10-22-howtouse/index.mdx",
             "title": "How To Use",
@@ -652,11 +652,11 @@
             "tags": [
               {
                 "label": "Docusaurus",
-                "permalink": "/jamstack-js-tutorial/blog/tags/docusaurus"
+                "permalink": "/docusaurus/blog/tags/docusaurus"
               },
               {
                 "label": "チュートリアル",
-                "permalink": "/jamstack-js-tutorial/blog/tags/チュートリアル"
+                "permalink": "/docusaurus/blog/tags/チュートリアル"
               }
             ],
             "readingTime": 1.295,
@@ -672,7 +672,7 @@
             ],
             "prevItem": {
               "title": "開発環境",
-              "permalink": "/jamstack-js-tutorial/blog/manage"
+              "permalink": "/docusaurus/blog/manage"
             }
           },
           "content": "## 位置付け\n\nここでは本編とは直接関連のない技術情報を掲載していきます。想定としては、、、\n\n- [**GitHub**](https://github.com/orgs/prime-x-co-ltd/dashboard)連携\n- [**CodeSandbox**](https://codesandbox.io/)連携\n- [**kintone**](https://h2zqr.cybozu.com/k/#/portal)関連\n- 開発環境（_npm/yarn_, *VSCode*など）\n- [**Qiita**](https://qiita.com/)記事へのリンク\n\nなどです。\n\n<!--truncate-->\n\n## 基本的な書き方\n\n詳細については[公式](https://docusaurus.io/docs/blog)をご確認ください。\n\n- `blog`ディレクトリにマークダウンファイル（\\*.md）を追加すると作成できます。\n- ブログ作成者のメタ情報は`authors.yml`にまとめらています。\n- ブログの投稿日はファイル名 or ディレクトリ名から抽出されます。\n\n  - `2019-05-30-welcome.md`\n  - `2019-05-30-welcome/index.md`\n\n- ディレクトリ直下に画像を配置すると、こんな感じで参照できます。\n\n[![Primex Logo](./primex_logo.jpg)](https://prime-x.co.jp)\n\n## ちょっと進んだ書き方\n\n### React カスタマイズ\n\n```jsx\n<button\n  class=\"button button--secondary button--lg\"\n  onClick={() => window.alert(\"hello, React.js\")}\n>\n  クリックしてねw\n</button>\n```\n\n<button\n  class=\"button button--secondary button--lg\"\n  onClick={() => window.alert(\"hello, React.js\")}\n>\n  クリックしてねw\n</button>\n\n### ブログマーカー\n\n`<!--truncate-->`を挿入すると、これより上が要約として表示され、これより下は非表示になります。"
@@ -681,7 +681,7 @@
       "blogListPaginated": [
         {
           "metadata": {
-            "permalink": "/jamstack-js-tutorial/blog",
+            "permalink": "/docusaurus/blog",
             "page": 1,
             "postsPerPage": 10,
             "totalPages": 1,
@@ -699,56 +699,56 @@
         }
       ],
       "blogTags": {
-        "/jamstack-js-tutorial/blog/tags/mac": {
+        "/docusaurus/blog/tags/mac": {
           "name": "Mac",
           "items": [
             "setup"
           ],
-          "permalink": "/jamstack-js-tutorial/blog/tags/mac"
+          "permalink": "/docusaurus/blog/tags/mac"
         },
-        "/jamstack-js-tutorial/blog/tags/git-hub": {
+        "/docusaurus/blog/tags/git-hub": {
           "name": "GitHub",
           "items": [
             "manage"
           ],
-          "permalink": "/jamstack-js-tutorial/blog/tags/git-hub"
+          "permalink": "/docusaurus/blog/tags/git-hub"
         },
-        "/jamstack-js-tutorial/blog/tags/code-sandbox": {
+        "/docusaurus/blog/tags/code-sandbox": {
           "name": "CodeSandbox",
           "items": [
             "manage"
           ],
-          "permalink": "/jamstack-js-tutorial/blog/tags/code-sandbox"
+          "permalink": "/docusaurus/blog/tags/code-sandbox"
         },
-        "/jamstack-js-tutorial/blog/tags/チュートリアル": {
+        "/docusaurus/blog/tags/チュートリアル": {
           "name": "チュートリアル",
           "items": [
             "manage",
             "welcome"
           ],
-          "permalink": "/jamstack-js-tutorial/blog/tags/チュートリアル"
+          "permalink": "/docusaurus/blog/tags/チュートリアル"
         },
-        "/jamstack-js-tutorial/blog/tags/docusaurus": {
+        "/docusaurus/blog/tags/docusaurus": {
           "name": "Docusaurus",
           "items": [
             "welcome"
           ],
-          "permalink": "/jamstack-js-tutorial/blog/tags/docusaurus"
+          "permalink": "/docusaurus/blog/tags/docusaurus"
         }
       },
-      "blogTagsListPath": "/jamstack-js-tutorial/blog/tags"
+      "blogTagsListPath": "/docusaurus/blog/tags"
     }
   },
   "docusaurus-plugin-content-pages": {
     "default": [
       {
         "type": "jsx",
-        "permalink": "/jamstack-js-tutorial/",
+        "permalink": "/docusaurus/",
         "source": "@site/src/pages/index.tsx"
       },
       {
         "type": "mdx",
-        "permalink": "/jamstack-js-tutorial/markdown-page",
+        "permalink": "/docusaurus/markdown-page",
         "source": "@site/src/pages/markdown-page.md"
       }
     ]

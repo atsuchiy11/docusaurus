@@ -1,13 +1,13 @@
 export default {
   "title": "I ❤️ JavaScript",
   "tagline": "Let's enjoy programming!",
-  "url": "https://prime-x-co-ltd.github.io",
-  "baseUrl": "/jamstack-js-tutorial/",
+  "url": "https://atsuchiy11.github.io",
+  "baseUrl": "/docusaurus/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "prime-x-co-ltd",
-  "projectName": "jamstack-js-tutorial",
+  "organizationName": "atsuchiy11",
+  "projectName": "docusaurus",
   "presets": [
     [
       "@docusaurus/preset-classic",

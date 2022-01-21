@@ -4,211 +4,211 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/jamstack-js-tutorial/__docusaurus/debug',
-    component: ComponentCreator('/jamstack-js-tutorial/__docusaurus/debug','07e'),
+    path: '/docusaurus/__docusaurus/debug',
+    component: ComponentCreator('/docusaurus/__docusaurus/debug','cd2'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/__docusaurus/debug/config',
-    component: ComponentCreator('/jamstack-js-tutorial/__docusaurus/debug/config','f16'),
+    path: '/docusaurus/__docusaurus/debug/config',
+    component: ComponentCreator('/docusaurus/__docusaurus/debug/config','136'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/__docusaurus/debug/content',
-    component: ComponentCreator('/jamstack-js-tutorial/__docusaurus/debug/content','cdf'),
+    path: '/docusaurus/__docusaurus/debug/content',
+    component: ComponentCreator('/docusaurus/__docusaurus/debug/content','b6c'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/__docusaurus/debug/globalData',
-    component: ComponentCreator('/jamstack-js-tutorial/__docusaurus/debug/globalData','6e2'),
+    path: '/docusaurus/__docusaurus/debug/globalData',
+    component: ComponentCreator('/docusaurus/__docusaurus/debug/globalData','038'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/__docusaurus/debug/metadata',
-    component: ComponentCreator('/jamstack-js-tutorial/__docusaurus/debug/metadata','e4a'),
+    path: '/docusaurus/__docusaurus/debug/metadata',
+    component: ComponentCreator('/docusaurus/__docusaurus/debug/metadata','5f4'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/__docusaurus/debug/registry',
-    component: ComponentCreator('/jamstack-js-tutorial/__docusaurus/debug/registry','9e3'),
+    path: '/docusaurus/__docusaurus/debug/registry',
+    component: ComponentCreator('/docusaurus/__docusaurus/debug/registry','ab4'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/__docusaurus/debug/routes',
-    component: ComponentCreator('/jamstack-js-tutorial/__docusaurus/debug/routes','453'),
+    path: '/docusaurus/__docusaurus/debug/routes',
+    component: ComponentCreator('/docusaurus/__docusaurus/debug/routes','cf4'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/blog',
-    component: ComponentCreator('/jamstack-js-tutorial/blog','8bc'),
+    path: '/docusaurus/blog',
+    component: ComponentCreator('/docusaurus/blog','cd0'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/blog/archive',
-    component: ComponentCreator('/jamstack-js-tutorial/blog/archive','140'),
+    path: '/docusaurus/blog/archive',
+    component: ComponentCreator('/docusaurus/blog/archive','ae5'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/blog/manage',
-    component: ComponentCreator('/jamstack-js-tutorial/blog/manage','e94'),
+    path: '/docusaurus/blog/manage',
+    component: ComponentCreator('/docusaurus/blog/manage','78a'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/blog/setup',
-    component: ComponentCreator('/jamstack-js-tutorial/blog/setup','19f'),
+    path: '/docusaurus/blog/setup',
+    component: ComponentCreator('/docusaurus/blog/setup','ce6'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/blog/tags',
-    component: ComponentCreator('/jamstack-js-tutorial/blog/tags','d2d'),
+    path: '/docusaurus/blog/tags',
+    component: ComponentCreator('/docusaurus/blog/tags','540'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/blog/tags/code-sandbox',
-    component: ComponentCreator('/jamstack-js-tutorial/blog/tags/code-sandbox','dec'),
+    path: '/docusaurus/blog/tags/code-sandbox',
+    component: ComponentCreator('/docusaurus/blog/tags/code-sandbox','b7b'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/blog/tags/docusaurus',
-    component: ComponentCreator('/jamstack-js-tutorial/blog/tags/docusaurus','685'),
+    path: '/docusaurus/blog/tags/docusaurus',
+    component: ComponentCreator('/docusaurus/blog/tags/docusaurus','6b0'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/blog/tags/git-hub',
-    component: ComponentCreator('/jamstack-js-tutorial/blog/tags/git-hub','1a3'),
+    path: '/docusaurus/blog/tags/git-hub',
+    component: ComponentCreator('/docusaurus/blog/tags/git-hub','625'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/blog/tags/mac',
-    component: ComponentCreator('/jamstack-js-tutorial/blog/tags/mac','651'),
+    path: '/docusaurus/blog/tags/mac',
+    component: ComponentCreator('/docusaurus/blog/tags/mac','7c8'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/blog/tags/チュートリアル',
-    component: ComponentCreator('/jamstack-js-tutorial/blog/tags/チュートリアル','81d'),
+    path: '/docusaurus/blog/tags/チュートリアル',
+    component: ComponentCreator('/docusaurus/blog/tags/チュートリアル','d1d'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/blog/welcome',
-    component: ComponentCreator('/jamstack-js-tutorial/blog/welcome','47e'),
+    path: '/docusaurus/blog/welcome',
+    component: ComponentCreator('/docusaurus/blog/welcome','7c6'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/markdown-page',
-    component: ComponentCreator('/jamstack-js-tutorial/markdown-page','187'),
+    path: '/docusaurus/markdown-page',
+    component: ComponentCreator('/docusaurus/markdown-page','8cd'),
     exact: true
   },
   {
-    path: '/jamstack-js-tutorial/docs',
-    component: ComponentCreator('/jamstack-js-tutorial/docs','358'),
+    path: '/docusaurus/docs',
+    component: ComponentCreator('/docusaurus/docs','07c'),
     routes: [
       {
-        path: '/jamstack-js-tutorial/docs/basics/chapter01',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/basics/chapter01','a82'),
+        path: '/docusaurus/docs/basics/chapter01',
+        component: ComponentCreator('/docusaurus/docs/basics/chapter01','f4a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/basics/chapter02',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/basics/chapter02','a26'),
+        path: '/docusaurus/docs/basics/chapter02',
+        component: ComponentCreator('/docusaurus/docs/basics/chapter02','c62'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/basics/chapter03',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/basics/chapter03','218'),
+        path: '/docusaurus/docs/basics/chapter03',
+        component: ComponentCreator('/docusaurus/docs/basics/chapter03','283'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/basics/chapter04',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/basics/chapter04','65d'),
+        path: '/docusaurus/docs/basics/chapter04',
+        component: ComponentCreator('/docusaurus/docs/basics/chapter04','38a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/basics/chapter05',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/basics/chapter05','019'),
+        path: '/docusaurus/docs/basics/chapter05',
+        component: ComponentCreator('/docusaurus/docs/basics/chapter05','8c6'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/basics/chapter06',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/basics/chapter06','d30'),
+        path: '/docusaurus/docs/basics/chapter06',
+        component: ComponentCreator('/docusaurus/docs/basics/chapter06','559'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/basics/chapter07',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/basics/chapter07','0bf'),
+        path: '/docusaurus/docs/basics/chapter07',
+        component: ComponentCreator('/docusaurus/docs/basics/chapter07','36c'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/basics/chapter08',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/basics/chapter08','e02'),
+        path: '/docusaurus/docs/basics/chapter08',
+        component: ComponentCreator('/docusaurus/docs/basics/chapter08','1c5'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/intro',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/intro','2eb'),
+        path: '/docusaurus/docs/intro',
+        component: ComponentCreator('/docusaurus/docs/intro','c4d'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/tutorial-basics/congratulations',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/tutorial-basics/congratulations','c87'),
+        path: '/docusaurus/docs/tutorial-basics/congratulations',
+        component: ComponentCreator('/docusaurus/docs/tutorial-basics/congratulations','69b'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/tutorial-basics/create-a-blog-post','02e'),
+        path: '/docusaurus/docs/tutorial-basics/create-a-blog-post',
+        component: ComponentCreator('/docusaurus/docs/tutorial-basics/create-a-blog-post','941'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/tutorial-basics/create-a-document',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/tutorial-basics/create-a-document','810'),
+        path: '/docusaurus/docs/tutorial-basics/create-a-document',
+        component: ComponentCreator('/docusaurus/docs/tutorial-basics/create-a-document','688'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/tutorial-basics/create-a-page',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/tutorial-basics/create-a-page','17d'),
+        path: '/docusaurus/docs/tutorial-basics/create-a-page',
+        component: ComponentCreator('/docusaurus/docs/tutorial-basics/create-a-page','856'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/tutorial-basics/deploy-your-site','cca'),
+        path: '/docusaurus/docs/tutorial-basics/deploy-your-site',
+        component: ComponentCreator('/docusaurus/docs/tutorial-basics/deploy-your-site','74f'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/tutorial-basics/markdown-features',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/tutorial-basics/markdown-features','0fc'),
+        path: '/docusaurus/docs/tutorial-basics/markdown-features',
+        component: ComponentCreator('/docusaurus/docs/tutorial-basics/markdown-features','34a'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/tutorial-extras/manage-docs-versions','516'),
+        path: '/docusaurus/docs/tutorial-extras/manage-docs-versions',
+        component: ComponentCreator('/docusaurus/docs/tutorial-extras/manage-docs-versions','c1e'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
       {
-        path: '/jamstack-js-tutorial/docs/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/jamstack-js-tutorial/docs/tutorial-extras/translate-your-site','9cd'),
+        path: '/docusaurus/docs/tutorial-extras/translate-your-site',
+        component: ComponentCreator('/docusaurus/docs/tutorial-extras/translate-your-site','dc1'),
         exact: true,
         'sidebar': "tutorialSidebar"
       }
     ]
   },
   {
-    path: '/jamstack-js-tutorial/',
-    component: ComponentCreator('/jamstack-js-tutorial/','296'),
+    path: '/docusaurus/',
+    component: ComponentCreator('/docusaurus/','fa7'),
     exact: true
   },
   {

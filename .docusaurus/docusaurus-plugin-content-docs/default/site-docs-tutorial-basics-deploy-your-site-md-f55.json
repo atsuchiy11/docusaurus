@@ -6,7 +6,7 @@
   "source": "@site/docs/tutorial-basics/deploy-your-site.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/deploy-your-site",
-  "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/deploy-your-site",
+  "permalink": "/docusaurus/docs/tutorial-basics/deploy-your-site",
   "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/tutorial-basics/deploy-your-site.md",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Markdown Features",
-    "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/markdown-features"
+    "permalink": "/docusaurus/docs/tutorial-basics/markdown-features"
   },
   "next": {
     "title": "Congratulations!",
-    "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/congratulations"
+    "permalink": "/docusaurus/docs/tutorial-basics/congratulations"
   }
 }

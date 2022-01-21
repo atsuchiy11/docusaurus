@@ -6,7 +6,7 @@
   "source": "@site/docs/tutorial-basics/markdown-features.mdx",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/markdown-features",
-  "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/markdown-features",
+  "permalink": "/docusaurus/docs/tutorial-basics/markdown-features",
   "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/tutorial-basics/markdown-features.mdx",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Create a Blog Post",
-    "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/create-a-blog-post"
+    "permalink": "/docusaurus/docs/tutorial-basics/create-a-blog-post"
   },
   "next": {
     "title": "Deploy your site",
-    "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/deploy-your-site"
+    "permalink": "/docusaurus/docs/tutorial-basics/deploy-your-site"
   }
 }

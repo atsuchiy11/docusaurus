@@ -6,7 +6,7 @@
   "source": "@site/docs/tutorial-basics/congratulations.md",
   "sourceDirName": "tutorial-basics",
   "slug": "/tutorial-basics/congratulations",
-  "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/congratulations",
+  "permalink": "/docusaurus/docs/tutorial-basics/congratulations",
   "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/tutorial-basics/congratulations.md",
   "tags": [],
   "version": "current",
@@ -17,10 +17,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Deploy your site",
-    "permalink": "/jamstack-js-tutorial/docs/tutorial-basics/deploy-your-site"
+    "permalink": "/docusaurus/docs/tutorial-basics/deploy-your-site"
   },
   "next": {
     "title": "Manage Docs Versions",
-    "permalink": "/jamstack-js-tutorial/docs/tutorial-extras/manage-docs-versions"
+    "permalink": "/docusaurus/docs/tutorial-extras/manage-docs-versions"
   }
 }
