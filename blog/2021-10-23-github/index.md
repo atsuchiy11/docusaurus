@@ -1,6 +1,6 @@
 ---
 slug: manage
-title: 開発環境
+title: 研修環境
 authors: [a2-tsuchiya]
 tags: [GitHub, CodeSandbox, チュートリアル]
 ---
@@ -25,9 +25,9 @@ tags: [GitHub, CodeSandbox, チュートリアル]
 
 ### 事前チェック
 
-1. [*CodeSandbox*](https://codesandbox.io/)を開いて、[このリポジトリ](https://github.com/a2-tsuchiya/js-plyaground)をフォークしてみましょう。
+1. [_CodeSandbox_](https://codesandbox.io/)を開いて、[このリポジトリ](https://github.com/a2-tsuchiya/js-plyaground)をフォークしてみましょう。
 2. インポートしたリポジトリをエクスポートしてみましょう。
-3. 自分のGitHub上にリポジトリができていればOKです。
+3. 自分の GitHub 上にリポジトリができていれば OK です。
 
 :::caution
 これができないと話にならないので必ず事前に確認してください。
