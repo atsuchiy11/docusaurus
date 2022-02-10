@@ -12,26 +12,87 @@
             <link>https://atsuchiy11.github.io/docusaurus/blog/setup</link>
             <guid>setup</guid>
             <pubDate>Wed, 10 Nov 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[最低限これぐらいはやっとけ、というような内容です。Mac前提です。]]></description>
-            <content:encoded><![CDATA[<p>最低限これぐらいはやっとけ、というような内容です。<em>Mac</em>前提です。</p><h2><em>Mac</em>本体</h2><h3><code>fn</code>キーをデフォルトで有効にする</h3><p>デバッグ時などに<code>fn</code>を押すことから解放されます。</p><p><code>システム環境設定 &gt; キーボード &gt; F1,F2などのキーを...</code>にチェック</p><h2>Homebrew</h2><p><em>Mac</em>用のパッケージ管理システムです。</p><ol><li>ターミナルから<a href="https://brew.sh/index_ja">公式</a>のシェルプロンプトを貼り付け</li></ol><pre><code class="language-bash">$ /bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
-</code></pre><ol start="2"><li><p>インストール（体感で 2〜3 分）</p></li><li><p><em>PATH</em>に追加する</p></li></ol><pre><code class="language-bash">echo &#x27;eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;&#x27; &gt;&gt; ~/.zprofile
+            <description><![CDATA[最低限これぐらいはやっとけ、お好みでどうぞ、というような内容です。]]></description>
+            <content:encoded><![CDATA[<p><del>最低限これぐらいはやっとけ、</del>お好みでどうぞ、というような内容です。</p><h2><em>Mac</em>本体</h2><h3><code>fn</code>キーをデフォルトで有効にする</h3><p>デバッグ時などに<code>fn</code>を押すことから解放されます。</p><p><code>システム環境設定 &gt; キーボード &gt; F1,F2などのキーを...</code>にチェック</p><h3>基本的なショートカット</h3><ul><li><code>Command + Space</code> | Spotlight Search</li><li><code>Command + Tab</code> | 起動しているアプリの切り替え</li><li><code>Ctrl + ↑ or ↓</code> | ウインドウの切り替え</li><li><code>(Fn) + F11</code> | デスクトップを表示/非表示</li><li><code>Option + Command + Space</code> | Finder を表示</li></ul><h2>Homebrew</h2><p><em>Mac</em>用のパッケージ管理システムです。</p><p>CUI アプリ(<code>brew install go</code>とか)をコマンドからインストールできるようになります。</p><ol><li><p>ターミナルから<a href="https://brew.sh/index_ja">公式</a>のシェルプロンプトを貼り付け</p><pre><code class="language-bash">$ /bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
+</code></pre></li><li><p>インストール（体感で 2〜3 分）</p></li><li><p><em>PATH</em>に追加する</p><pre><code class="language-bash">echo &#x27;eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;&#x27; &gt;&gt; ~/.zprofile
 eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;
-</code></pre><ol start="4"><li><em>homebrew-cask</em>をインストールする（要検証）</li></ol><p>このアイコンをドラッグしてください、、みたいな件から解放されます。</p><pre><code class="language-bash">$ brew install alfred
-</code></pre><p>この<em>Homebrew</em>でガンガン入れていきます。</p><h2>iTerm2</h2><p>ターミナルのほぼ上位互換です。</p><ol><li>インストール</li></ol><pre><code class="language-bash">$ brew install iterm2 --cask
+</code></pre></li><li><p><em>homebrew-cask</em>をインストールする（任意）</p></li></ol><p>GUI アプリ（Visual Studio とか Google Chrome）もコマンドからインストールできるようになります。</p><p>このアイコンをドラッグしてください、、みたいな件から解放されます。</p><pre><code class="language-bash">$ brew install alfred
+</code></pre><p>この<em>Homebrew</em>でガンガン入れていきます。</p><h3>基本的な操作</h3><ul><li><p>インストール</p><pre><code class="language-zsh">brew install &lt;package&gt;
+</code></pre></li><li><p>アンインストール</p><pre><code class="language-zsh">brew uninstall &lt;package&gt;
+</code></pre></li><li><p>インストール済アプリのリスト表示</p><pre><code class="language-zsh">brew list
+</code></pre></li></ul><h2>iTerm2</h2><p>ターミナルのほぼ上位互換です。</p><ol><li><p>インストール</p><pre><code class="language-bash">$ brew install iterm2 --cask
 </code></pre><p>:::tip</p><p>いつの間にか<code>cask</code>コマンドの使い方が変わってました（汗</p><pre><code class="language-bash" metastring="title=&quot;旧コマンド&quot;" title="&quot;旧コマンド&quot;">$ brew cask install ***
 </code></pre><pre><code class="language-bash" metastring="title=&quot;新コマンド&quot;" title="&quot;新コマンド&quot;">$ brew install *** --cask
-</code></pre><p>（2021-11-10 時点）</p><p>:::</p><p>この辺は好みです。</p><ol start="2"><li><code>Ctrl</code>キー 2 回押しで降臨させる</li></ol><ul><li><em>Hotkey</em>を有効にする<ul><li><code>Preferences &gt; Keys &gt; Hotkey &gt; Create a Dedicated Hotkey Window...</code></li><li><code>Double-tap key</code>を<code>^Control</code>にする</li></ul></li><li><em>Default Window</em>を開かないようにする<ul><li><code>Preferences &gt; General &gt; Startup</code>で<code>Only Restore Hotkey Window</code>を選択する</li></ul></li></ul><ol start="3"><li>背景を透過</li></ol><ul><li><code>Preferences &gt; Profiles &gt; Transparency </code>で設定（50％オススメ）</li></ul><p>ターミナルさん、短いお付き合いでしたがありがとうございました m(<!-- -->_<!-- --> <!-- -->_<!-- -->)m</p><h2>GitHub アカウント作成</h2><p>割愛</p><h2>SSH Keys 作成</h2><ol><li>新しいキーペアを作成する</li></ol><pre><code class="language-bash">$ ssh-keygen -C &quot;your_name@prime-x.co.jp&quot;
-</code></pre><ul><li>保存先はそのまま<em>Enter</em>（<code>~/.ssh</code>になります）</li><li>パスフレーズは入力しましょう</li></ul><p>:::info
-パスフレーズは秘密鍵にアクセスするためのパスワードです。<br/>
-<!-- -->:::</p><ol start="2"><li>暗号強度を確認</li></ol><p>注）鍵長 2048 以上で暗号化方式が<em>RSA/ECDSA/Ed25519</em>であること</p><pre><code class="language-bash">$ ssh-keygen -l -f ~/.ssh/id_rsa.pub
+</code></pre><p>（2021-11-10 時点）</p><p>:::</p></li></ol><p>この辺は好みです。</p><ol start="2"><li><p><code>Ctrl</code>キー 2 回押しで降臨させる</p><ul><li><em>Hotkey</em>を有効にする<ul><li><code>Preferences &gt; Keys &gt; Hotkey &gt; Create a Dedicated Hotkey Window...</code></li><li><code>Double-tap key</code>を<code>^Control</code>にする</li></ul></li><li><em>Default Window</em>を開かないようにする<ul><li><code>Preferences &gt; General &gt; Startup</code>で<code>Only Restore Hotkey Window</code>を選択する</li></ul></li></ul></li><li><p>背景を透過させる</p><ul><li><code>Preferences &gt; Profiles &gt; Transparency </code>で設定（50％オススメ）</li></ul></li></ol><br/><p>ターミナルさん、短いお付き合いでしたがありがとうございました m(<!-- -->_<!-- --> <!-- -->_<!-- -->)m</p><h3>基本的な操作</h3><ul><li><code>Command + t</code> | 新しいタブの作成</li><li><code>Command + w (control + d)</code> | タブの削除</li><li><code>Command + ←→ or 数字</code> | タブの移動</li><li><code>Command + f</code> | 検索</li><li><code>Command + +/-</code> | 拡大/縮小</li><li><code>Command + Enter</code> | フルスクリーン/解除</li><li><code>Command + shift + h</code> | クリップボードの履歴呼び出し</li></ul><h2>zsh</h2><p><em>macOS Cattallina</em>以降は<em>zsh</em>なのでその前提で進めます。</p><h3>準備</h3><ol><li><p>デフォルトシェルを確認</p><pre><code class="language-bash">$ echo $SHELL
+/bin/zsh
+</code></pre></li><li><p>（なければ）設定ファイルを作成</p><pre><code class="language-bash">$ touch ~/.zshrc
+$ ls -a #確認
+</code></pre></li></ol><h3>移動系</h3><pre><code class="language-bash" metastring="title=&quot;~/.zshrc&quot;" title="&quot;~/.zshrc&quot;">setopt no_beep
+setopt auto_pushd
+setopt pushd_ignore_dups
+setopt auto_cd
+</code></pre><br/><p>ご存知の方は読み飛ばして下さい。。</p><h4><code>auto_cd</code></h4><p>一致するディレクトリに<code>cd</code>なしで移動できる</p><pre><code class="language-zsh">% ls ~
+Applications Documents    Library      Music        Public
+Desktop      Downloads    Movies       Pictures
+# 通常は
+% cd Documents
+# のところを
+% Documents
+# で済む
+</code></pre><h4><code>auto_pushd</code></h4><p>ディレクト移動時に自動で<code>pushd</code>する</p><p>そもそも、、</p><ul><li><p><code>pushd</code> | カレントディレクトリへのパスをスタックに積む</p></li><li><p><code>popd</code> | スタックからパスを取り出し遷移する</p><pre><code class="language-bash">~ % cd /tmp/scripts
+/tmp/scripts % pushd #現在のパスをスタックに積む
+/tmp/scripts % cd /path/to
+/path/to % popd #スタックから取り出す
+/tmp/scripts % #取り出したパスに遷移する
+</code></pre><p>この挙動を自動化します。</p></li></ul><h4><code>pushd_ignore_dups</code></h4><p>重複するパスをスタックに積まない</p><h3>履歴系</h3><ul><li><p><code>hist_ignore_dups</code> | 直前と同じコマンドは履歴に追加しない</p></li><li><p><code>share_history</code> | 他の zsh で履歴を共有する</p></li><li><p><code>inc_append_history</code> | 即座に履歴を保存する</p><pre><code class="language-zsh" metastring="title=&quot;~/.zshrc&quot;" title="&quot;~/.zshrc&quot;">setopt hist_ignore_dups
+setopt share_history
+setopt inc_append_history
+
+export HISTFILE=~/.zsh_history
+export HISTSIZE=10000
+export SAVEHIST=10000
+</code></pre></li></ul><h3>設定を反映する</h3><pre><code class="language-bash">source ~/.zshrc
+# or
+exec zsh
+</code></pre><h3>oh my zsh</h3><p>zsh のプラグインマネージャです。プラグインで拡張したい方向けです。</p><p>使いたい方は個別に聞いてください。。</p><h2>Vim/NeoVim</h2><p><em>Vim</em>は最初から入っていますので、<em>NeoVim</em>を使いたい方向けです。</p><p><strong>NeoVim??</strong>という方は<a href="https://zenn.dev/yano/articles/vim_frontend_development_2021">この辺り</a>をどうぞ</p><ol><li><p>インストール</p><pre><code class="language-zsh">nvim --version
+brew install neovim
+</code></pre></li><li><p>エイリアス設定（NeoVim をデフォルトにする）</p><pre><code class="language-zsh" metastring="title=&quot;~/.zshrc&quot;" title="&quot;~/.zshrc&quot;">alias vi=&quot;nvim&quot;
+alias vim=&quot;nvim&quot;
+alias view=&quot;nvim -R
+</code></pre><ul><li><code>vi/vim</code>と叩いても<code>nvim</code>を起動する</li><li><code>view</code>と叩くと<code>nvim</code>を読み取りモードで起動する</li></ul></li><li><p>コンフィグ設定</p><p>＊筆者の好みです、あしからず。</p><pre><code class="language-zsh" metastring="title=&quot;~/.config/nvim/init.vim&quot;" title="&quot;~/.config/nvim/init.vim&quot;">set shell=/bin/zsh              # コマンドはzshを使う
+set shiftwidth=4                # インデント幅
+set tabstop=4                   # タブに変換されるサイズ
+set expandtab                   # タブをスペースに変換する
+set textwidth=0                 # ワードラッピングなし
+set autoindent                  # 自動インデント（:set paste で解除）
+set hlsearch                    # 検索結果のハイライト
+set clipboard=unnamed           # クリップボードへ登録する
+set number                      # 行番号を表示
+inoremap &lt;silent&gt; jj &lt;ESC&gt;      # ESC を jj にする
+</code></pre></li></ol><h3>vim-plug</h3><p>Vim のプラグインマネージャです。プラグインで拡張したい方向けです。</p><p>使いたい方は個別に聞いてください。。</p><h2>Tmux (terminal multiplexer)</h2><p>画面分割とセッション管理をいい感じにしてくれます。</p><p><img src="/img/blog/tmux-demo.png" alt="Tmux"/></p><p>こういう事をやりたい方向けです。</p><h3>インストール</h3><pre><code class="language-zsh">% tmux -V
+% brew install tmux
+</code></pre><h3>構造</h3><ul><li>１セッションに複数ウインドウ作れる</li><li>１ウインドウに複数ペイン作れる</li></ul><p>:::info
+上のイメージは３ウインドウ（<em>main</em>, <em>server</em>, <em>aws</em>）動いていて、<br/>
+カレントウインドウで２ペインが動いている状態です。
+:::</p><h3>基本操作</h3><ul><li><code>tmux</code> | 起動</li><li><code>tmux ls</code> | セッション一覧</li><li><code>tmux kill-server</code> | tmux のシャットダウン<ul><li><code>exit</code>でも良い</li></ul></li><li><code>Ctrl + b d</code> | デタッチ</li><li><code>tmux a (-t [session])</code> | アタッチ<ul><li>セッションが 1 つならオプション引数は省略可</li></ul></li><li><code>Ctrl + b s</code> | セッション一覧から選択</li><li><code>Ctrl + b t</code> | 時計を表示</li></ul><p>:::tip prefix の変更
+<strong>Ctrl+b -&gt; Ctrl+g</strong> に変更（した方が使いやすい）</p><pre><code class="language-zsh" metastring="title=&quot;.tmux.conf&quot;" title="&quot;.tmux.conf&quot;">unbind C-b
+set -g prefix C-g
+bind C-g send-prefix
+</code></pre><p>:::</p><h3>ウインドウの操作</h3><p>Prefix は<code>g</code>に変更している前提です。</p><ul><li><code>Ctrl + g c</code> | 新規ウインドウ</li><li><code>Ctrl + g n</code> | 次のウインドウ</li><li><code>Ctrl + g p</code> | 前のウインドウ</li><li><code>Ctrl + g [n]</code> | <!-- -->[n]<!-- -->番目のウィンドウに移動</li><li><code>Ctrl + g &amp;</code> | ウインドウを破棄する</li><li><code>Ctrl + g ,</code> | ウインドウの名前を変える</li></ul><h3>ペインの移動</h3><ul><li><code>Ctrl + g \</code> | 横（左右）に分ける<ul><li>(default) Ctrl + g %</li></ul></li><li><code>Ctrl + g -</code> | 縦（上下）に分ける<ul><li>(default) Ctrl + g &quot;</li></ul></li><li><code>Ctrl + g x</code> | ペイン破棄<ul><li>Ctrl + d (通常の terminal の exit)でも OK</li></ul></li><li><code>Ctrl + g z</code> | ペインの拡大/縮小</li><li><code>Ctrl + g o</code> | 次のペインに移動</li><li><code>Ctrl + g q -&gt; [n]</code> | ペイン番号の表示から n に移動</li></ul><p>:::tip 割り当てキーの変更
+<code>%</code>と<code>&quot;</code>は死ぬほど打ちにくいので、<code>\</code>と<code>-</code>に割り当てます</p><pre><code class="language-zsh" metastring="title=&quot;.tmux.conf&quot;" title="&quot;.tmux.conf&quot;">bind \\ split-window -h
+bind - split-window -v
+</code></pre><p>:::</p><p>詳細は個別に聞いてください。。</p><h2>GitHub アカウント作成</h2><p>割愛</p><h2>SSH Keys 作成</h2><ol><li><p>新しいキーペアを作成する</p><pre><code class="language-zsh">$ ssh-keygen -C &quot;your_name@prime-x.co.jp&quot;
+</code></pre></li></ol><ul><li>保存先はそのまま<em>Enter</em>（<code>~/.ssh</code>になります）</li><li>パスフレーズは入力しましょう</li></ul><p>:::info
+パスフレーズは秘密鍵にアクセスするためのパスワードです。
+:::</p><ol start="2"><li><p>暗号強度を確認</p><pre><code class="language-zsh">$ ssh-keygen -l -f ~/.ssh/id_rsa.pub
 3072 SHA256:************************* a2-tsuchiya@prime-x.co.jp (RSA)
-</code></pre><ol start="3"><li>公開鍵（id_rsa.pub）をクリップボードにコピー</li></ol><pre><code class="language-bash">$ pbcopy &lt; ~/.ssh/id_rsa.pub
-</code></pre><ol start="4"><li>GitHub に登録</li></ol><ul><li><code>右上のSettings &gt; SSH and GPG keys &gt; 右上のNew SSH key</code>と遷移</li><li><em>title</em>に好きな名前、<em>Key</em>にクリップボードの値を貼り付け</li><li><em>Add SSH key</em>をクリック</li></ul><ol start="5"><li>疎通確認</li></ol><pre><code class="language-bash">$ ssh -T git@github.com
-</code></pre><ul><li>フィンガープリントが表示されて、接続しますか？と聞かれるので（<em>yes</em>）</li><li>パスフレーズを入力</li><li>以下のように表示されれば完了です。</li></ul><p><code>Hi user_name! You&#x27;ve successfully authenticated, but GitHub does not provide shell access.</code></p><ol start="6"><li><em>SSH</em>キーを<code>ssh-agent</code>に追加する</li></ol><p>毎回パスフレーズを入力するの面倒ですよね？省略しましょう。</p><pre><code class="language-bash">$ ssh-add ~/.ssh/id_rsa
-</code></pre><ul><li>パスフレーズを入力する</li><li><code>ssh-add -l</code>で鍵が登録されていることを確認する</li></ul><ol start="7"><li>リポジトリをクローンしてみる</li></ol><pre><code class="language-bash">$ git clone git@github:[user_name or org_name]/[favorite_repo].git
-</code></pre><p>パスフレーズ入力を求められずにクローンできれば成功です。お疲れ様でした。</p><h2>VSCode</h2><p>正直エディタは揃えてもいいかなと思います。。</p><pre><code class="language-bash">$ brew install visual-studio-code --cask
-</code></pre><h3>Prettier</h3><ol><li><p>拡張機能から<code>Pretteir</code>をインストール</p></li><li><p><em>Prettier</em>設定ファイル作成</p></li></ol><pre><code class="language-bash">$ touch .prettierrc
-</code></pre><ol start="3"><li>以下のように設定する</li></ol><pre><code class="language-json" metastring="title=&quot;./.prettierrc&quot;" title="&quot;./.prettierrc&quot;">{
+</code></pre><p>注）鍵長 2048 以上で暗号化方式が<em>RSA/ECDSA/Ed25519</em>であること</p></li><li><p>公開鍵（id_rsa.pub）をクリップボードにコピー</p><pre><code class="language-bash">$ pbcopy &lt; ~/.ssh/id_rsa.pub
+</code></pre></li><li><p>GitHub に登録</p><ul><li><code>右上のSettings &gt; SSH and GPG keys &gt; 右上のNew SSH key</code>と遷移</li><li><em>title</em>に好きな名前、<em>Key</em>にクリップボードの値を貼り付け</li><li><em>Add SSH key</em>をクリック</li></ul></li><li><p>疎通確認</p><pre><code class="language-zsh">$ ssh -T git@github.com
+</code></pre><ul><li>フィンガープリントが表示されて、接続しますか？と聞かれるので（<em>yes</em>）</li><li>パスフレーズを入力</li><li>以下のように表示されれば完了です。</li></ul><p><code>Hi user_name! You&#x27;ve successfully authenticated, but GitHub does not provide shell access.</code></p></li><li><p><em>SSH</em>キーを<code>ssh-agent</code>に追加する</p><pre><code class="language-bash">$ ssh-add ~/.ssh/id_rsa
+</code></pre><p>毎回パスフレーズを入力するの面倒ですよね？省略しましょう。</p><ul><li>パスフレーズを入力する</li><li><code>ssh-add -l</code>で鍵が登録されていることを確認する</li></ul></li><li><p>リポジトリをクローンしてみる</p><pre><code class="language-bash">$ git clone git@github:[user_name or org_name]/[favorite_repo].git
+</code></pre><p>パスフレーズ入力を求められずにクローンできれば成功です。お疲れ様でした。</p></li></ol><h2>VSCode</h2><p>好きなエディタ使えばいいですが、揃えてもいいかなと思います。。</p><pre><code class="language-zsh">$ brew install visual-studio-code --cask
+</code></pre><h3>Prettier</h3><p>コードのフォーマッターです。</p><ol><li><p>拡張機能から<code>Pretteir</code>をインストール</p></li><li><p><em>Prettier</em>設定ファイル作成</p><pre><code class="language-zsh">$ touch .prettierrc
+</code></pre></li><li><p>以下のように設定する</p><pre><code class="language-json" metastring="title=&quot;./.prettierrc&quot;" title="&quot;./.prettierrc&quot;">{
   &quot;printWidth&quot;: 100,
   &quot;trailingComma&quot;: &quot;es5&quot;,
   &quot;tabWidth&quot;: 2,
@@ -40,67 +101,105 @@ eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;
   &quot;useTabs&quot;: true,
   &quot;jsxBracketSameLine&quot;: true
 }
-</code></pre><p>:::info
+</code></pre></li></ol><p>:::info
 詳細はプロジェクトごとに決めてください。
-:::</p><ol start="4"><li><em>VSCode</em>ユーザ設定ファイル作成</li></ol><pre><code class="language-bash">$ mkdir -p .vscode/settings.json
-</code></pre><ol start="6"><li>以下のように設定する</li></ol><p>既定のフォーマッタを<em>Prettier</em>にし、ファイル保存時に自動整形します。</p><pre><code class="language-json" metastring="title=&quot;./.vscode/settings.json&quot;" title="&quot;./.vscode/settings.json&quot;">{
+:::</p><ol start="4"><li><p><em>VSCode</em>ユーザ設定ファイル作成</p><pre><code class="language-zsh">$ mkdir -p .vscode/settings.json
+</code></pre></li><li><p>以下のように設定する</p><pre><code class="language-json" metastring="title=&quot;./.vscode/settings.json&quot;" title="&quot;./.vscode/settings.json&quot;">{
   &quot;editor.formatOnSave&quot;: true,
   &quot;editor.defaultFormatter&quot;: &quot;esbenp.prettier-vscode&quot;
 }
-</code></pre><p>:::info
+</code></pre><p>既定のフォーマッタを<em>Prettier</em>にし、ファイル保存時に自動整形します。</p></li></ol><p>:::info
 詳細はプロジェクトごとに決めてください。
 :::</p><p>:::tip
 プロジェクト、組織内のエディタを<em>VSCode</em>に統一すれば、設定を共有できます。
-:::</p><h2><code>nvm</code></h2><p><em>Node.js</em>のバージョンマネージャです。</p><p>（すでにシェルの設定ファイルがあるかたはスキップしてください）</p><ol><li>デフォルトシェルを確認</li></ol><p><em>macOS Cattallina</em>以降は<em>zsh</em>なのでその前提で進めます。</p><pre><code class="language-bash">$ echo $SHELL
+:::</p><h2><code>nvm</code></h2><p><em>Node.js</em>のバージョンマネージャです。</p><p>（すでにシェルの設定ファイルがある方は 3.までスキップしてください）</p><ol><li><p>デフォルトシェルを確認</p><pre><code class="language-zsh">$ echo $SHELL
 /bin/zsh
-</code></pre><ol start="2"><li>設定ファイルを作成</li></ol><pre><code class="language-bash">$ touch ~/.zshrc
+</code></pre></li><li><p>設定ファイルを作成</p><pre><code class="language-zsh">$ touch ~/.zshrc
 $ ls -a #確認
-</code></pre><ol start="3"><li><code>nvm</code>インストール</li></ol><p>念の為<a href="https://github.com/nvm-sh/nvm#install--update-script">公式</a>でバージョンを確認して、</p><pre><code class="language-bash">$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.**.0/install.sh | bash
-</code></pre><ol start="4"><li><code>.zshrc</code>に次の行を追加</li></ol><pre><code class="language-bash">$ source ~/.nvm/nvm.sh
-</code></pre><ol start="5"><li><p>端末を再起動するか<code>(exec $SHELL -l)</code>を実行する</p></li><li><p>インストール確認</p></li></ol><pre><code class="language-bash">$ nvm -v
+</code></pre></li><li><p><code>nvm</code>インストール</p><pre><code class="language-zsh">$ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.**.0/install.sh | bash
+</code></pre><p>念の為<a href="https://github.com/nvm-sh/nvm#install--update-script">公式</a>でバージョンを確認してください。</p></li><li><p><code>.zshrc</code>に次の行を追加</p><pre><code class="language-zsh">$ source ~/.nvm/nvm.sh
+</code></pre></li><li><p>端末を再起動するか<code>(exec $SHELL -l)</code>を実行する</p></li><li><p>インストール確認</p><pre><code class="language-zsh">$ nvm -v
 0.39.0
-</code></pre><ol start="7"><li><em>Node.js</em>インストール</li></ol><p>インストール可能なバージョンを見て、無難に安定版（<strong><em>LTS</em></strong>）を選びましょう</p><pre><code class="language-bash">$ nvm ls-remote
+</code></pre></li><li><p><em>Node.js</em>インストール</p><pre><code class="language-zsh">$ nvm ls-remote
 ...
 v16.13.0 (Latest LTS: Gallium)
 ...
-</code></pre><ol start="8"><li>安定板を選択して、インストール</li></ol><pre><code class="language-bash">$ nvm install v16.13.0
-</code></pre><ol start="9"><li>使用するバージョンを決める</li></ol><pre><code class="language-bash">$ nvm use v16.13.0
-</code></pre><p>:::info
-<code>npm</code>は今日日の<em>Node.js</em>には同梱されているので、以下のコマンドで確認します。</p><pre><code class="language-bash">npm -v
+</code></pre></li></ol><p>:::info
+無難に安定版（<strong><em>LTS</em></strong>）を選びましょう
+:::</p><ol start="8"><li><p>安定板を選択して、インストール</p><pre><code class="language-zsh">$ nvm install v16.13.0
+</code></pre></li><li><p>使用するバージョンを決める</p><pre><code class="language-zsh">$ nvm use v16.13.0
+</code></pre></li></ol><p>:::info
+<code>npm</code>は今日日の<em>Node.js</em>には同梱されているので、以下のコマンドで確認します。</p><pre><code class="language-zsh">npm -v
 8.1.0
-</code></pre><p>:::</p><ol start="10"><li><code>yarn</code>を使いたい方はここでインストール</li></ol><pre><code class="language-bash">npm install -g yarn
-</code></pre><h2><code>pyenv</code></h2><p><em>Python</em>のバージョンマネージャです。2 系 3 系の切り替えなどに。</p><ol><li><code>pyenv</code>インストール</li></ol><pre><code class="language-bash">$ brew update
+</code></pre><p>:::</p><ol start="10"><li><p><code>yarn</code>を使いたい方はここでインストール</p><pre><code class="language-zsh">npm install -g yarn
+</code></pre></li></ol><h2><code>pyenv</code></h2><p><em>Python</em>のバージョンマネージャです。2 系 3 系の切り替えなどに。</p><ol><li><p><code>pyenv</code>インストール</p><pre><code class="language-zsh">$ brew update
 $ brew install pyenv
-</code></pre><ol start="2"><li><em>PATH</em>を通す</li></ol><pre><code>export PYENV_ROOT=&quot;$HOME/.pyenv&quot;
+</code></pre></li><li><p><em>PATH</em>を通す</p><pre><code class="language-zsh">export PYENV_ROOT=&quot;$HOME/.pyenv&quot;
 export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;
 echo &#x27;eval &quot;$(pyenv init --path)&quot;&#x27; &gt;&gt; ~/.zshrc
-</code></pre><ol start="3"><li>バージョン確認</li></ol><pre><code class="language-bash">$ pyenv -v
+</code></pre></li><li><p>バージョン確認</p><pre><code class="language-zsh">$ pyenv -v
 pyenv 2.2.0
-</code></pre><ol start="4"><li><em>Python</em>インストール</li></ol><pre><code class="language-bash"># 全体
+</code></pre></li><li><p><em>Python</em>インストール</p><pre><code class="language-zsh"># 全体
 $ pyenv global 3.9.7
 
 # ディレクトリのみ
 $ pyenv local 3.9.7
-</code></pre><ol start="5"><li><p>端末を再起動するか<code>(exec $SHELL -l)</code>を実行する</p></li><li><p>バージョン確認</p></li></ol><pre><code class="language-bash">$ python -V
+</code></pre></li><li><p>端末を再起動するか<code>(exec $SHELL -l)</code>を実行する</p></li><li><p>バージョン確認</p><pre><code class="language-zsh">$ python -V
 Python 3.9.6
 
-$ pyenve versions
+$ pyenv versions
   system
 * 3.9.7 (set by /Users/[user_name]/.pyenv/version)
-</code></pre><p>:::caution
-3.6 系は <strong>2021 年 12 月</strong>に、3.7 系は <strong>2023 年 6 月</strong>にそれぞれ、<br/>
-<!-- -->セキュリティ修正の提供が終了しますのでそれ以降のバージョンを選択しましょう。
-:::</p><h2><em>AWS</em>環境</h2>]]></content:encoded>
+</code></pre></li></ol><p>:::caution
+3.6 系は <strong>2021 年 12 月</strong>に、3.7 系は <strong>2023 年 6 月</strong>にそれぞれ、
+セキュリティ修正の提供が終了しますのでそれ以降のバージョンを選択しましょう。
+:::</p><h2><em>AWS CLI</em></h2><p>GUI でポチポチしたい方は不要ですが、CLI 経由じゃないと設定できないことも結構あります。</p><ol><li><p>インストール</p><pre><code class="language-zsh">% brew install awscli
+</code></pre></li><li><p>インストール確認</p><pre><code class="language-zsh">% which aws
+/opt/homebrew/bin/aws
+
+% aws --version
+aws-cli/2.4.16 Python/3.9.10 Darwin/21.0.1 source/arm64 prompt/off
+</code></pre></li><li><p>設定</p><pre><code class="language-zsh">% aws configure
+AWS Access Key ID [None]: ****************CQOX
+AWS Secret Access Key [None]: ************************PNrh
+Default region name [None]: ap-northeast-1
+Default output format [None]:
+</code></pre><ul><li><p>ユーザを使い分ける場合</p><pre><code class="language-zsh">% aws configure --profile your_account
+</code></pre></li></ul></li><li><p>設定確認</p><p><code>~/.aws</code>に 2 つのファイルができます。</p><pre><code class="language-zsh">% cat ~/.aws/config
+[default]
+region = ap-northeast-1
+[profile your_account]
+region = ap-northeast-1
+</code></pre><pre><code>% cat ~/.aws/credentials
+[default]
+aws_access_key_id = ****************CQOX
+aws_secret_access_key = ************************PNrh
+[your_account]
+aws_access_key_id = ****************CQOX
+aws_secret_access_key = ************************PNrh
+</code></pre></li><li><p>疎通確認</p><p>好きなコマンド叩きましょう。</p><pre><code class="language-zsh">% aws iam list-users --profile your_account
+{
+    &quot;Users&quot;: [
+        {
+            &quot;Path&quot;: &quot;/&quot;,
+            &quot;UserName&quot;: &quot;your_account&quot;,
+            &quot;UserId&quot;: &quot;AIDAZCFQ3DAUNBVZ3XRFZ&quot;,
+            &quot;Arn&quot;: &quot;arn:aws:iam::****4113****:user/your_account&quot;,
+            &quot;CreateDate&quot;: &quot;2019-1-21T11:12:17+00:00&quot;
+        }
+    ]
+}
+</code></pre></li></ol>]]></content:encoded>
         </item>
         <item>
-            <title><![CDATA[開発環境]]></title>
+            <title><![CDATA[研修環境]]></title>
             <link>https://atsuchiy11.github.io/docusaurus/blog/manage</link>
             <guid>manage</guid>
             <pubDate>Sat, 23 Oct 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[セットアップ]]></description>
             <content:encoded><![CDATA[<h2>セットアップ</h2><p>ここで作る開発サイクルは以下のようになります。</p><ol><li><em>GitHub</em>にリポジトリを作成してソースコード管理する</li><li>コード記述は<em>CodeSandbox</em>上で行う</li><li><em>CodeSandbox</em>上で記述したコードは、<em>GitHub</em>リポジトリに<em>Pull Request</em>する</li><li><em>GitHub</em>上でマージする</li><li>2〜4 の繰り返し</li></ol><p>手順は<a href="https://csb-jp.github.io/docs/github"><em>CodeSandbox</em>ガイド</a>に書いてある通りです。</p><p>:::tip
 上記サイトも<a href="https://docusaurus.io/">Docusaurus</a>で出来ていることに気付いた方、、優秀です w
-:::</p><h3>事前チェック</h3><ol><li><a href="https://codesandbox.io/"><em>CodeSandbox</em></a>を開いて、<a href="https://github.com/a2-tsuchiya/js-plyaground">このリポジトリ</a>をフォークしてみましょう。</li><li>インポートしたリポジトリをエクスポートしてみましょう。</li><li>自分のGitHub上にリポジトリができていればOKです。</li></ol><p>:::caution
+:::</p><h3>事前チェック</h3><ol><li><a href="https://codesandbox.io/"><em>CodeSandbox</em></a>を開いて、<a href="https://github.com/a2-tsuchiya/js-plyaground">このリポジトリ</a>をフォークしてみましょう。</li><li>インポートしたリポジトリをエクスポートしてみましょう。</li><li>自分の GitHub 上にリポジトリができていれば OK です。</li></ol><p>:::caution
 これができないと話にならないので必ず事前に確認してください。
 :::</p><h3>補足</h3><p>テンプレートは<em>Vannila</em>を選択する（純粋な<em>JavaScript</em>）</p><p><img src="./create-sandbox.png" alt="Create Sandbox"/></p><p><em>Drafts</em>を分かりやすい名前に変更する</p><p><img src="./rename-drafts.png" alt="Rename Drafts"/></p>]]></content:encoded>
         </item>
