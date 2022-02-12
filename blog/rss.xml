@@ -13,21 +13,23 @@
             <guid>setup</guid>
             <pubDate>Wed, 10 Nov 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[最低限これぐらいはやっとけ、お好みでどうぞ、というような内容です。]]></description>
-            <content:encoded><![CDATA[<p><del>最低限これぐらいはやっとけ、</del>お好みでどうぞ、というような内容です。</p><h2><em>Mac</em>本体</h2><h3><code>fn</code>キーをデフォルトで有効にする</h3><p>デバッグ時などに<code>fn</code>を押すことから解放されます。</p><p><code>システム環境設定 &gt; キーボード &gt; F1,F2などのキーを...</code>にチェック</p><h3>基本的なショートカット</h3><ul><li><code>Command + Space</code> | Spotlight Search</li><li><code>Command + Tab</code> | 起動しているアプリの切り替え</li><li><code>Ctrl + ↑ or ↓</code> | ウインドウの切り替え</li><li><code>(Fn) + F11</code> | デスクトップを表示/非表示</li><li><code>Option + Command + Space</code> | Finder を表示</li></ul><h2>Homebrew</h2><p><em>Mac</em>用のパッケージ管理システムです。</p><p>CUI アプリ(<code>brew install go</code>とか)をコマンドからインストールできるようになります。</p><ol><li><p>ターミナルから<a href="https://brew.sh/index_ja">公式</a>のシェルプロンプトを貼り付け</p><pre><code class="language-bash">$ /bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
+            <content:encoded><![CDATA[<p><del>最低限これぐらいはやっとけ、</del>お好みでどうぞ、というような内容です。</p><h2><em>Mac</em>本体</h2><h3><code>fn</code>キーをデフォルトで有効にする</h3><span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★☆</span><p>デバッグ時などに<code>fn</code>を押すことから解放されます。</p><p><code>システム環境設定 &gt; キーボード &gt; F1,F2などのキーを...</code>にチェック</p><h3>基本的なショートカット</h3><ul><li><code>Command + Space</code> | Spotlight Search</li><li><code>Command + Tab</code> | 起動しているアプリの切り替え</li><li><code>Ctrl + ↑ or ↓</code> | ウインドウの切り替え</li><li><code>(Fn) + F11</code> | デスクトップを表示/非表示</li><li><code>Option + Command + Space</code> | Finder を表示</li></ul><h2>Homebrew</h2><span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★★★★</span><p><em>Mac</em>用のパッケージ管理システムです。</p><p>CUI アプリ(<code>brew install go</code>とか)をコマンドからインストールできるようになります。</p><ol><li><p>ターミナルから<a href="https://brew.sh/index_ja">公式</a>のシェルプロンプトを貼り付け</p><pre><code class="language-bash">$ /bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
 </code></pre></li><li><p>インストール（体感で 2〜3 分）</p></li><li><p><em>PATH</em>に追加する</p><pre><code class="language-bash">echo &#x27;eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;&#x27; &gt;&gt; ~/.zprofile
 eval &quot;$(/opt/homebrew/bin/brew shellenv)&quot;
-</code></pre></li><li><p><em>homebrew-cask</em>をインストールする（任意）</p></li></ol><p>GUI アプリ（Visual Studio とか Google Chrome）もコマンドからインストールできるようになります。</p><p>このアイコンをドラッグしてください、、みたいな件から解放されます。</p><pre><code class="language-bash">$ brew install alfred
-</code></pre><p>この<em>Homebrew</em>でガンガン入れていきます。</p><h3>基本的な操作</h3><ul><li><p>インストール</p><pre><code class="language-zsh">brew install &lt;package&gt;
-</code></pre></li><li><p>アンインストール</p><pre><code class="language-zsh">brew uninstall &lt;package&gt;
-</code></pre></li><li><p>インストール済アプリのリスト表示</p><pre><code class="language-zsh">brew list
-</code></pre></li></ul><h2>iTerm2</h2><p>ターミナルのほぼ上位互換です。</p><ol><li><p>インストール</p><pre><code class="language-bash">$ brew install iterm2 --cask
-</code></pre><p>:::tip</p><p>いつの間にか<code>cask</code>コマンドの使い方が変わってました（汗</p><pre><code class="language-bash" metastring="title=&quot;旧コマンド&quot;" title="&quot;旧コマンド&quot;">$ brew cask install ***
-</code></pre><pre><code class="language-bash" metastring="title=&quot;新コマンド&quot;" title="&quot;新コマンド&quot;">$ brew install *** --cask
-</code></pre><p>（2021-11-10 時点）</p><p>:::</p></li></ol><p>この辺は好みです。</p><ol start="2"><li><p><code>Ctrl</code>キー 2 回押しで降臨させる</p><ul><li><em>Hotkey</em>を有効にする<ul><li><code>Preferences &gt; Keys &gt; Hotkey &gt; Create a Dedicated Hotkey Window...</code></li><li><code>Double-tap key</code>を<code>^Control</code>にする</li></ul></li><li><em>Default Window</em>を開かないようにする<ul><li><code>Preferences &gt; General &gt; Startup</code>で<code>Only Restore Hotkey Window</code>を選択する</li></ul></li></ul></li><li><p>背景を透過させる</p><ul><li><code>Preferences &gt; Profiles &gt; Transparency </code>で設定（50％オススメ）</li></ul></li></ol><br/><p>ターミナルさん、短いお付き合いでしたがありがとうございました m(<!-- -->_<!-- --> <!-- -->_<!-- -->)m</p><h3>基本的な操作</h3><ul><li><code>Command + t</code> | 新しいタブの作成</li><li><code>Command + w (control + d)</code> | タブの削除</li><li><code>Command + ←→ or 数字</code> | タブの移動</li><li><code>Command + f</code> | 検索</li><li><code>Command + +/-</code> | 拡大/縮小</li><li><code>Command + Enter</code> | フルスクリーン/解除</li><li><code>Command + shift + h</code> | クリップボードの履歴呼び出し</li></ul><h2>zsh</h2><p><em>macOS Cattallina</em>以降は<em>zsh</em>なのでその前提で進めます。</p><h3>準備</h3><ol><li><p>デフォルトシェルを確認</p><pre><code class="language-bash">$ echo $SHELL
+</code></pre></li></ol><p>:::info Homebrew-Cask</p><p><code>--cask</code>オプションを使うと、GUI アプリ（Visual Studio とか Google Chrome）も<br/>
+コマンドからインストールできます。このアイコンをドラッグしてください、、みたいな件から解放されます。</p><pre><code class="language-zsh">$ brew install --cask firefox
+</code></pre><p>:::</p><p>この<em>Homebrew</em>でガンガン入れていきます。</p><h3>基本的な操作</h3><ul><li><p>インストール</p><pre><code class="language-zsh">$ brew install &lt;package&gt;
+</code></pre></li><li><p>アンインストール</p><pre><code class="language-zsh">$ brew uninstall &lt;package&gt;
+</code></pre></li><li><p>インストール済アプリのリスト表示</p><pre><code class="language-zsh">$ brew list
+</code></pre></li></ul><h3>移行</h3><p>別に<code>curl</code>とか<code>wget</code>で良くない？と思っている方へ。。<br/>
+Mac 買い換えたらどうします？また一からやりますか？？</p><ol><li><p>バンドル(<code>BrewFile</code>)作成</p><pre><code class="language-zsh">$ brew bundle dump
+</code></pre></li><li><p>移行先 Mac でインストール</p><pre><code class="language-zsh">$ brew bundle
+</code></pre></li></ol><p>簡単ですね<em>www</em><del>こんなのに時間かけるやつの気が知れんわ。</del></p><h2>iTerm2</h2><span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★★</span><p>ターミナルのほぼ上位互換です。</p><ol><li><p>インストール</p><pre><code class="language-bash">$ brew install iterm2 --cask
+</code></pre></li></ol><p>この辺は好みです。</p><ol start="2"><li><p><code>Ctrl</code>キー 2 回押しで降臨させる</p><ul><li><em>Hotkey</em>を有効にする<ul><li><code>Preferences &gt; Keys &gt; Hotkey &gt; Create a Dedicated Hotkey Window...</code></li><li><code>Double-tap key</code>を<code>^Control</code>にする</li></ul></li><li><em>Default Window</em>を開かないようにする<ul><li><code>Preferences &gt; General &gt; Startup</code>で<code>Only Restore Hotkey Window</code>を選択する</li></ul></li></ul></li><li><p>背景を透過させる</p><ul><li><code>Preferences &gt; Profiles &gt; Transparency </code>で設定（50％オススメ）</li></ul></li></ol><br/><p>ターミナルさん、短いお付き合いでしたがありがとうございました m(<!-- -->_<!-- --> <!-- -->_<!-- -->)m</p><h3>基本的な操作</h3><ul><li><code>Command + t</code> | 新しいタブの作成</li><li><code>Command + w (control + d)</code> | タブの削除</li><li><code>Command + ←→ or 数字</code> | タブの移動</li><li><code>Command + f</code> | 検索</li><li><code>Command + +/-</code> | 拡大/縮小</li><li><code>Command + Enter</code> | フルスクリーン/解除</li><li><code>Command + shift + h</code> | クリップボードの履歴呼び出し</li></ul><h2>zsh</h2><p><em>macOS Cattallina</em>以降は<em>zsh</em>なのでその前提で進めます。</p><h3>準備</h3><ol><li><p>デフォルトシェルを確認</p><pre><code class="language-bash">$ echo $SHELL
 /bin/zsh
 </code></pre></li><li><p>（なければ）設定ファイルを作成</p><pre><code class="language-bash">$ touch ~/.zshrc
 $ ls -a #確認
-</code></pre></li></ol><h3>移動系</h3><pre><code class="language-bash" metastring="title=&quot;~/.zshrc&quot;" title="&quot;~/.zshrc&quot;">setopt no_beep
+</code></pre></li></ol><h3>移動系</h3><span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★★★</span><pre><code class="language-bash" metastring="title=&quot;~/.zshrc&quot;" title="&quot;~/.zshrc&quot;">setopt no_beep
 setopt auto_pushd
 setopt pushd_ignore_dups
 setopt auto_cd
@@ -44,7 +46,7 @@ Desktop      Downloads    Movies       Pictures
 /tmp/scripts % cd /path/to
 /path/to % popd #スタックから取り出す
 /tmp/scripts % #取り出したパスに遷移する
-</code></pre><p>この挙動を自動化します。</p></li></ul><h4><code>pushd_ignore_dups</code></h4><p>重複するパスをスタックに積まない</p><h3>履歴系</h3><ul><li><p><code>hist_ignore_dups</code> | 直前と同じコマンドは履歴に追加しない</p></li><li><p><code>share_history</code> | 他の zsh で履歴を共有する</p></li><li><p><code>inc_append_history</code> | 即座に履歴を保存する</p><pre><code class="language-zsh" metastring="title=&quot;~/.zshrc&quot;" title="&quot;~/.zshrc&quot;">setopt hist_ignore_dups
+</code></pre><p>この挙動を自動化します。</p></li></ul><h4><code>pushd_ignore_dups</code></h4><p>重複するパスをスタックに積まない</p><h3>履歴系</h3><span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★☆</span><ul><li><p><code>hist_ignore_dups</code> | 直前と同じコマンドは履歴に追加しない</p></li><li><p><code>share_history</code> | 他の zsh で履歴を共有する</p></li><li><p><code>inc_append_history</code> | 即座に履歴を保存する</p><pre><code class="language-zsh" metastring="title=&quot;~/.zshrc&quot;" title="&quot;~/.zshrc&quot;">setopt hist_ignore_dups
 setopt share_history
 setopt inc_append_history
 
@@ -54,7 +56,7 @@ export SAVEHIST=10000
 </code></pre></li></ul><h3>設定を反映する</h3><pre><code class="language-bash">source ~/.zshrc
 # or
 exec zsh
-</code></pre><h3>oh my zsh</h3><p>zsh のプラグインマネージャです。プラグインで拡張したい方向けです。</p><p>使いたい方は個別に聞いてください。。</p><h2>Vim/NeoVim</h2><p><em>Vim</em>は最初から入っていますので、<em>NeoVim</em>を使いたい方向けです。</p><p><strong>NeoVim??</strong>という方は<a href="https://zenn.dev/yano/articles/vim_frontend_development_2021">この辺り</a>をどうぞ</p><ol><li><p>インストール</p><pre><code class="language-zsh">nvim --version
+</code></pre><h3>oh my zsh</h3><span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★★</span><p>zsh のプラグインマネージャです。プラグインで拡張したい方向けです。</p><p>使いたい方は個別に聞いてください。。</p><h2>Vim/NeoVim</h2><span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★★</span><p><em>Vim</em>は最初から入っていますので、<em>NeoVim</em>を使いたい方向けです。</p><p><strong>NeoVim??</strong>という方は<a href="https://zenn.dev/yano/articles/vim_frontend_development_2021">この辺り</a>をどうぞ</p><ol><li><p>インストール</p><pre><code class="language-zsh">nvim --version
 brew install neovim
 </code></pre></li><li><p>エイリアス設定（NeoVim をデフォルトにする）</p><pre><code class="language-zsh" metastring="title=&quot;~/.zshrc&quot;" title="&quot;~/.zshrc&quot;">alias vi=&quot;nvim&quot;
 alias vim=&quot;nvim&quot;
@@ -69,7 +71,7 @@ set hlsearch                    # 検索結果のハイライト
 set clipboard=unnamed           # クリップボードへ登録する
 set number                      # 行番号を表示
 inoremap &lt;silent&gt; jj &lt;ESC&gt;      # ESC を jj にする
-</code></pre></li></ol><h3>vim-plug</h3><p>Vim のプラグインマネージャです。プラグインで拡張したい方向けです。</p><p>使いたい方は個別に聞いてください。。</p><h2>Tmux (terminal multiplexer)</h2><p>画面分割とセッション管理をいい感じにしてくれます。</p><p><img src="/img/blog/tmux-demo.png" alt="Tmux"/></p><p>こういう事をやりたい方向けです。</p><h3>インストール</h3><pre><code class="language-zsh">% tmux -V
+</code></pre></li></ol><h3>vim-plug</h3><span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★★</span><p>Vim のプラグインマネージャです。プラグインで拡張したい方向けです。</p><p>使いたい方は個別に聞いてください。。</p><h2>Tmux (terminal multiplexer)</h2><span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★★★</span><p>画面分割とセッション管理をいい感じにしてくれます。</p><p><img src="/img/blog/tmux-demo.png" alt="Tmux"/></p><p>こういう事をやりたい方向けです。</p><h3>インストール</h3><pre><code class="language-zsh">% tmux -V
 % brew install tmux
 </code></pre><h3>構造</h3><ul><li>１セッションに複数ウインドウ作れる</li><li>１ウインドウに複数ペイン作れる</li></ul><p>:::info
 上のイメージは３ウインドウ（<em>main</em>, <em>server</em>, <em>aws</em>）動いていて、<br/>
