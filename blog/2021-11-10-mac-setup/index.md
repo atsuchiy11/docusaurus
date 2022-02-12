@@ -11,6 +11,8 @@ tags: [Mac]
 
 ### `fn`キーをデフォルトで有効にする
 
+<span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★☆</span>
+
 デバッグ時などに`fn`を押すことから解放されます。
 
 `システム環境設定 > キーボード > F1,F2などのキーを...`にチェック
@@ -24,6 +26,8 @@ tags: [Mac]
 - `Option + Command + Space` | Finder を表示
 
 ## Homebrew
+
+<span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★★★★</span>
 
 *Mac*用のパッケージ管理システムです。
 
@@ -44,15 +48,16 @@ CUI アプリ(`brew install go`とか)をコマンドからインストールで
    eval "$(/opt/homebrew/bin/brew shellenv)"
    ```
 
-4. *homebrew-cask*をインストールする（任意）
+:::info Homebrew-Cask
 
-GUI アプリ（Visual Studio とか Google Chrome）もコマンドからインストールできるようになります。
+`--cask`オプションを使うと、GUI アプリ（Visual Studio とか Google Chrome）も<br/>
+コマンドからインストールできます。このアイコンをドラッグしてください、、みたいな件から解放されます。
 
-このアイコンをドラッグしてください、、みたいな件から解放されます。
-
-```bash
-$ brew install alfred
+```zsh
+$ brew install --cask firefox
 ```
+
+:::
 
 この*Homebrew*でガンガン入れていきます。
 
@@ -61,22 +66,43 @@ $ brew install alfred
 - インストール
 
   ```zsh
-  brew install <package>
+  $ brew install <package>
   ```
 
 - アンインストール
 
   ```zsh
-  brew uninstall <package>
+  $ brew uninstall <package>
   ```
 
 - インストール済アプリのリスト表示
 
   ```zsh
-  brew list
+  $ brew list
   ```
 
+### 移行
+
+別に`curl`とか`wget`で良くない？と思っている方へ。。<br/>
+Mac 買い換えたらどうします？また一からやりますか？？
+
+1. バンドル(`BrewFile`)作成
+
+   ```zsh
+   $ brew bundle dump
+   ```
+
+2. 移行先 Mac でインストール
+
+   ```zsh
+   $ brew bundle
+   ```
+
+簡単ですね*www*~~こんなのに時間かけるやつの気が知れんわ。~~
+
 ## iTerm2
+
+<span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★★</span>
 
 ターミナルのほぼ上位互換です。
 
@@ -85,22 +111,6 @@ $ brew install alfred
     ```bash
     $ brew install iterm2 --cask
     ```
-
-    :::tip
-
-    いつの間にか`cask`コマンドの使い方が変わってました（汗
-
-    ```bash title="旧コマンド"
-    $ brew cask install ***
-    ```
-
-    ```bash title="新コマンド"
-    $ brew install *** --cask
-    ```
-
-    （2021-11-10 時点）
-
-    :::
 
 この辺は好みです。
 
@@ -151,6 +161,8 @@ $ brew install alfred
    ```
 
 ### 移動系
+
+<span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★★★</span>
 
 ```bash title="~/.zshrc"
 setopt no_beep
@@ -203,6 +215,8 @@ Desktop      Downloads    Movies       Pictures
 
 ### 履歴系
 
+<span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★☆</span>
+
 - `hist_ignore_dups` | 直前と同じコマンドは履歴に追加しない
 - `share_history` | 他の zsh で履歴を共有する
 - `inc_append_history` | 即座に履歴を保存する
@@ -227,11 +241,15 @@ exec zsh
 
 ### oh my zsh
 
+<span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★★</span>
+
 zsh のプラグインマネージャです。プラグインで拡張したい方向けです。
 
 使いたい方は個別に聞いてください。。
 
 ## Vim/NeoVim
+
+<span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★★</span>
 
 *Vim*は最初から入っていますので、*NeoVim*を使いたい方向けです。
 
@@ -274,11 +292,15 @@ zsh のプラグインマネージャです。プラグインで拡張したい�
 
 ### vim-plug
 
+<span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★★</span>
+
 Vim のプラグインマネージャです。プラグインで拡張したい方向けです。
 
 使いたい方は個別に聞いてください。。
 
 ## Tmux (terminal multiplexer)
+
+<span class="theme-doc-version-badge badge badge--primary">オススメ度: ★★★★</span>
 
 画面分割とセッション管理をいい感じにしてくれます。
 
