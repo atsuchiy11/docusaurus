@@ -11,48 +11,78 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "basics/chapter01",
-              "path": "/docusaurus/docs/basics/chapter01",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "basics/chapter02",
-              "path": "/docusaurus/docs/basics/chapter02",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "basics/chapter03",
-              "path": "/docusaurus/docs/basics/chapter03",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "basics/chapter04",
-              "path": "/docusaurus/docs/basics/chapter04",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "basics/chapter05",
-              "path": "/docusaurus/docs/basics/chapter05",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "basics/chapter06",
-              "path": "/docusaurus/docs/basics/chapter06",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "basics/chapter07",
-              "path": "/docusaurus/docs/basics/chapter07",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "basics/chapter08",
-              "path": "/docusaurus/docs/basics/chapter08",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "intro",
               "path": "/docusaurus/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/chapter01",
+              "path": "/docusaurus/docs/javascript/chapter01",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/chapter02",
+              "path": "/docusaurus/docs/javascript/chapter02",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/chapter03",
+              "path": "/docusaurus/docs/javascript/chapter03",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/chapter04",
+              "path": "/docusaurus/docs/javascript/chapter04",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/chapter05",
+              "path": "/docusaurus/docs/javascript/chapter05",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/chapter06",
+              "path": "/docusaurus/docs/javascript/chapter06",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "javascript/chapter07",
+              "path": "/docusaurus/docs/javascript/chapter07",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/async",
+              "path": "/docusaurus/docs/nodejs/async",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/env",
+              "path": "/docusaurus/docs/nodejs/env",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/events",
+              "path": "/docusaurus/docs/nodejs/events",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/http",
+              "path": "/docusaurus/docs/nodejs/http",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/modules",
+              "path": "/docusaurus/docs/nodejs/modules",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/multi",
+              "path": "/docusaurus/docs/nodejs/multi",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "nodejs/stream",
+              "path": "/docusaurus/docs/nodejs/stream",
               "sidebar": "tutorialSidebar"
             },
             {

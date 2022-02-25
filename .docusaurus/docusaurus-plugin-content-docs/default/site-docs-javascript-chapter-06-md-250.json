@@ -1,0 +1,26 @@
+{
+  "unversionedId": "javascript/chapter06",
+  "id": "javascript/chapter06",
+  "title": "Node.js",
+  "description": "ブラウザ以外で動くJavaScriptの実行環境です。_サーバサイド JavaScript_とも言います。",
+  "source": "@site/docs/javascript/chapter06.md",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/chapter06",
+  "permalink": "/docusaurus/docs/javascript/chapter06",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/javascript/chapter06.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ajax と非同期処理",
+    "permalink": "/docusaurus/docs/javascript/chapter05"
+  },
+  "next": {
+    "title": "jQuery",
+    "permalink": "/docusaurus/docs/javascript/chapter07"
+  }
+}

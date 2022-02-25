@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "いざ kintone へ",
-    "permalink": "/docusaurus/docs/basics/chapter08"
+    "title": "環境構築",
+    "permalink": "/docusaurus/docs/nodejs/env"
   },
   "next": {
     "title": "Create a Document",

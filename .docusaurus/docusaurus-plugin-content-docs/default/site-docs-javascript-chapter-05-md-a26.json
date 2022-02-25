@@ -1,0 +1,26 @@
+{
+  "unversionedId": "javascript/chapter05",
+  "id": "javascript/chapter05",
+  "title": "Ajax と非同期処理",
+  "description": "座学60min",
+  "source": "@site/docs/javascript/chapter05.md",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/chapter05",
+  "permalink": "/docusaurus/docs/javascript/chapter05",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/javascript/chapter05.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "DOM とイベント",
+    "permalink": "/docusaurus/docs/javascript/chapter04"
+  },
+  "next": {
+    "title": "Node.js",
+    "permalink": "/docusaurus/docs/javascript/chapter06"
+  }
+}

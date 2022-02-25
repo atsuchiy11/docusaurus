@@ -1,0 +1,26 @@
+{
+  "unversionedId": "javascript/chapter08",
+  "id": "javascript/chapter08",
+  "title": "いざ kintone へ",
+  "description": "イベント",
+  "source": "@site/docs/javascript/chapter08.md",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/chapter08",
+  "permalink": "/docusaurus/docs/javascript/chapter08",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/javascript/chapter08.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "jQuery",
+    "permalink": "/docusaurus/docs/javascript/chapter07"
+  },
+  "next": {
+    "title": "非同期プログラミング",
+    "permalink": "/docusaurus/docs/nodejs/async"
+  }
+}

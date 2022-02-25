@@ -19,214 +19,6 @@
           "contentPathLocalized": "/Users/a2-tsuchiya/Documents/src/docusaurus/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "basics/chapter01",
-              "id": "basics/chapter01",
-              "title": "基礎編",
-              "description": "座学40min",
-              "source": "@site/docs/basics/chapter01.md",
-              "sourceDirName": "basics",
-              "slug": "/basics/chapter01",
-              "permalink": "/docusaurus/docs/basics/chapter01",
-              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter01.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "イントロダクション",
-                "permalink": "/docusaurus/docs/intro"
-              },
-              "next": {
-                "title": "中級編",
-                "permalink": "/docusaurus/docs/basics/chapter02"
-              }
-            },
-            {
-              "unversionedId": "basics/chapter02",
-              "id": "basics/chapter02",
-              "title": "中級編",
-              "description": "座学60min",
-              "source": "@site/docs/basics/chapter02.md",
-              "sourceDirName": "basics",
-              "slug": "/basics/chapter02",
-              "permalink": "/docusaurus/docs/basics/chapter02",
-              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter02.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "基礎編",
-                "permalink": "/docusaurus/docs/basics/chapter01"
-              },
-              "next": {
-                "title": "補足編",
-                "permalink": "/docusaurus/docs/basics/chapter03"
-              }
-            },
-            {
-              "unversionedId": "basics/chapter03",
-              "id": "basics/chapter03",
-              "title": "補足編",
-              "description": "本編を補足する項目を列挙しています。文脈は特にありません。",
-              "source": "@site/docs/basics/chapter03.md",
-              "sourceDirName": "basics",
-              "slug": "/basics/chapter03",
-              "permalink": "/docusaurus/docs/basics/chapter03",
-              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter03.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "中級編",
-                "permalink": "/docusaurus/docs/basics/chapter02"
-              },
-              "next": {
-                "title": "DOM とイベント",
-                "permalink": "/docusaurus/docs/basics/chapter04"
-              }
-            },
-            {
-              "unversionedId": "basics/chapter04",
-              "id": "basics/chapter04",
-              "title": "DOM とイベント",
-              "description": "座学60min",
-              "source": "@site/docs/basics/chapter04.md",
-              "sourceDirName": "basics",
-              "slug": "/basics/chapter04",
-              "permalink": "/docusaurus/docs/basics/chapter04",
-              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter04.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "補足編",
-                "permalink": "/docusaurus/docs/basics/chapter03"
-              },
-              "next": {
-                "title": "Ajax と非同期処理",
-                "permalink": "/docusaurus/docs/basics/chapter05"
-              }
-            },
-            {
-              "unversionedId": "basics/chapter05",
-              "id": "basics/chapter05",
-              "title": "Ajax と非同期処理",
-              "description": "座学60min",
-              "source": "@site/docs/basics/chapter05.md",
-              "sourceDirName": "basics",
-              "slug": "/basics/chapter05",
-              "permalink": "/docusaurus/docs/basics/chapter05",
-              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter05.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "DOM とイベント",
-                "permalink": "/docusaurus/docs/basics/chapter04"
-              },
-              "next": {
-                "title": "Node.js",
-                "permalink": "/docusaurus/docs/basics/chapter06"
-              }
-            },
-            {
-              "unversionedId": "basics/chapter06",
-              "id": "basics/chapter06",
-              "title": "Node.js",
-              "description": "ブラウザ以外で動くJavaScriptの実行環境です。_サーバサイド JavaScript_とも言います。",
-              "source": "@site/docs/basics/chapter06.md",
-              "sourceDirName": "basics",
-              "slug": "/basics/chapter06",
-              "permalink": "/docusaurus/docs/basics/chapter06",
-              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter06.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Ajax と非同期処理",
-                "permalink": "/docusaurus/docs/basics/chapter05"
-              },
-              "next": {
-                "title": "jQuery",
-                "permalink": "/docusaurus/docs/basics/chapter07"
-              }
-            },
-            {
-              "unversionedId": "basics/chapter07",
-              "id": "basics/chapter07",
-              "title": "jQuery",
-              "description": "JavaScriptのライブラリの一つです。JavaScriptをより簡潔に簡単に記述できるようになります。",
-              "source": "@site/docs/basics/chapter07.md",
-              "sourceDirName": "basics",
-              "slug": "/basics/chapter07",
-              "permalink": "/docusaurus/docs/basics/chapter07",
-              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter07.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {
-                "sidebar_position": 7
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Node.js",
-                "permalink": "/docusaurus/docs/basics/chapter06"
-              },
-              "next": {
-                "title": "いざ kintone へ",
-                "permalink": "/docusaurus/docs/basics/chapter08"
-              }
-            },
-            {
-              "unversionedId": "basics/chapter08",
-              "id": "basics/chapter08",
-              "title": "いざ kintone へ",
-              "description": "イベント",
-              "source": "@site/docs/basics/chapter08.md",
-              "sourceDirName": "basics",
-              "slug": "/basics/chapter08",
-              "permalink": "/docusaurus/docs/basics/chapter08",
-              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/basics/chapter08.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 8,
-              "frontMatter": {
-                "sidebar_position": 8
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "jQuery",
-                "permalink": "/docusaurus/docs/basics/chapter07"
-              },
-              "next": {
-                "title": "Create a Page",
-                "permalink": "/docusaurus/docs/tutorial-basics/create-a-page"
-              }
-            },
-            {
               "unversionedId": "intro",
               "id": "intro",
               "title": "イントロダクション",
@@ -245,7 +37,371 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "基礎編",
-                "permalink": "/docusaurus/docs/basics/chapter01"
+                "permalink": "/docusaurus/docs/javascript/chapter01"
+              }
+            },
+            {
+              "unversionedId": "javascript/chapter01",
+              "id": "javascript/chapter01",
+              "title": "基礎編",
+              "description": "座学40min",
+              "source": "@site/docs/javascript/chapter01.md",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/chapter01",
+              "permalink": "/docusaurus/docs/javascript/chapter01",
+              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/javascript/chapter01.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "イントロダクション",
+                "permalink": "/docusaurus/docs/intro"
+              },
+              "next": {
+                "title": "中級編",
+                "permalink": "/docusaurus/docs/javascript/chapter02"
+              }
+            },
+            {
+              "unversionedId": "javascript/chapter02",
+              "id": "javascript/chapter02",
+              "title": "中級編",
+              "description": "座学60min",
+              "source": "@site/docs/javascript/chapter02.md",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/chapter02",
+              "permalink": "/docusaurus/docs/javascript/chapter02",
+              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/javascript/chapter02.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "基礎編",
+                "permalink": "/docusaurus/docs/javascript/chapter01"
+              },
+              "next": {
+                "title": "補足編",
+                "permalink": "/docusaurus/docs/javascript/chapter03"
+              }
+            },
+            {
+              "unversionedId": "javascript/chapter03",
+              "id": "javascript/chapter03",
+              "title": "補足編",
+              "description": "本編を補足する項目を列挙しています。文脈は特にありません。",
+              "source": "@site/docs/javascript/chapter03.md",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/chapter03",
+              "permalink": "/docusaurus/docs/javascript/chapter03",
+              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/javascript/chapter03.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "中級編",
+                "permalink": "/docusaurus/docs/javascript/chapter02"
+              },
+              "next": {
+                "title": "DOM とイベント",
+                "permalink": "/docusaurus/docs/javascript/chapter04"
+              }
+            },
+            {
+              "unversionedId": "javascript/chapter04",
+              "id": "javascript/chapter04",
+              "title": "DOM とイベント",
+              "description": "座学60min",
+              "source": "@site/docs/javascript/chapter04.md",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/chapter04",
+              "permalink": "/docusaurus/docs/javascript/chapter04",
+              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/javascript/chapter04.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "補足編",
+                "permalink": "/docusaurus/docs/javascript/chapter03"
+              },
+              "next": {
+                "title": "Ajax と非同期処理",
+                "permalink": "/docusaurus/docs/javascript/chapter05"
+              }
+            },
+            {
+              "unversionedId": "javascript/chapter05",
+              "id": "javascript/chapter05",
+              "title": "Ajax と非同期処理",
+              "description": "座学60min",
+              "source": "@site/docs/javascript/chapter05.md",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/chapter05",
+              "permalink": "/docusaurus/docs/javascript/chapter05",
+              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/javascript/chapter05.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "DOM とイベント",
+                "permalink": "/docusaurus/docs/javascript/chapter04"
+              },
+              "next": {
+                "title": "Node.js",
+                "permalink": "/docusaurus/docs/javascript/chapter06"
+              }
+            },
+            {
+              "unversionedId": "javascript/chapter06",
+              "id": "javascript/chapter06",
+              "title": "Node.js",
+              "description": "ブラウザ以外で動くJavaScriptの実行環境です。_サーバサイド JavaScript_とも言います。",
+              "source": "@site/docs/javascript/chapter06.md",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/chapter06",
+              "permalink": "/docusaurus/docs/javascript/chapter06",
+              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/javascript/chapter06.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Ajax と非同期処理",
+                "permalink": "/docusaurus/docs/javascript/chapter05"
+              },
+              "next": {
+                "title": "jQuery",
+                "permalink": "/docusaurus/docs/javascript/chapter07"
+              }
+            },
+            {
+              "unversionedId": "javascript/chapter07",
+              "id": "javascript/chapter07",
+              "title": "jQuery",
+              "description": "JavaScriptのライブラリの一つです。JavaScriptをより簡潔に簡単に記述できるようになります。",
+              "source": "@site/docs/javascript/chapter07.md",
+              "sourceDirName": "javascript",
+              "slug": "/javascript/chapter07",
+              "permalink": "/docusaurus/docs/javascript/chapter07",
+              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/javascript/chapter07.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Node.js",
+                "permalink": "/docusaurus/docs/javascript/chapter06"
+              },
+              "next": {
+                "title": "非同期プログラミング",
+                "permalink": "/docusaurus/docs/nodejs/async"
+              }
+            },
+            {
+              "unversionedId": "nodejs/async",
+              "id": "nodejs/async",
+              "title": "非同期プログラミング",
+              "description": "コールバック",
+              "source": "@site/docs/nodejs/async.md",
+              "sourceDirName": "nodejs",
+              "slug": "/nodejs/async",
+              "permalink": "/docusaurus/docs/nodejs/async",
+              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/nodejs/async.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "jQuery",
+                "permalink": "/docusaurus/docs/javascript/chapter07"
+              },
+              "next": {
+                "title": "EventEmitter",
+                "permalink": "/docusaurus/docs/nodejs/events"
+              }
+            },
+            {
+              "unversionedId": "nodejs/env",
+              "id": "nodejs/env",
+              "title": "環境構築",
+              "description": "ESLint",
+              "source": "@site/docs/nodejs/env.md",
+              "sourceDirName": "nodejs",
+              "slug": "/nodejs/env",
+              "permalink": "/docusaurus/docs/nodejs/env",
+              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/nodejs/env.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 10,
+              "frontMatter": {
+                "sidebar_position": 10
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "モジュールシステム",
+                "permalink": "/docusaurus/docs/nodejs/modules"
+              },
+              "next": {
+                "title": "Create a Page",
+                "permalink": "/docusaurus/docs/tutorial-basics/create-a-page"
+              }
+            },
+            {
+              "unversionedId": "nodejs/events",
+              "id": "nodejs/events",
+              "title": "EventEmitter",
+              "description": "- Node.js における Observer パターンを実装するためのモジュール",
+              "source": "@site/docs/nodejs/events.md",
+              "sourceDirName": "nodejs",
+              "slug": "/nodejs/events",
+              "permalink": "/docusaurus/docs/nodejs/events",
+              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/nodejs/events.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "非同期プログラミング",
+                "permalink": "/docusaurus/docs/nodejs/async"
+              },
+              "next": {
+                "title": "ストリーム",
+                "permalink": "/docusaurus/docs/nodejs/stream"
+              }
+            },
+            {
+              "unversionedId": "nodejs/http",
+              "id": "nodejs/http",
+              "title": "HTTP サーバ/クライアント",
+              "description": "httpモジュール",
+              "source": "@site/docs/nodejs/http.md",
+              "sourceDirName": "nodejs",
+              "slug": "/nodejs/http",
+              "permalink": "/docusaurus/docs/nodejs/http",
+              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/nodejs/http.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "マルチプロセス、マルチスレッド",
+                "permalink": "/docusaurus/docs/nodejs/multi"
+              },
+              "next": {
+                "title": "モジュールシステム",
+                "permalink": "/docusaurus/docs/nodejs/modules"
+              }
+            },
+            {
+              "unversionedId": "nodejs/modules",
+              "id": "nodejs/modules",
+              "title": "モジュールシステム",
+              "description": "CommonJS",
+              "source": "@site/docs/nodejs/modules.md",
+              "sourceDirName": "nodejs",
+              "slug": "/nodejs/modules",
+              "permalink": "/docusaurus/docs/nodejs/modules",
+              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/nodejs/modules.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "HTTP サーバ/クライアント",
+                "permalink": "/docusaurus/docs/nodejs/http"
+              },
+              "next": {
+                "title": "環境構築",
+                "permalink": "/docusaurus/docs/nodejs/env"
+              }
+            },
+            {
+              "unversionedId": "nodejs/multi",
+              "id": "nodejs/multi",
+              "title": "マルチプロセス、マルチスレッド",
+              "description": "保留",
+              "source": "@site/docs/nodejs/multi.md",
+              "sourceDirName": "nodejs",
+              "slug": "/nodejs/multi",
+              "permalink": "/docusaurus/docs/nodejs/multi",
+              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/nodejs/multi.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ストリーム",
+                "permalink": "/docusaurus/docs/nodejs/stream"
+              },
+              "next": {
+                "title": "HTTP サーバ/クライアント",
+                "permalink": "/docusaurus/docs/nodejs/http"
+              }
+            },
+            {
+              "unversionedId": "nodejs/stream",
+              "id": "nodejs/stream",
+              "title": "ストリーム",
+              "description": "ファイル一度に全て読み込むのではなく、読み込みが完了した部分から処理していくための標準インターフェース",
+              "source": "@site/docs/nodejs/stream.md",
+              "sourceDirName": "nodejs",
+              "slug": "/nodejs/stream",
+              "permalink": "/docusaurus/docs/nodejs/stream",
+              "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/nodejs/stream.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "EventEmitter",
+                "permalink": "/docusaurus/docs/nodejs/events"
+              },
+              "next": {
+                "title": "マルチプロセス、マルチスレッド",
+                "permalink": "/docusaurus/docs/nodejs/multi"
               }
             },
             {
@@ -344,8 +500,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "いざ kintone へ",
-                "permalink": "/docusaurus/docs/basics/chapter08"
+                "title": "環境構築",
+                "permalink": "/docusaurus/docs/nodejs/env"
               },
               "next": {
                 "title": "Create a Document",
@@ -467,35 +623,67 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "basics/chapter01"
+                    "id": "javascript/chapter01"
                   },
                   {
                     "type": "doc",
-                    "id": "basics/chapter02"
+                    "id": "javascript/chapter02"
                   },
                   {
                     "type": "doc",
-                    "id": "basics/chapter03"
+                    "id": "javascript/chapter03"
                   },
                   {
                     "type": "doc",
-                    "id": "basics/chapter04"
+                    "id": "javascript/chapter04"
                   },
                   {
                     "type": "doc",
-                    "id": "basics/chapter05"
+                    "id": "javascript/chapter05"
                   },
                   {
                     "type": "doc",
-                    "id": "basics/chapter06"
+                    "id": "javascript/chapter06"
                   },
                   {
                     "type": "doc",
-                    "id": "basics/chapter07"
+                    "id": "javascript/chapter07"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Node.js",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "nodejs/async"
                   },
                   {
                     "type": "doc",
-                    "id": "basics/chapter08"
+                    "id": "nodejs/events"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "nodejs/stream"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "nodejs/multi"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "nodejs/http"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "nodejs/modules"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "nodejs/env"
                   }
                 ]
               },

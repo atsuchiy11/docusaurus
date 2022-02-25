@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nodejs/stream",
+  "id": "nodejs/stream",
+  "title": "ストリーム",
+  "description": "ファイル一度に全て読み込むのではなく、読み込みが完了した部分から処理していくための標準インターフェース",
+  "source": "@site/docs/nodejs/stream.md",
+  "sourceDirName": "nodejs",
+  "slug": "/nodejs/stream",
+  "permalink": "/docusaurus/docs/nodejs/stream",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/nodejs/stream.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "EventEmitter",
+    "permalink": "/docusaurus/docs/nodejs/events"
+  },
+  "next": {
+    "title": "マルチプロセス、マルチスレッド",
+    "permalink": "/docusaurus/docs/nodejs/multi"
+  }
+}

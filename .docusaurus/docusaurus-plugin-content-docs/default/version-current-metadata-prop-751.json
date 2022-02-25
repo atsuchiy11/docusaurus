@@ -23,50 +23,94 @@
           {
             "type": "link",
             "label": "基礎編",
-            "href": "/docusaurus/docs/basics/chapter01",
-            "docId": "basics/chapter01"
+            "href": "/docusaurus/docs/javascript/chapter01",
+            "docId": "javascript/chapter01"
           },
           {
             "type": "link",
             "label": "中級編",
-            "href": "/docusaurus/docs/basics/chapter02",
-            "docId": "basics/chapter02"
+            "href": "/docusaurus/docs/javascript/chapter02",
+            "docId": "javascript/chapter02"
           },
           {
             "type": "link",
             "label": "補足編",
-            "href": "/docusaurus/docs/basics/chapter03",
-            "docId": "basics/chapter03"
+            "href": "/docusaurus/docs/javascript/chapter03",
+            "docId": "javascript/chapter03"
           },
           {
             "type": "link",
             "label": "DOM とイベント",
-            "href": "/docusaurus/docs/basics/chapter04",
-            "docId": "basics/chapter04"
+            "href": "/docusaurus/docs/javascript/chapter04",
+            "docId": "javascript/chapter04"
           },
           {
             "type": "link",
             "label": "Ajax と非同期処理",
-            "href": "/docusaurus/docs/basics/chapter05",
-            "docId": "basics/chapter05"
+            "href": "/docusaurus/docs/javascript/chapter05",
+            "docId": "javascript/chapter05"
           },
           {
             "type": "link",
             "label": "Node.js",
-            "href": "/docusaurus/docs/basics/chapter06",
-            "docId": "basics/chapter06"
+            "href": "/docusaurus/docs/javascript/chapter06",
+            "docId": "javascript/chapter06"
           },
           {
             "type": "link",
             "label": "jQuery",
-            "href": "/docusaurus/docs/basics/chapter07",
-            "docId": "basics/chapter07"
+            "href": "/docusaurus/docs/javascript/chapter07",
+            "docId": "javascript/chapter07"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Node.js",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "非同期プログラミング",
+            "href": "/docusaurus/docs/nodejs/async",
+            "docId": "nodejs/async"
           },
           {
             "type": "link",
-            "label": "いざ kintone へ",
-            "href": "/docusaurus/docs/basics/chapter08",
-            "docId": "basics/chapter08"
+            "label": "EventEmitter",
+            "href": "/docusaurus/docs/nodejs/events",
+            "docId": "nodejs/events"
+          },
+          {
+            "type": "link",
+            "label": "ストリーム",
+            "href": "/docusaurus/docs/nodejs/stream",
+            "docId": "nodejs/stream"
+          },
+          {
+            "type": "link",
+            "label": "マルチプロセス、マルチスレッド",
+            "href": "/docusaurus/docs/nodejs/multi",
+            "docId": "nodejs/multi"
+          },
+          {
+            "type": "link",
+            "label": "HTTP サーバ/クライアント",
+            "href": "/docusaurus/docs/nodejs/http",
+            "docId": "nodejs/http"
+          },
+          {
+            "type": "link",
+            "label": "モジュールシステム",
+            "href": "/docusaurus/docs/nodejs/modules",
+            "docId": "nodejs/modules"
+          },
+          {
+            "type": "link",
+            "label": "環境構築",
+            "href": "/docusaurus/docs/nodejs/env",
+            "docId": "nodejs/env"
           }
         ]
       },
@@ -137,58 +181,94 @@
     ]
   },
   "docs": {
-    "basics/chapter01": {
-      "id": "basics/chapter01",
-      "title": "基礎編",
-      "description": "座学40min",
-      "sidebar": "tutorialSidebar"
-    },
-    "basics/chapter02": {
-      "id": "basics/chapter02",
-      "title": "中級編",
-      "description": "座学60min",
-      "sidebar": "tutorialSidebar"
-    },
-    "basics/chapter03": {
-      "id": "basics/chapter03",
-      "title": "補足編",
-      "description": "本編を補足する項目を列挙しています。文脈は特にありません。",
-      "sidebar": "tutorialSidebar"
-    },
-    "basics/chapter04": {
-      "id": "basics/chapter04",
-      "title": "DOM とイベント",
-      "description": "座学60min",
-      "sidebar": "tutorialSidebar"
-    },
-    "basics/chapter05": {
-      "id": "basics/chapter05",
-      "title": "Ajax と非同期処理",
-      "description": "座学60min",
-      "sidebar": "tutorialSidebar"
-    },
-    "basics/chapter06": {
-      "id": "basics/chapter06",
-      "title": "Node.js",
-      "description": "ブラウザ以外で動くJavaScriptの実行環境です。_サーバサイド JavaScript_とも言います。",
-      "sidebar": "tutorialSidebar"
-    },
-    "basics/chapter07": {
-      "id": "basics/chapter07",
-      "title": "jQuery",
-      "description": "JavaScriptのライブラリの一つです。JavaScriptをより簡潔に簡単に記述できるようになります。",
-      "sidebar": "tutorialSidebar"
-    },
-    "basics/chapter08": {
-      "id": "basics/chapter08",
-      "title": "いざ kintone へ",
-      "description": "イベント",
-      "sidebar": "tutorialSidebar"
-    },
     "intro": {
       "id": "intro",
       "title": "イントロダクション",
       "description": "21 世紀初頭のJavaScriptといえば、Web ページに装飾を施す、と言うイメージが強かったかもしれません。",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/chapter01": {
+      "id": "javascript/chapter01",
+      "title": "基礎編",
+      "description": "座学40min",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/chapter02": {
+      "id": "javascript/chapter02",
+      "title": "中級編",
+      "description": "座学60min",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/chapter03": {
+      "id": "javascript/chapter03",
+      "title": "補足編",
+      "description": "本編を補足する項目を列挙しています。文脈は特にありません。",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/chapter04": {
+      "id": "javascript/chapter04",
+      "title": "DOM とイベント",
+      "description": "座学60min",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/chapter05": {
+      "id": "javascript/chapter05",
+      "title": "Ajax と非同期処理",
+      "description": "座学60min",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/chapter06": {
+      "id": "javascript/chapter06",
+      "title": "Node.js",
+      "description": "ブラウザ以外で動くJavaScriptの実行環境です。_サーバサイド JavaScript_とも言います。",
+      "sidebar": "tutorialSidebar"
+    },
+    "javascript/chapter07": {
+      "id": "javascript/chapter07",
+      "title": "jQuery",
+      "description": "JavaScriptのライブラリの一つです。JavaScriptをより簡潔に簡単に記述できるようになります。",
+      "sidebar": "tutorialSidebar"
+    },
+    "nodejs/async": {
+      "id": "nodejs/async",
+      "title": "非同期プログラミング",
+      "description": "コールバック",
+      "sidebar": "tutorialSidebar"
+    },
+    "nodejs/env": {
+      "id": "nodejs/env",
+      "title": "環境構築",
+      "description": "ESLint",
+      "sidebar": "tutorialSidebar"
+    },
+    "nodejs/events": {
+      "id": "nodejs/events",
+      "title": "EventEmitter",
+      "description": "- Node.js における Observer パターンを実装するためのモジュール",
+      "sidebar": "tutorialSidebar"
+    },
+    "nodejs/http": {
+      "id": "nodejs/http",
+      "title": "HTTP サーバ/クライアント",
+      "description": "httpモジュール",
+      "sidebar": "tutorialSidebar"
+    },
+    "nodejs/modules": {
+      "id": "nodejs/modules",
+      "title": "モジュールシステム",
+      "description": "CommonJS",
+      "sidebar": "tutorialSidebar"
+    },
+    "nodejs/multi": {
+      "id": "nodejs/multi",
+      "title": "マルチプロセス、マルチスレッド",
+      "description": "保留",
+      "sidebar": "tutorialSidebar"
+    },
+    "nodejs/stream": {
+      "id": "nodejs/stream",
+      "title": "ストリーム",
+      "description": "ファイル一度に全て読み込むのではなく、読み込みが完了した部分から処理していくための標準インターフェース",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

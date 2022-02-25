@@ -1,0 +1,26 @@
+{
+  "unversionedId": "javascript/chapter07",
+  "id": "javascript/chapter07",
+  "title": "jQuery",
+  "description": "JavaScriptのライブラリの一つです。JavaScriptをより簡潔に簡単に記述できるようになります。",
+  "source": "@site/docs/javascript/chapter07.md",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/chapter07",
+  "permalink": "/docusaurus/docs/javascript/chapter07",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/javascript/chapter07.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Node.js",
+    "permalink": "/docusaurus/docs/javascript/chapter06"
+  },
+  "next": {
+    "title": "非同期プログラミング",
+    "permalink": "/docusaurus/docs/nodejs/async"
+  }
+}

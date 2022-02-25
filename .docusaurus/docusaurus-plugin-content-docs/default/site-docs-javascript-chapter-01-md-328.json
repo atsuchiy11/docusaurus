@@ -1,0 +1,26 @@
+{
+  "unversionedId": "javascript/chapter01",
+  "id": "javascript/chapter01",
+  "title": "基礎編",
+  "description": "座学40min",
+  "source": "@site/docs/javascript/chapter01.md",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/chapter01",
+  "permalink": "/docusaurus/docs/javascript/chapter01",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/javascript/chapter01.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "イントロダクション",
+    "permalink": "/docusaurus/docs/intro"
+  },
+  "next": {
+    "title": "中級編",
+    "permalink": "/docusaurus/docs/javascript/chapter02"
+  }
+}

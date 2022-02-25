@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nodejs/async",
+  "id": "nodejs/async",
+  "title": "非同期プログラミング",
+  "description": "コールバック",
+  "source": "@site/docs/nodejs/async.md",
+  "sourceDirName": "nodejs",
+  "slug": "/nodejs/async",
+  "permalink": "/docusaurus/docs/nodejs/async",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/nodejs/async.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "jQuery",
+    "permalink": "/docusaurus/docs/javascript/chapter07"
+  },
+  "next": {
+    "title": "EventEmitter",
+    "permalink": "/docusaurus/docs/nodejs/events"
+  }
+}

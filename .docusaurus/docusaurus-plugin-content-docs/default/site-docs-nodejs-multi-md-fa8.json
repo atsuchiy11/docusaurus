@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nodejs/multi",
+  "id": "nodejs/multi",
+  "title": "マルチプロセス、マルチスレッド",
+  "description": "保留",
+  "source": "@site/docs/nodejs/multi.md",
+  "sourceDirName": "nodejs",
+  "slug": "/nodejs/multi",
+  "permalink": "/docusaurus/docs/nodejs/multi",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/nodejs/multi.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ストリーム",
+    "permalink": "/docusaurus/docs/nodejs/stream"
+  },
+  "next": {
+    "title": "HTTP サーバ/クライアント",
+    "permalink": "/docusaurus/docs/nodejs/http"
+  }
+}

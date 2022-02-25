@@ -1,0 +1,26 @@
+{
+  "unversionedId": "javascript/chapter03",
+  "id": "javascript/chapter03",
+  "title": "補足編",
+  "description": "本編を補足する項目を列挙しています。文脈は特にありません。",
+  "source": "@site/docs/javascript/chapter03.md",
+  "sourceDirName": "javascript",
+  "slug": "/javascript/chapter03",
+  "permalink": "/docusaurus/docs/javascript/chapter03",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/javascript/chapter03.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "中級編",
+    "permalink": "/docusaurus/docs/javascript/chapter02"
+  },
+  "next": {
+    "title": "DOM とイベント",
+    "permalink": "/docusaurus/docs/javascript/chapter04"
+  }
+}

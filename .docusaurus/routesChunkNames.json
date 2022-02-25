@@ -118,45 +118,69 @@
     "component": "component---theme-mdx-page-1-f-3-b90",
     "content": "content---docusaurus-markdown-page-393-005"
   },
-  "/docusaurus/docs-07c": {
+  "/docusaurus/docs-d7b": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docusaurus-docs-935-60a"
-  },
-  "/docusaurus/docs/basics/chapter01-f4a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docusaurus-docs-basics-chapter-0102-c-fe3"
-  },
-  "/docusaurus/docs/basics/chapter02-c62": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docusaurus-docs-basics-chapter-02-d-84-f91"
-  },
-  "/docusaurus/docs/basics/chapter03-283": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docusaurus-docs-basics-chapter-03032-c60"
-  },
-  "/docusaurus/docs/basics/chapter04-38a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docusaurus-docs-basics-chapter-04-d-31-50a"
-  },
-  "/docusaurus/docs/basics/chapter05-8c6": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docusaurus-docs-basics-chapter-05-e-2-b-077"
-  },
-  "/docusaurus/docs/basics/chapter06-559": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docusaurus-docs-basics-chapter-06227-8b4"
-  },
-  "/docusaurus/docs/basics/chapter07-36c": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docusaurus-docs-basics-chapter-0759-d-0e9"
-  },
-  "/docusaurus/docs/basics/chapter08-1c5": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docusaurus-docs-basics-chapter-08-b-02-d49"
   },
   "/docusaurus/docs/intro-c4d": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docusaurus-docs-intro-0-e-3-401"
+  },
+  "/docusaurus/docs/javascript/chapter01-a3c": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-javascript-chapter-01328-b67"
+  },
+  "/docusaurus/docs/javascript/chapter02-276": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-javascript-chapter-0224-b-188"
+  },
+  "/docusaurus/docs/javascript/chapter03-1fe": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-javascript-chapter-03-d-63-4c0"
+  },
+  "/docusaurus/docs/javascript/chapter04-be5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-javascript-chapter-04-eb-8-087"
+  },
+  "/docusaurus/docs/javascript/chapter05-b91": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-javascript-chapter-05-a-26-bb4"
+  },
+  "/docusaurus/docs/javascript/chapter06-f89": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-javascript-chapter-06250-7d0"
+  },
+  "/docusaurus/docs/javascript/chapter07-2c4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-javascript-chapter-07-f-55-8bd"
+  },
+  "/docusaurus/docs/nodejs/async-c01": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-nodejs-async-7-f-4-4d5"
+  },
+  "/docusaurus/docs/nodejs/env-c61": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-nodejs-enve-62-1d2"
+  },
+  "/docusaurus/docs/nodejs/events-02e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-nodejs-eventsad-1-52b"
+  },
+  "/docusaurus/docs/nodejs/http-ced": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-nodejs-http-8-dd-1bd"
+  },
+  "/docusaurus/docs/nodejs/modules-c73": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-nodejs-modules-40-a-7ae"
+  },
+  "/docusaurus/docs/nodejs/multi-d69": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-nodejs-multifa-8-9bc"
+  },
+  "/docusaurus/docs/nodejs/stream-066": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docusaurus-docs-nodejs-streama-64-f6c"
   },
   "/docusaurus/docs/tutorial-basics/congratulations-69b": {
     "component": "component---theme-doc-item-178-a40",

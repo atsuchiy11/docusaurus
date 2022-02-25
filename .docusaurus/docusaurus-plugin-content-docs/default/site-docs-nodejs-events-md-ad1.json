@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nodejs/events",
+  "id": "nodejs/events",
+  "title": "EventEmitter",
+  "description": "- Node.js における Observer パターンを実装するためのモジュール",
+  "source": "@site/docs/nodejs/events.md",
+  "sourceDirName": "nodejs",
+  "slug": "/nodejs/events",
+  "permalink": "/docusaurus/docs/nodejs/events",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/nodejs/events.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "非同期プログラミング",
+    "permalink": "/docusaurus/docs/nodejs/async"
+  },
+  "next": {
+    "title": "ストリーム",
+    "permalink": "/docusaurus/docs/nodejs/stream"
+  }
+}

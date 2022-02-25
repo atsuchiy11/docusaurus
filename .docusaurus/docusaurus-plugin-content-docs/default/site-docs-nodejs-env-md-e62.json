@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nodejs/env",
+  "id": "nodejs/env",
+  "title": "環境構築",
+  "description": "ESLint",
+  "source": "@site/docs/nodejs/env.md",
+  "sourceDirName": "nodejs",
+  "slug": "/nodejs/env",
+  "permalink": "/docusaurus/docs/nodejs/env",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/nodejs/env.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "モジュールシステム",
+    "permalink": "/docusaurus/docs/nodejs/modules"
+  },
+  "next": {
+    "title": "Create a Page",
+    "permalink": "/docusaurus/docs/tutorial-basics/create-a-page"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nodejs/http",
+  "id": "nodejs/http",
+  "title": "HTTP サーバ/クライアント",
+  "description": "httpモジュール",
+  "source": "@site/docs/nodejs/http.md",
+  "sourceDirName": "nodejs",
+  "slug": "/nodejs/http",
+  "permalink": "/docusaurus/docs/nodejs/http",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/nodejs/http.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "マルチプロセス、マルチスレッド",
+    "permalink": "/docusaurus/docs/nodejs/multi"
+  },
+  "next": {
+    "title": "モジュールシステム",
+    "permalink": "/docusaurus/docs/nodejs/modules"
+  }
+}

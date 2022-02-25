@@ -74,28 +74,28 @@ npm install [欲しいパッケージ名]
 
 ```json title="./package.json"
 {
-  "name": "kintone-template-js",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:prime-x-co-ltd/kintone-template-js.git",
-  "author": "<a2-tsuchiya@prime-x.co.jp>",
-  "license": "MIT",
-  "scripts": {
-    "build": "webpack",
-    "start": "webpack serve --https --hot"
-  },
-  "dependencies": {
-    "webpack": "^5.61.0",
-    "webpack-cli": "^4.9.1"
-  },
-  "devDependencies": {
-    "@types/webpack": "^5.28.0",
-    "@types/webpack-dev-server": "^4.3.1",
-    "eslint": "^8.1.0",
-    "eslint-config-google": "^0.14.0",
-    "eslint-config-prettier": "^8.3.0",
-    "webpack-dev-server": "^4.4.0"
-  }
+	"name": "kintone-template-js",
+	"version": "1.0.0",
+	"main": "index.js",
+	"repository": "git@github.com:prime-x-co-ltd/kintone-template-js.git",
+	"author": "<a2-tsuchiya@prime-x.co.jp>",
+	"license": "MIT",
+	"scripts": {
+		"build": "webpack",
+		"start": "webpack serve --https --hot"
+	},
+	"dependencies": {
+		"webpack": "^5.61.0",
+		"webpack-cli": "^4.9.1"
+	},
+	"devDependencies": {
+		"@types/webpack": "^5.28.0",
+		"@types/webpack-dev-server": "^4.3.1",
+		"eslint": "^8.1.0",
+		"eslint-config-google": "^0.14.0",
+		"eslint-config-prettier": "^8.3.0",
+		"webpack-dev-server": "^4.4.0"
+	}
 }
 ```
 
@@ -127,18 +127,18 @@ npm install [欲しいパッケージ名]
 
 ```tsx title="./module.js"
 // exportsという名前空間ができると思えば分かりやすい
-exports.hello = (message) => console.log(message);
-exports.message = "Hello, CommonJS";
+exports.hello = (message) => console.log(message)
+exports.message = 'Hello, CommonJS'
 
 // これは新たにexportsというオブジェクトを作ってるだけ
-exports = { bad: "エクスポートできないよ" };
+exports = { bad: 'エクスポートできないよ' }
 ```
 
 ```tsx title="./index.js"
-const myModule = require("./module");
-myModule.hello(myModule.message); //Hello, CommonJS
+const myModule = require('./module')
+myModule.hello(myModule.message) //Hello, CommonJS
 
-console.log(myModule.bad); //undefined
+console.log(myModule.bad) //undefined
 ```
 
 ### デフォルトエクスポート
@@ -147,17 +147,17 @@ console.log(myModule.bad); //undefined
 
 ```tsx title="./module.js"
 module.exports = {
-  name: "John Doe",
-  age: 32,
-  job: "engineer",
-};
-module.exports = () => console.log("上書きしてやったぜ");
+	name: 'John Doe',
+	age: 32,
+	job: 'engineer',
+}
+module.exports = () => console.log('上書きしてやったぜ')
 ```
 
 ```tsx title="./index.js"
-const user = require("./module");
-console.log(user.name); //"" ←？？？
-user(); //上書きしてやったぜ
+const user = require('./module')
+console.log(user.name) //"" ←？？？
+user() //上書きしてやったぜ
 ```
 
 :::info
@@ -192,22 +192,22 @@ npm i -D @types/webpack @types/webpack-dev-server #型情報（任意）
  * 入力補間してくれるので個人的にはオススメです
  */
 module.exports = {
-  mode: "development",
-  entry: "./src/index.js",
-  output: {
-    path: `${__dirname}/dist`,
-    filename: "main.js",
-  },
-  devServer: {
-    static: "dist",
-    open: true,
-    compress: true,
-  },
-  devtool: "eval-cheap-module-source-map",
-  resolve: {
-    extensions: [".js", ".json"],
-  },
-};
+	mode: 'development',
+	entry: './src/index.js',
+	output: {
+		path: `${__dirname}/dist`,
+		filename: 'main.js',
+	},
+	devServer: {
+		static: 'dist',
+		open: true,
+		compress: true,
+	},
+	devtool: 'eval-cheap-module-source-map',
+	resolve: {
+		extensions: ['.js', '.json'],
+	},
+}
 ```
 
 - エントリーポイント: `entry`
@@ -238,21 +238,21 @@ module.exports = {
 
 ```tsx title="./.eslintrc.js"
 module.exports = {
-  env: {
-    browser: true,
-    es2021: true,
-  },
-  // googleベースで最終的にprettierに合わせる
-  extends: ["google", "prettier"],
-  parserOptions: {
-    ecmaVersion: 13,
-    sourceType: "module",
-  },
-  // 個別のルール設定
-  rules: {
-    "require-jsdoc": 0,
-  },
-};
+	env: {
+		browser: true,
+		es2021: true,
+	},
+	// googleベースで最終的にprettierに合わせる
+	extends: ['google', 'prettier'],
+	parserOptions: {
+		ecmaVersion: 13,
+		sourceType: 'module',
+	},
+	// 個別のルール設定
+	rules: {
+		'require-jsdoc': 0,
+	},
+}
 ```
 
 :::info
@@ -265,27 +265,15 @@ module.exports = {
 
 ```tsx title="./.prettierrc.js"
 module.exports = {
-  tabWidth: 4,
-  semi: false,
-  useTabs: true,
-  singleQuote: true,
-  jsxBracketSameLine: true,
-  printWidth: 80,
-};
+	tabWidth: 4,
+	semi: false,
+	useTabs: true,
+	singleQuote: true,
+	jsxBracketSameLine: true,
+	printWidth: 80,
+}
 ```
 
 :::info
 一覧は[公式](https://prettier.io/docs/en/options.html)にあります。ESLint ほど多くないです。
-:::
-
-## テンプレート
-
-*GitHub*のテンプレートリポジトリです。本カリキュラムではこちらを使います。  
-多少*kintone*用にカスタマイズしています。
-
-[kintone-template-js](https://github.com/prime-x-co-ltd/kintone-template-js)
-
-:::tip
-繰り返しになりますがプロジェクト/組織ごとに異なるものなので、そちらに従ってください。  
-作る側になったら、、、そのときに聞いてください。
 :::

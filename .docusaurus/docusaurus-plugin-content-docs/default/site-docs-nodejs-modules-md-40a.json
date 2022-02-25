@@ -1,0 +1,26 @@
+{
+  "unversionedId": "nodejs/modules",
+  "id": "nodejs/modules",
+  "title": "モジュールシステム",
+  "description": "CommonJS",
+  "source": "@site/docs/nodejs/modules.md",
+  "sourceDirName": "nodejs",
+  "slug": "/nodejs/modules",
+  "permalink": "/docusaurus/docs/nodejs/modules",
+  "editUrl": "https://github.com/prime-x-co-ltd/jamstack-js-tutorial/tree/main/docs/nodejs/modules.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "HTTP サーバ/クライアント",
+    "permalink": "/docusaurus/docs/nodejs/http"
+  },
+  "next": {
+    "title": "環境構築",
+    "permalink": "/docusaurus/docs/nodejs/env"
+  }
+}

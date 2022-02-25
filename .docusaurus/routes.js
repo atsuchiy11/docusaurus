@@ -100,59 +100,95 @@ export default [
   },
   {
     path: '/docusaurus/docs',
-    component: ComponentCreator('/docusaurus/docs','07c'),
+    component: ComponentCreator('/docusaurus/docs','d7b'),
     routes: [
-      {
-        path: '/docusaurus/docs/basics/chapter01',
-        component: ComponentCreator('/docusaurus/docs/basics/chapter01','f4a'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docusaurus/docs/basics/chapter02',
-        component: ComponentCreator('/docusaurus/docs/basics/chapter02','c62'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docusaurus/docs/basics/chapter03',
-        component: ComponentCreator('/docusaurus/docs/basics/chapter03','283'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docusaurus/docs/basics/chapter04',
-        component: ComponentCreator('/docusaurus/docs/basics/chapter04','38a'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docusaurus/docs/basics/chapter05',
-        component: ComponentCreator('/docusaurus/docs/basics/chapter05','8c6'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docusaurus/docs/basics/chapter06',
-        component: ComponentCreator('/docusaurus/docs/basics/chapter06','559'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docusaurus/docs/basics/chapter07',
-        component: ComponentCreator('/docusaurus/docs/basics/chapter07','36c'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
-      {
-        path: '/docusaurus/docs/basics/chapter08',
-        component: ComponentCreator('/docusaurus/docs/basics/chapter08','1c5'),
-        exact: true,
-        'sidebar': "tutorialSidebar"
-      },
       {
         path: '/docusaurus/docs/intro',
         component: ComponentCreator('/docusaurus/docs/intro','c4d'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus/docs/javascript/chapter01',
+        component: ComponentCreator('/docusaurus/docs/javascript/chapter01','a3c'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus/docs/javascript/chapter02',
+        component: ComponentCreator('/docusaurus/docs/javascript/chapter02','276'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus/docs/javascript/chapter03',
+        component: ComponentCreator('/docusaurus/docs/javascript/chapter03','1fe'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus/docs/javascript/chapter04',
+        component: ComponentCreator('/docusaurus/docs/javascript/chapter04','be5'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus/docs/javascript/chapter05',
+        component: ComponentCreator('/docusaurus/docs/javascript/chapter05','b91'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus/docs/javascript/chapter06',
+        component: ComponentCreator('/docusaurus/docs/javascript/chapter06','f89'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus/docs/javascript/chapter07',
+        component: ComponentCreator('/docusaurus/docs/javascript/chapter07','2c4'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus/docs/nodejs/async',
+        component: ComponentCreator('/docusaurus/docs/nodejs/async','c01'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus/docs/nodejs/env',
+        component: ComponentCreator('/docusaurus/docs/nodejs/env','c61'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus/docs/nodejs/events',
+        component: ComponentCreator('/docusaurus/docs/nodejs/events','02e'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus/docs/nodejs/http',
+        component: ComponentCreator('/docusaurus/docs/nodejs/http','ced'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus/docs/nodejs/modules',
+        component: ComponentCreator('/docusaurus/docs/nodejs/modules','c73'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus/docs/nodejs/multi',
+        component: ComponentCreator('/docusaurus/docs/nodejs/multi','d69'),
+        exact: true,
+        'sidebar': "tutorialSidebar"
+      },
+      {
+        path: '/docusaurus/docs/nodejs/stream',
+        component: ComponentCreator('/docusaurus/docs/nodejs/stream','066'),
         exact: true,
         'sidebar': "tutorialSidebar"
       },
